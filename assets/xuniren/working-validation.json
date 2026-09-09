@@ -1,0 +1,8 @@
+{
+  "rest_error_m": 2.443972150513042e-07,
+  "head_test_max_movement_m": 0.026408977406736808,
+  "head_test_feet_stationary": true,
+  "reconstructed_hair_strands": 5000,
+  "hair_status": "Approximate Blender reconstruction, not original XGen output",
+  "source_script_execution": false
+}

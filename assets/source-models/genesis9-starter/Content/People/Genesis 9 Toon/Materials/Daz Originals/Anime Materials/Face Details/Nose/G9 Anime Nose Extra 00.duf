@@ -1,0 +1,28 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%209%20Toon/Materials/Daz%20Originals/Anime%20Materials/Face%20Details/Nose/G9%20Anime%20Nose%20Detail%2000.duf",
+		"type" : "preset_layered_image",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-07-31T04:39:51Z"
+	},
+	"scene" : {
+		"extra" : [
+			{
+				"type" : "scene_post_load_script",
+				"name" : "ToonLayerRemove",
+				"script" : "data/Daz 3D/Genesis 9/Base/Tools/Utilities/Toon Layers Remove.dse",
+				"settings" : {
+					"Surfaces" : "Head",
+					"Layers" : "NoseExtra",
+					"RunOnce" : true
+				}
+			}
+		]
+	}
+}

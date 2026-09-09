@@ -1,0 +1,522 @@
+# Files larger than 1 MiB use Git LFS. Smaller resources remain regular Git files.
+"assets/companion/character-runtime.glb" filter=lfs diff=lfs merge=lfs -text
+"assets/companion/character.glb" filter=lfs diff=lfs merge=lfs -text
+"assets/companion/talk.glb" filter=lfs diff=lfs merge=lfs -text
+"assets/mitsuki/mitsuki_source_v01.blend" filter=lfs diff=lfs merge=lfs -text
+"assets/mitsuki/mitsuki_starter_v02.blend" filter=lfs diff=lfs merge=lfs -text
+"assets/rin/rin_academy_v01.blend" filter=lfs diff=lfs merge=lfs -text
+"assets/rin/rin_academy_v01.glb" filter=lfs diff=lfs merge=lfs -text
+"assets/rin/rin_base_v01.glb" filter=lfs diff=lfs merge=lfs -text
+"assets/rin-base-rig.glb" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/IM00104141-01_NokiMitsukiHDforGenesis9.zip" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Body.dhdm" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Head.dhdm" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - ArmsD.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - ArmsN.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - ArmsR.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - ArmsS.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - BodyD.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - BodyN.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - BodyR.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - BodyS.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - Eyes1.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - Eyes2.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadB.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadD 01.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadD 02.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadD 03.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadN.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadR.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadS.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - LegsD.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - LegsN.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - LegsR.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/daz104141/unpacked/Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - LegsS.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Genesis9.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Anime F/BaseAnimeF_body_bs_BodyFeminine.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Anime M/BaseAnimeM_body_bs_BodyMasculine.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Feminine 9/BaseFeminine_body_bs_Body.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Masculine 9/BaseMasculine_body_bs_Body.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Pose Details/PoseDetails_body_cbs_hand_z80n_r_HD3.dhdm" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Pose Details/PoseDetails_body_cbs_hand_z80p_l_HD3.dhdm" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Pose Details/PoseDetails_body_cbs_metatarals_x15n_l_HD3.dhdm" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Pose Details/PoseDetails_body_cbs_metatarals_x15n_r_HD3.dhdm" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Pose Details/PoseDetails_body_cbs_toes_x40p_l_HD3.dhdm" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Pose Details/PoseDetails_body_cbs_toes_x40p_r_HD3.dhdm" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Pose Details/PoseDetails_body_cbs_toes_x60n_l_HD3.dhdm" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Pose Details/PoseDetails_body_cbs_toes_x60n_r_HD3.dhdm" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Proportion/body_bs_ProportionHeight.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Proportion/body_bs_ProportionLarger.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Proportion/body_bs_ProportionSmaller.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Base Proportion/body_bs_ProportionSmallerBO.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Clones/CloneGenesis.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Clones/CloneGenesis2Female.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Clones/CloneGenesis2Male.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Clones/CloneGenesis3Female.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Clones/CloneGenesis3Male.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Clones/CloneGenesis8Female.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Morphs/Daz 3D/Clones/CloneGenesis8Male.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Tools/Projection Templates/G9 Bodysuit Loose/G9BodysuitLooseTemplate.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Tools/Projection Templates/G9 Bodysuit Tight/G9BodysuitTightTemplate.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Tools/Projection Templates/G9 Dress Loose/G9LooseDressTemplate.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Tools/Projection Templates/G9 Dress Tight/G9TightDressTemplate.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Tools/Projection Templates/G9 Footwear/G9FootwearTemplate.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Tools/Projection Templates/G9 Long Gloves/G9GlovesTemplate.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Base/Tools/Utilities/Developer Kit/ImageMagick/16bit/magick.exe" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9/Genesis 9 Mouth/Morphs/Daz 3D/Base/head_bs_MouthRealism_HD3.dhdm" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Base Bikini Toon/Undies_002 UV_4046.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Base Bra/Bra_5382.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Base Bra Toon/Bra_5382.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Base dForce Pixie Hair/dForce Pixie Cut_708408.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Base dForce Pixie Hair/Morphs/Daz 3D/Base/Feathered.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Base dForce Pixie Hair/Morphs/Daz 3D/Base/Jaunty.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Base dForce Pixie Hair/Morphs/Daz 3D/Base/Short.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Base dForce Pixie Hair/Morphs/Daz 3D/Base/Straight.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Base dForce Pixie Hair/UV Sets/Daz 3D/Base/default.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Base Shirt/G9BaseShirt.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Base Shorts/EssentialShortsG9.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Card Style 01/G9Eyebrows_CS01_8092.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Card Style 02/G9Eyebrows_CS02_6370.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Card Style 03/G9Eyebrows_CS03_6622.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Card Style 04/G9Eyebrows_CS04_6068.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Card Style 05/G9Eyebrows_CS05_8964.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Card Style 06/G9Eyebrows_CS06_6944.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Card Style 07/G9Eyebrows_CS07_14766.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Card Style 08/G9Eyebrows_CS08_8020.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Card Style 09/G9Eyebrows_CS09_5628.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Card Style 10/G9Eyebrows_CS10_8064.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Card Style 11/G9Eyebrows_CS11_9000.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Card Style 12/G9Eyebrows_CS12_9000.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 01/G9Eyebrows_FS01_45540.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 01/UV Sets/Daz 3D/Base/default.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 02/G9Eyebrows_FS02_51308.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 02/UV Sets/Daz 3D/Base/default.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 03/G9Eyebrows_FS03_42960.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 03/UV Sets/Daz 3D/Base/default.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 04/G9Eyebrows_FS04_26460.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 05/G9Eyebrows_FS05_35160.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 06/G9Eyebrows_FS06_23400.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 07/G9Eyebrows_FS07_48456.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 07/UV Sets/Daz 3D/Base/default.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 08/G9Eyebrows_FS08_26376.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/G9 Eyebrows Fiber Style 09/G9Eyebrows_FS09_37600.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/Genesis 9 Toon Hair/Genesis9ToonHair_26467.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/Genesis 9 Toon Hair/Morphs/Daz 3D/Base/BaseAnime_head_bs_Head.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/Genesis 9 Toon Hair/Morphs/Daz 3D/Base/body_bs_ExpandAll.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/Genesis 9 Toon Hair/Morphs/Daz 3D/Base/Head Size.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/Genesis 9 Toon Hair/Morphs/Daz 3D/Base/Longer Style 02.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/Genesis 9 Toon Hair/Morphs/Daz 3D/Base/Michael9A_head_bs_Head.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/Genesis 9 Toon Hair/Morphs/Daz 3D/Base/Victoria9A_head_bs_Head.dsf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/Utilities/Genesis 9 Female With Basic Wear.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/data/Daz 3D/Genesis 9 Starter Essentials/Utilities/Genesis 9 Male With Basic Wear.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Characters/Daz Originals/Amala G9/Materials/Amala G9 All MAT.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Characters/Daz Originals/Fabrice G9/Materials/Fabrice G9 All MAT.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Characters/Daz Originals/Kat G9/Materials/Kat G9 All MAT.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Characters/Daz Originals/Laura G9/Materials/Laura G9 All MAT.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Characters/Daz Originals/Matt G9/Materials/Matt G9 All MAT.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Characters/Daz Originals/Ty G9/Materials/Ty G9 All MAT.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bikini Black Camo.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bikini Bronze Green.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bikini Charcoal.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bikini Clay.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bikini Coral Flowers.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bikini Forest Patch.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bikini Heathered Grey.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bikini Mulled Wine.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bikini Navy.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bikini Pink Blossom.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bikini Seaside.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bikini White - Custom.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bra Black Camo.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bra Bronze Green.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bra Charcoal.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bra Clay.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bra Coral Flowers.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bra Forest Patch.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bra Heathered Grey.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bra Mulled Wine.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bra Navy.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bra Pink Blossom.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bra Seaside.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Clothing/Daz Originals/Base Clothing/Materials/G9 Base Bra White - Custom.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Developer Kit/G9 Feminine Landmarks.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Developer Kit/G9 Masculine Landmarks.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Developer Kit/G9 UVs Default.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Developer Kit/G9 UVs On Unique UDIMs.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9/Hair/Daz Originals/Base Hair/Materials/OmniHair/G9 Base dForce Pixie OmniHair Ruby.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/People/Genesis 9 Toon/Developer Kit/G9 Anime Base No Texture HMAT.duf" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Support/DAZ_3D_86958_Genesis_9_Starter_Essentials.dsx" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/DevKit/Genesis9_Detail_Atlas_F.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/DevKit/Genesis9_Detail_Atlas_M.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyelashes/Genesis9_Eyelashes01_C.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyelashes/Genesis9_Eyelashes01_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyelashes/Genesis9_Eyelashes02_C.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyelashes/Genesis9_Eyelashes02_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes01_D.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes01_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes02_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes03_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes04_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes05_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes06_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes07_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes08_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes09_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes11_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes12_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes13_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes14_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/G9_Eyes15_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_01.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_01_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_02.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_02_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_03.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_03_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_04.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_04_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_05.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_05_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_06.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_06_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_07.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_07_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_08.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_08_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_09.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_09_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_10.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_10_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_11.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_11_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_12.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_12_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_13.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_13_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_14.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_14_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_15.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_15_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_16.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Iris_16_NM.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Sclera_01_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Sclera_02_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Sclera_03_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Eyes/Split/Genesis9_Eyes_Sclera_04_NM.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Arms_D_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Arms_NM_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Arms_R_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Arms_SO_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Arms_SSS_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Body_D_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Body_NM_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Body_R_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Body_SO_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Body_SSS_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Head_D_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Head_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Head_R_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Head_SO_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Head_SSS_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Legs_D_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Legs_NM_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Legs_R_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Legs_SO_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_01/G9Feminine01_Legs_SSS_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Arms_D_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Arms_NM_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Arms_R_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Arms_SO_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Arms_SSS_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Body_D_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Body_NM_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Body_R_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Body_SO_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Body_SSS_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Head_D_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Head_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Head_R_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Head_SO_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Head_SSS_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Legs_D_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Legs_NM_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Legs_R_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Legs_SO_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_02/G9Feminine02_Legs_SSS_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Arms_D_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Arms_NM_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Arms_R_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Arms_SO_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Arms_SSS_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Body_D_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Body_NM_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Body_R_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Body_SO_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Body_SSS_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Head_D_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Head_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Head_R_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Head_SO_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Head_SSS_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Legs_D_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Legs_NM_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Legs_R_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Legs_SO_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_03/G9Feminine03_Legs_SSS_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Arms_D_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Arms_NM_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Arms_R_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Arms_SO_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Arms_SSS_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Body_D_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Body_NM_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Body_R_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Body_SO_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Body_SSS_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Head_D_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Head_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Head_R_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Head_SO_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Head_SSS_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Legs_D_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Legs_NM_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Legs_R_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Legs_SO_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Feminine_04/G9Feminine04_Legs_SSS_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Genesis9_Mouth_D2_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Genesis9_Mouth_D_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Genesis9_Mouth_NM2_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Genesis9_Mouth_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Genesis9_Mouth_R2_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Genesis9_Mouth_R_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Arms_D_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Arms_NM_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Arms_R_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Arms_SO_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Arms_SSS_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Body_D_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Body_NM_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Body_R_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Body_SO_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Body_SSS_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Head_D_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Head_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Head_R_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Head_SO_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Head_SSS_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Legs_D_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Legs_NM_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Legs_R_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Legs_SO_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_01/G9Masculine01_Legs_SSS_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Arms_D_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Arms_NM_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Arms_R_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Arms_SO_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Arms_SSS_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Body_D_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Body_NM_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Body_R_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Body_SO_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Body_SSS_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Head_D_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Head_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Head_R_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Head_SO_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Head_SSS_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Legs_D_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Legs_NM_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Legs_R_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Legs_SO_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_02/G9Masculine02_Legs_SSS_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Arms_D_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Arms_NM_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Arms_R_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Arms_SO_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Arms_SSS_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Body_D_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Body_NM_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Body_R_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Body_SO_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Body_SSS_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Head_D_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Head_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Head_R_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Head_SO_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Head_SSS_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Legs_D_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Legs_NM_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Legs_R_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Legs_SO_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_03/G9Masculine03_Legs_SSS_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Arms_D_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Arms_NM_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Arms_R_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Arms_SO_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Arms_SSS_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Body_D_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Body_NM_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Body_R_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Body_SO_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Body_SSS_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Head_D_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Head_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Head_R_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Head_SO_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Head_SSS_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Legs_D_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Legs_NM_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Legs_R_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Legs_SO_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Masculine_04/G9Masculine04_Legs_SSS_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Skin_Details/Genesis9_Arms_NM_1004.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Skin_Details/Genesis9_BodyF_NM_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Skin_Details/Genesis9_BodyM_NM_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Skin_Details/Genesis9_Body_NM_1002.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Skin_Details/Genesis9_GensF_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Skin_Details/Genesis9_GensM01_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Skin_Details/Genesis9_GensM02_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Skin_Details/Genesis9_Head_NM_1001.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Base/Skin_Details/Genesis9_Legs_NM_1003.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/BasicFoundations/BasicFoundations_MUBase01a_WM_1001.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/BasicFoundations/BasicFoundations_MUBase01b_WM_1001.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/BasicFoundations/BasicFoundations_MUBase02a_WM_1001.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/BasicFoundations/BasicFoundations_MUBase02b_WM_1001.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Arms_D_1004.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Legs_D_1003.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBikini/G9SE_Bikini_01_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBikini/G9SE_Bikini_02_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBikini/G9SE_Bikini_03_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBikini/G9SE_Bikini_04_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBikini/G9SE_Bikini_05_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBikini/G9SE_Bikini_06_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBikini/G9SE_Bikini_07_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBikini/G9SE_Bikini_08_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBikini/G9SE_Bikini_09_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBikini/G9SE_Bikini_10_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBikini/G9SE_Bikini_11_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBikini/G9SE_Bikini_12_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBra/G9SE_Bra_01_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBra/G9SE_Bra_02_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBra/G9SE_Bra_03_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBra/G9SE_Bra_04_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBra/G9SE_Bra_05_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBra/G9SE_Bra_06_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBra/G9SE_Bra_07_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBra/G9SE_Bra_08_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBra/G9SE_Bra_09_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBra/G9SE_Bra_10_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBra/G9SE_Bra_11_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseBra/G9SE_Bra_12_N.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShirt/G9SE_Shirt_ES1_Normal.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShirt/G9SE_Shirt_ES2_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShirt/G9SE_Shirt_ES2_Normal.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShirt/G9SE_Shirt_ES3_Normal.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShirt/G9SE_Shirt_ES4_Normal.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShirt/G9SE_Shirt_ES5_Normal.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShirt/G9SE_Shirt_ES6_Normal.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShorts/G9SE_Shorts_ES1_Normal.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShorts/G9SE_Shorts_ES2_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShorts/G9SE_Shorts_ES2_Normal.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShorts/G9SE_Shorts_ES3_Normal.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShorts/G9SE_Shorts_ES4_Normal.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShorts/G9SE_Shorts_ES5_Normal.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/BaseShorts/G9SE_Shorts_ES6_Normal.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/dForcePixieHair/dForcePixieCap_Opacity.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/DAZ/G9SE/dForcePixieHair/dForcePixie_D01.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonBra1_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonBra2_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonBra3_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonBra4_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonBra5_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonBra6NoStripe_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonBra6_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonPanty1_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonPanty2_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonPanty3_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonPanty4_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonPanty5_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonPanty6NoStripe_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Female/1/ToonPanty6_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Male/TS1/BaseToon_TShirt2Stripes_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Male/TS1/BaseToon_TShirt2_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Male/TS2/BaseToon_TShirt2Stripe_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Male/TS2/BaseToon_TShirt2_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Male/TS3/BaseToon_TShirt3Stripes_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Male/TS3/BaseToon_TShirt3_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Male/TS4/BaseMaleClothing_TShirt_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Male/TS4/BaseToon_TShirt2Stripes_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Male/TS5/BaseToon_TShirt5Stripes_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Male/TS5/BaseToon_TShirt5_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Male/TS6/BaseToon_TShirt6Stripes_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/genesis9-starter/Content/Runtime/Textures/Mada/BaseClothing/Male/TS6/BaseToon_TShirt6_BaseColor.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/scenes/xuniren_Rig.ma" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/scenes/xuniren_Rig.mb" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/scenes/xuniren_Rig_NO_SCRIPT_NODES.ma" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Body/Body-Displa.exr" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Body/Body_BaseColor.1001.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Body/JL_1001_BaseColor.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Body/JL_1001_Height.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Body/JL_1001_Normal-1.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Body/JL_1001_Roughness.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Cloth/Cloth-Displa.exr" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Cloth/JL_1002_BaseColor.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Cloth/JL_1002_Height.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Cloth/JL_1002_Normal-1.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Cloth/JL_1002_Roughness.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/chengyi_ao.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/chengyi_height.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/chengyi_normal.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/kouzi_ao.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/kouzi_basecolor.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/kouzi_height.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/kouzi_normal.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/qunzi_ao.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/qunzi_basecolor.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/qunzi_height.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/qunzi_normal.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/qunzi_roughness.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/siwa_ao.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/siwa_basecolor.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/siwa_height.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/siwa_normal.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/siwa_opacity.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/siwa_roughness.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/waitao_ao.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/waitao_basecolor.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/waitao_height.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/waitao_normal.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/waitao_roughness.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/xiezi_ao.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/xiezi_basecolor.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/xiezi_height.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/cloths/xiezi_normal.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Eye/Eye-GG.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Eye/eye-iris_nm.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Eye/Eye-x-zfg-color.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Eye/Eye-x-zfg.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Eye/Eye-x1.jpg" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/HDR/canada_montreal_nad_cafeteria_bright.exr" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/HighwayOverpass.hdr" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Kq/kouqiang.ma" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Kq/Teeth_DiffuseColor.png" filter=lfs diff=lfs merge=lfs -text
+"assets/source-models/xuniren-maya/XuNiren_jl/JL/sourceimages/Kq/Teeth_normal.png" filter=lfs diff=lfs merge=lfs -text
+"assets/stt/vosk-model-small-cn-0.22/am/final.mdl" filter=lfs diff=lfs merge=lfs -text
+"assets/stt/vosk-model-small-cn-0.22/graph/Gr.fst" filter=lfs diff=lfs merge=lfs -text
+"assets/stt/vosk-model-small-cn-0.22/graph/HCLr.fst" filter=lfs diff=lfs merge=lfs -text
+"assets/stt/vosk-model-small-cn-0.22/ivector/final.ie" filter=lfs diff=lfs merge=lfs -text
+"assets/xuniren/xuniren_import_v01.blend" filter=lfs diff=lfs merge=lfs -text
+"assets/xuniren/xuniren_working_v01.blend" filter=lfs diff=lfs merge=lfs -text
+"design/rin-academy-01/concept.png" filter=lfs diff=lfs merge=lfs -text
+"design/rin-academy-01/front-v2.png" filter=lfs diff=lfs merge=lfs -text
+"design/rin-academy-01/front.png" filter=lfs diff=lfs merge=lfs -text
+"design/rin-concept-01/concept.png" filter=lfs diff=lfs merge=lfs -text
+"design/rin-concept-02/concept.png" filter=lfs diff=lfs merge=lfs -text
+"design/rin-concept-03/concept.png" filter=lfs diff=lfs merge=lfs -text
+"design/rin-outfits-01/01-cozy.png" filter=lfs diff=lfs merge=lfs -text
+"design/rin-outfits-01/02-academy.png" filter=lfs diff=lfs merge=lfs -text
+"design/rin-outfits-01/03-outdoor.png" filter=lfs diff=lfs merge=lfs -text
+"design/rin-outfits-01/04-future.png" filter=lfs diff=lfs merge=lfs -text
+"previews/rin_academy_back.png" filter=lfs diff=lfs merge=lfs -text
+"previews/rin_academy_face.png" filter=lfs diff=lfs merge=lfs -text
+"previews/rin_academy_front.png" filter=lfs diff=lfs merge=lfs -text

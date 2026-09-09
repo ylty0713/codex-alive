@@ -1,0 +1,86 @@
+// DAZ Studio version 4.9.3.10 filetype DAZ Script
+// File: !G9 Dev Tools.dsa
+/* Release Notes
+	v1.3 - Added "Save Current Pane Info" action. Pane uses saved values on launch if they exist
+		 - fixed Get Morph Deltas Info to break link first
+		 - fixed Presentation script to handle 8.1
+*/
+(function(){	
+	// Globals
+	var g_oFile = new DzFileInfo( getScriptFileName() );
+	var g_oFilePath = g_oFile.path();
+	
+	print( g_oFilePath );
+	
+	var oMgr = MainWindow.getPaneMgr();
+	var oPane = oMgr.findPane( "DzScriptedStepsPane" );
+	if( oPane )
+	{
+		oPane.setLabel( "G9 Dev Tools v1.7" );	
+		// Open the Scripted Steps Pane	
+		oMgr.showPane( oPane );
+		var oPaneGrp = oPane.getPaneGroup();
+		
+		// Clear Pane Before Populating It	
+		oPane.clearAllSteps();
+		oPane.clearAllStepSets();
+		//oPane.clearSignalScripts();
+		
+	    oPane.addStep( "Export Selected to OBJ...",
+	        g_oFilePath + "/Export Selected.dse",
+	        DzScriptedStepsPane.File, false );
+	    oPane.addStep( "Load Custom Face Groups For Export",
+	        g_oFilePath + "/Load Custom Face Groups For Export.dse" );
+	    oPane.addStep( "Select Morph Verts",
+	        g_oFilePath + "/Morph-SelectMorphedVerts.dse",
+	        DzScriptedStepsPane.File, true );
+	    oPane.addStep( "Clear Morph Deltas (Verts)",
+	        g_oFilePath + "/Morph-ClearMorphDeltas.dse",
+	        DzScriptedStepsPane.File, false );
+	    oPane.addStep( "Clear HD Morph Deltas (Faces)",
+	        g_oFilePath + "/Morph-ClearMorphHDDeltas.dse",
+	        DzScriptedStepsPane.File, false );
+	    oPane.addStep( "Remove Empty Morphs",
+	        g_oFilePath + "/Morph-RemoveEmptyMorphs.dse",
+	        DzScriptedStepsPane.File, false );
+	    oPane.addStep( "Get Morph Delta Info...",
+	        g_oFilePath + "/Morph-GetMorphDeltaInfo.dse",
+	        DzScriptedStepsPane.File, false );
+	        	        
+	    oPane.addStep( "Texture Convert: Single UDIM to Multiple...",
+	        g_oFilePath + "/ImageMagick/Single UDIM to Multi.dse",
+	        DzScriptedStepsPane.File, true );
+
+	    oPane.addStep( "Create Properties on Followers INFO",
+	        g_oFilePath + "/Hair Blank Morph Template Load INFO.dse",
+	        DzScriptedStepsPane.File, true );
+	    oPane.addStep( "Create Properties on Followers",
+	        g_oFilePath + "/Create Properties on Followers.dse",
+	        DzScriptedStepsPane.File, false );
+	    oPane.addStep( "Hair Blank Morph Template Load",
+	        g_oFilePath + "/Hair Blank Morph Template Load.dse",
+	        DzScriptedStepsPane.File, false );
+	        	        
+	    oPane.addStep( "Adjust Eye Rigging",
+	        g_oFilePath + "/Adjust Eye Rigging.dse",
+	        DzScriptedStepsPane.File, true );
+	    oPane.addStep( "Set G9 to Shape...",
+	        g_oFilePath + "/Set G9 to Shape.dse",
+	        DzScriptedStepsPane.File, false );
+	    oPane.addStep( "Create Follower",
+	        g_oFilePath + "/Create Follower.dse",
+	        DzScriptedStepsPane.File, false );
+	    oPane.addStep( "Update Follower Base Shape",
+	        g_oFilePath + "/Update Follower Base Shape.dse",
+	        DzScriptedStepsPane.File, false );
+
+		
+	    oPane.addStep( "Documentation",
+	        g_oFilePath + "/Display_Document_Dynamic.dsa",
+	        DzScriptedStepsPane.File, true );
+	} else {
+		MessageBox.critical( "No Script Steps Pane!", "Error", "&OK" );
+		print( "No Script Steps Pane!" );
+	}
+	
+})();

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentDBInstall VERSION="1.0">
+ <Products>
+  <Product VALUE="Noki Mitsuki HD for Genesis 9">
+   <StoreID VALUE="DAZ 3D"/>
+   <GlobalID VALUE="ea07cbec-4acd-45ee-8cdf-69a1be6dd1d5"/>
+   <ProductToken VALUE="104141"/>
+   <Artists>
+    <Artist VALUE="Noki Saki"/>
+   </Artists>
+   <Assets>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Body Add.duf">
+     <ContentType VALUE="Preset/Morph/Apply/Body"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Shaping/Apply/Body"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Body Remove.duf">
+     <ContentType VALUE="Preset/Morph/Remove/Body"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Shaping/Remove/Body"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Daily Eyes Mat.duf">
+     <ContentType VALUE="Preset/Materials/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Eyes/Eye Colors"/>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Eyes/Eye Colors"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Eyes"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Daily Eyes.duf">
+     <ContentType VALUE="Preset/Materials/Hierarchical/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Eyes/Eye Colors"/>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Eyes/Eye Colors"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+      <Compatibility VALUE="/Genesis 9/Eyes"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Eyelashes Mat.duf">
+     <ContentType VALUE="Preset/Materials/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Eyelashes/Color"/>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Eyelashes/Color"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Eyelashes"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Eyelashes.duf">
+     <ContentType VALUE="Preset/Materials/Hierarchical/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Eyelashes/Color"/>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Eyelashes/Color"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+      <Compatibility VALUE="/Genesis 9/Eyelashes"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Full Body Add.duf">
+     <ContentType VALUE="Preset/Morph/Apply"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Shaping/Apply/Complete"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Full Body Remove.duf">
+     <ContentType VALUE="Preset/Morph/Remove"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Shaping/Remove/Complete"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Head Add.duf">
+     <ContentType VALUE="Preset/Morph/Apply/Head"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Shaping/Apply/Head"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Head Remove.duf">
+     <ContentType VALUE="Preset/Morph/Remove/Head"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Shaping/Remove/Head"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Mouth Mat.duf">
+     <ContentType VALUE="Preset/Materials/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Mouth"/>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Mouth"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Mouth"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Mouth.duf">
+     <ContentType VALUE="Preset/Materials/Hierarchical/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Mouth"/>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Mouth"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+      <Compatibility VALUE="/Genesis 9/Mouth"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Rose Eyes Mat.duf">
+     <ContentType VALUE="Preset/Materials/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Eyes/Eye Colors"/>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Eyes/Eye Colors"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Eyes"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Rose Eyes.duf">
+     <ContentType VALUE="Preset/Materials/Hierarchical/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Eyes/Eye Colors"/>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Eyes/Eye Colors"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+      <Compatibility VALUE="/Genesis 9/Eyes"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Daily Set.duf">
+     <ContentType VALUE="Preset/Materials/Hierarchical/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Makeup"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+      <Compatibility VALUE="/Genesis 9/Tears"/>
+      <Compatibility VALUE="/Genesis 9/Mouth"/>
+      <Compatibility VALUE="/Genesis 9/Eyes"/>
+      <Compatibility VALUE="/Genesis 9/Eyelashes"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Rose Set1.duf">
+     <ContentType VALUE="Preset/Materials/Hierarchical/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Makeup"/>
+      <Category VALUE="/Default/Materials/Iray/Skin"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+      <Compatibility VALUE="/Genesis 9/Tears"/>
+      <Compatibility VALUE="/Genesis 9/Mouth"/>
+      <Compatibility VALUE="/Genesis 9/Eyes"/>
+      <Compatibility VALUE="/Genesis 9/Eyelashes"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Rose Set2.duf">
+     <ContentType VALUE="Preset/Materials/Hierarchical/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Makeup"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+      <Compatibility VALUE="/Genesis 9/Tears"/>
+      <Compatibility VALUE="/Genesis 9/Mouth"/>
+      <Compatibility VALUE="/Genesis 9/Eyes"/>
+      <Compatibility VALUE="/Genesis 9/Eyelashes"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki tear Mat.duf">
+     <ContentType VALUE="Preset/Materials/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Eyes/Tear"/>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Eyes/Tears"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Tears"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki tear.duf">
+     <ContentType VALUE="Preset/Materials/Hierarchical/MDL"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Materials/Iray/Eyes/Tear"/>
+      <Category VALUE="/Default/Materials/Iray/Feminine/Noki Mitsuki HD for Genesis 9/Eyes/Tears"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+      <Compatibility VALUE="/Genesis 9/Tears"/>
+     </Compatibilities>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+    <Asset VALUE="People/Genesis 9/Characters/Mitsuki.duf">
+     <ContentType VALUE="Actor/Character"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Figures/People/Female/Stylized"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Genesis 9/Base"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Genesis 9/Base"/>
+     <Userwords>
+      <Userword VALUE=""/>
+     </Userwords>
+    </Asset>
+   </Assets>
+   <SupportAssets VALUE="/Runtime/Support/DAZ_3D_104141_Noki_Mitsuki_HD_for_Genesis_9.dsx">
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Mitsuki.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Mitsuki.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Daily Eyes Mat.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Daily Eyes Mat.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Daily Eyes.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Daily Eyes.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Eyelashes Mat.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Eyelashes Mat.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Eyelashes.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Eyelashes.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Mouth Mat.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Mouth Mat.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Mouth.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Mouth.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Rose Eyes Mat.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Rose Eyes Mat.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Rose Eyes.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Rose Eyes.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Daily Set.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Daily Set.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Rose Set1.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Rose Set1.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Rose Set2.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Rose Set2.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki tear Mat.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki tear Mat.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki tear.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki tear.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Body Add.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Body Add.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Body Remove.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Body Remove.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Full Body Add.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Full Body Add.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Full Body Remove.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Full Body Remove.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Head Add.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Head Add.tip.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Head Remove.duf.png"/>
+    <SupportAsset VALUE="/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Head Remove.tip.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - ArmsD.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - ArmsN.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - ArmsR.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - ArmsS.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - BodyD.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - BodyN.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - BodyR.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - BodyS.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - Eyes1.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - Eyes2.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadB.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadD 01.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadD 02.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadD 03.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadN.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadR.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadS.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - LegsD.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - LegsN.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - LegsR.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - LegsS.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - armsB.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - bodyB.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - fingersD.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - fingersN.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - fingersS.png"/>
+    <SupportAsset VALUE="/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - legB.png"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Body.dhdm"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Body.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Body.png"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Head.dhdm"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Head.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Head.png"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLarmsJCM01.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLarmsJCM02.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLarmsJCM03.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLarmsJCM04.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLeyesJCM01.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLlegsJCM01.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLlegsJCM02.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiRarmsJCM01.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiRarmsJCM02.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiRarmsJCM03.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiRarmsJCM04.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiReyesJCM01.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiRlegsJCM01.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiRlegsJCM02.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki_figure_ctrl_Character.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki_figure_ctrl_Character.png"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Genesis 9 Eyelashes/Morphs/Noki/Noki Mitsuki/Mitsuki Head.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Genesis 9 Eyes/Morphs/Noki/Noki Mitsuki/Mitsuki Head.dsf"/>
+    <SupportAsset VALUE="/data/Daz 3D/Genesis 9/Genesis 9 Mouth/Morphs/Noki/Noki Mitsuki/Mitsuki Head.dsf"/>
+   </SupportAssets>
+  </Product>
+ </Products>
+</ContentDBInstall>

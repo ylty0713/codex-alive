@@ -1,0 +1,52 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Toon%20Iris/head_ctrl_ToonIrisStretch.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-05-01T17:14:58Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "head_ctrl_ToonIrisStretch-0xa383ee1",
+			"name" : "head_ctrl_ToonIrisStretch",
+			"parent" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#Genesis9",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Toon%20Iris/head_ctrl_ToonIrisStretch.png",
+				"icon_small" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Toon%20Iris/head_ctrl_ToonIrisStretch.png",
+				"colors" : [ [ 0.3764706, 0.2784314, 0.3254902 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "head_ctrl_ToonIrisStretch",
+				"label" : "Toon Iris Stretch",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "",
+			"group" : "/Pose Controls/Head/Eyes/Base Anime"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "head_ctrl_ToonIrisStretch",
+				"url" : "#head_ctrl_ToonIrisStretch-0xa383ee1"
+			}
+		]
+	}
+}

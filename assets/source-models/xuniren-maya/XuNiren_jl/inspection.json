@@ -1,0 +1,10 @@
+{
+  "maya_version": "2019",
+  "mesh_nodes": 67,
+  "joints": 520,
+  "skin_clusters": 50,
+  "blend_shapes": 15,
+  "texture_references": 53,
+  "missing_texture_basenames": [],
+  "archive_crc_passed": true
+}

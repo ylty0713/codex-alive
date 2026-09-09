@@ -1,0 +1,224 @@
+{
+  "source_sha256": "fea9fe748caa52aa2b53c2a58a59944530f4fdec00b09cf058aa10ba2564daee",
+  "removed_script_nodes": [
+    "uiConfigurationScriptNode",
+    "sceneConfigurationScriptNode",
+    "vaccine_gene",
+    "breed_gene",
+    "xgenGlobals1",
+    "xgenGlobals"
+  ],
+  "meshes": {
+    "Body_Model": {
+      "vertices": 13836,
+      "faces": 13834,
+      "skin": "skinCluster26",
+      "weighted_vertices": 13836,
+      "material": "Body_Mat"
+    },
+    "Head_HairModel": {
+      "vertices": 595,
+      "faces": 538,
+      "skin": "skinCluster14",
+      "weighted_vertices": 595,
+      "material": "Unassigned"
+    },
+    "Wristband_Model": {
+      "vertices": 200,
+      "faces": 200,
+      "skin": "skinCluster5",
+      "weighted_vertices": 200,
+      "material": "Cloth_Mat"
+    },
+    "Glasses_Model": {
+      "vertices": 1985,
+      "faces": 1957,
+      "skin": "skinCluster10",
+      "weighted_vertices": 1985,
+      "material": "SL_OP_Mat"
+    },
+    "LeiXian_Model": {
+      "vertices": 130,
+      "faces": 90,
+      "skin": "skinCluster23",
+      "weighted_vertices": 130,
+      "material": "LeiXian_Mat"
+    },
+    "Eye_R_Model": {
+      "vertices": 182,
+      "faces": 195,
+      "skin": "skinCluster17",
+      "weighted_vertices": 182,
+      "material": "Eye_Mat"
+    },
+    "Eye_Bai_R_Model": {
+      "vertices": 197,
+      "faces": 210,
+      "skin": "skinCluster18",
+      "weighted_vertices": 197,
+      "material": "Eye_Bai_Mat"
+    },
+    "Eye_L_Model": {
+      "vertices": 182,
+      "faces": 195,
+      "skin": "skinCluster15",
+      "weighted_vertices": 182,
+      "material": "Eye_Mat"
+    },
+    "Eye_Bai_L_Model": {
+      "vertices": 197,
+      "faces": 210,
+      "skin": "skinCluster16",
+      "weighted_vertices": 197,
+      "material": "Eye_Bai_Mat"
+    },
+    "Earrings_1_R_Model": {
+      "vertices": 98,
+      "faces": 96,
+      "skin": "skinCluster19",
+      "weighted_vertices": 98,
+      "material": "Eh_JS_Mat"
+    },
+    "Earrings_2_R_Model": {
+      "vertices": 2620,
+      "faces": 2590,
+      "skin": "skinCluster20",
+      "weighted_vertices": 2620,
+      "material": "Cloth_Mat"
+    },
+    "Earrings_1L_Model": {
+      "vertices": 98,
+      "faces": 96,
+      "skin": "skinCluster21",
+      "weighted_vertices": 98,
+      "material": "Eh_JS_Mat"
+    },
+    "Earrings_2_L_Model": {
+      "vertices": 2620,
+      "faces": 2590,
+      "skin": "skinCluster22",
+      "weighted_vertices": 2620,
+      "material": "Cloth_Mat"
+    },
+    "xizhuang10": {
+      "vertices": 282,
+      "faces": 280,
+      "skin": "skinCluster60",
+      "weighted_vertices": 282,
+      "material": "AR_kouzi"
+    },
+    "xizhuang11": {
+      "vertices": 282,
+      "faces": 280,
+      "skin": "skinCluster61",
+      "weighted_vertices": 282,
+      "material": "AR_kouzi"
+    },
+    "xizhuang12": {
+      "vertices": 282,
+      "faces": 280,
+      "skin": "skinCluster62",
+      "weighted_vertices": 282,
+      "material": "AR_kouzi"
+    },
+    "xizhuang13": {
+      "vertices": 282,
+      "faces": 280,
+      "skin": null,
+      "weighted_vertices": 0,
+      "material": "AR_kouzi"
+    },
+    "xizhuang14": {
+      "vertices": 13551,
+      "faces": 13376,
+      "skin": "skinCluster58",
+      "weighted_vertices": 13551,
+      "material": "AR_chengyi"
+    },
+    "xizhuang15": {
+      "vertices": 4268,
+      "faces": 4175,
+      "skin": "skinCluster66",
+      "weighted_vertices": 4268,
+      "material": "AR_qunzi"
+    },
+    "xizhuang17": {
+      "vertices": 2465,
+      "faces": 2368,
+      "skin": "skinCluster64",
+      "weighted_vertices": 2465,
+      "material": "AR_xiezi"
+    },
+    "xizhuang19": {
+      "vertices": 282,
+      "faces": 280,
+      "skin": null,
+      "weighted_vertices": 0,
+      "material": "AR_kouzi"
+    },
+    "xizhuang20": {
+      "vertices": 13624,
+      "faces": 13474,
+      "skin": "skinCluster59",
+      "weighted_vertices": 13624,
+      "material": "AR_waitao"
+    },
+    "xizhuang21": {
+      "vertices": 2465,
+      "faces": 2368,
+      "skin": "skinCluster65",
+      "weighted_vertices": 2465,
+      "material": "AR_xiezi"
+    },
+    "kouqiang_up": {
+      "vertices": 3819,
+      "faces": 3575,
+      "skin": "skinCluster30",
+      "weighted_vertices": 3819,
+      "material": "kouqiang_yaying"
+    },
+    "shetou": {
+      "vertices": 355,
+      "faces": 344,
+      "skin": "skinCluster32",
+      "weighted_vertices": 355,
+      "material": "kouqiang_yaying"
+    },
+    "kouqiang_down": {
+      "vertices": 3687,
+      "faces": 3412,
+      "skin": "skinCluster31",
+      "weighted_vertices": 3687,
+      "material": "kouqiang_yaying"
+    },
+    "Mm": {
+      "vertices": 46720,
+      "faces": 22776,
+      "skin": "skinCluster27",
+      "weighted_vertices": 46720,
+      "material": "Hair_Mat"
+    },
+    "UP": {
+      "vertices": 21840,
+      "faces": 10647,
+      "skin": "skinCluster28",
+      "weighted_vertices": 21840,
+      "material": "Hair_Mat"
+    },
+    "Down": {
+      "vertices": 16720,
+      "faces": 8151,
+      "skin": "skinCluster29",
+      "weighted_vertices": 16720,
+      "material": "Hair_Mat"
+    }
+  },
+  "limitations": [
+    "No Maya dependency-graph or control-rig evaluation.",
+    "Bind-space base mesh import; Maya corrective blendshapes not yet converted.",
+    "XGen guide curves preserved separately; final XGen hair is not generated.",
+    "Iray/Arnold/Redshift shaders replaced by approximate Principled materials."
+  ],
+  "xgen_guides": 128,
+  "bones": 259
+}

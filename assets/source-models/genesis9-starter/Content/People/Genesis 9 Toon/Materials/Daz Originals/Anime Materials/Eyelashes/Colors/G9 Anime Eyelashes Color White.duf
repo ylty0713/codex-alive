@@ -1,0 +1,45 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%209%20Toon/Materials/Daz%20Originals/Anime%20Materials/Eyelashes/Colors/G9%20Anime%20Eyelashes%20Color%20White.duf",
+		"type" : "preset_hierarchical_material",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-07-09T18:07:13Z"
+	},
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis9",
+				"url" : "name://@selection/Genesis9:",
+				"geometries" : [
+					{
+						"id" : "Genesis9-1",
+						"url" : "name://@selection#geometries/Genesis9:"
+					}
+				]
+			},
+			{
+				"id" : "G9ToonEyelashes",
+				"url" : "name://@selection/G9ToonEyelashes:",
+				"parent" : "#Genesis9",
+				"geometries" : [
+					{
+						"id" : "G9ToonEyelashes-1",
+						"url" : "name://@selection#geometries/G9ToonEyelashes:"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "G9ToonEyelashes#materials/Eyelashes:?diffuse/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			}
+		]
+	}
+}

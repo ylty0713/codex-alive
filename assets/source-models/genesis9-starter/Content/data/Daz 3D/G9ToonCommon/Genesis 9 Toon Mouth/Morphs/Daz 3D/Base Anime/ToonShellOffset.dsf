@@ -1,0 +1,59 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Mouth/Morphs/Daz%203D/Base%20Anime/ToonShellOffset.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "0.0",
+		"modified" : "2024-05-29T16:41:46Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "ToonShellOffset-0xa3bef7a",
+			"name" : "ToonShellOffset",
+			"parent" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Mouth/G9ToonMouth.dsf#G9ToonMouth",
+			"extra" : [
+				{
+					"type" : "studio/modifier/push",
+					"push_post_smooth" : false
+				},
+				{
+					"type" : "studio_modifier_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Value",
+								"type" : "float",
+								"label" : "ToonShellOffset",
+								"value" : 0,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/General/Mesh Offset",
+							"presentation" : {
+								"type" : "Modifier/Utility",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "ToonShellOffset",
+				"url" : "#ToonShellOffset-0xa3bef7a"
+			}
+		]
+	}
+}

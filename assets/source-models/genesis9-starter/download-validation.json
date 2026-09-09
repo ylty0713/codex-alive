@@ -1,0 +1,27 @@
+{
+  "complete_parts": 3,
+  "zip_crc": "all passed",
+  "core_assets": [
+    {
+      "file": "Content\\data\\Daz 3D\\Genesis 9\\Base\\Genesis9.dsf",
+      "geometry_count": 1,
+      "node_count": 139
+    },
+    {
+      "file": "Content\\data\\Daz 3D\\Genesis 9\\Genesis 9 Eyes\\Genesis9Eyes.dsf",
+      "geometry_count": 1,
+      "node_count": 14
+    },
+    {
+      "file": "Content\\data\\Daz 3D\\Genesis 9\\Genesis 9 Mouth\\Genesis9Mouth.dsf",
+      "geometry_count": 1,
+      "node_count": 44
+    },
+    {
+      "file": "Content\\data\\Daz 3D\\Genesis 9\\Genesis 9 Eyelashes\\Genesis9Eyelashes.dsf",
+      "geometry_count": 1,
+      "node_count": 39
+    }
+  ],
+  "note": "Downloaded and extracted only; Mitsuki import not yet completed."
+}

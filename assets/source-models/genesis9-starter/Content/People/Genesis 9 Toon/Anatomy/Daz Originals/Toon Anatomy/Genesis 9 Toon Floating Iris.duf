@@ -1,0 +1,1400 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%209%20Toon/Anatomy/Daz%20Originals/Toon%20Anatomy/Genesis%209%20Toon%20Floating%20Iris.duf",
+		"type" : "wearable",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-10-04T15:57:25Z"
+	},
+	"image_library" : [
+		{
+			"id" : "Eyes 28-1",
+			"name" : "Eyes 28",
+			"map_size" : [ 4096, 4096 ],
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Eyes/Split/Genesis9_EyesToon_Sclera_01.jpg",
+					"label" : "Genesis9_EyesToon_Sclera_01",
+					"active" : true,
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "blend_source_over"
+				},
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Eyes/Split/Genesis9_EyesToon_Iris_02.png",
+					"label" : "Genesis9_EyesToon_Iris_02",
+					"active" : true,
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "blend_source_over"
+				}
+			]
+		},
+		{
+			"id" : "Highlight_Round.jpg-3",
+			"name" : "Highlight_Round.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/IrisFloat/Highlight_Round.jpg",
+					"label" : "Highlight_Round.jpg"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "G9ToonFloatingIris",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#G9ToonFloatingIris",
+				"name" : "G9ToonFloatingIris",
+				"label" : "Genesis 9 Toon Floating Iris",
+				"parent" : "name://@selection:",
+				"geometries" : [
+					{
+						"id" : "G9ToonFloatingIris-1",
+						"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#G9ToonFloatingIris-1",
+						"name" : "G9ToonFloatingIris",
+						"label" : "shape",
+						"type" : "subdivision_surface",
+						"current_subdivision_level" : 1,
+						"edge_interpolation_mode" : "edges_only",
+						"subd_normal_smoothing_mode" : "smooth_all_normals",
+						"extra" : [
+							{
+								"type" : "studio_geometry_channels",
+								"channels" : [
+									{
+										"channel" : {
+											"id" : "SubDRenderLevel",
+											"type" : "int",
+											"current_value" : 0
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"conform_target" : "name://@selection:",
+				"preview" : {
+					"type" : "figure",
+					"oriented_box" : {
+						"min" : [ -5.219, 94.965, -5.032 ],
+						"max" : [ 5.22, 171.381, 6.996 ]
+					},
+					"center_point" : [ 0, 0, 0 ],
+					"end_point" : [ 0, 103.876, 0 ],
+					"rotation_order" : "YXZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "hip",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#hip",
+				"name" : "hip",
+				"label" : "Hip",
+				"parent" : "#G9ToonFloatingIris",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 97.04224, 0.2772734 ],
+					"end_point" : [ 0, 81.09516, 0.02737446 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "pelvis",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#pelvis",
+				"name" : "pelvis",
+				"label" : "Pelvis",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 98.67117, -0.2791472 ],
+					"end_point" : [ 0, 80.04765, -0.2800249 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine1",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#spine1",
+				"name" : "spine1",
+				"label" : "Spine 1",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 98.73624, -0.7953972 ],
+					"end_point" : [ 0, 105.8161, -0.8404557 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine2",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#spine2",
+				"name" : "spine2",
+				"label" : "Spine 2",
+				"parent" : "#spine1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 105.8759, -1.113664 ],
+					"end_point" : [ 0, 112.3415, -1.195155 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine3",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#spine3",
+				"name" : "spine3",
+				"label" : "Spine 3",
+				"parent" : "#spine2",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 112.6649, -2.180527 ],
+					"end_point" : [ 0, 124.7639, -2.624619 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine4",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#spine4",
+				"name" : "spine4",
+				"label" : "Spine 4",
+				"parent" : "#spine3",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 124.7037, -3.714684 ],
+					"end_point" : [ 0, 137.8894, -3.61022 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neck1",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#neck1",
+				"name" : "neck1",
+				"label" : "Neck 1",
+				"parent" : "#spine4",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 138.4378, -3.0818 ],
+					"end_point" : [ 0, 144.8269, -1.822019 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neck2",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#neck2",
+				"name" : "neck2",
+				"label" : "Neck 2",
+				"parent" : "#neck1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 144.8512, -0.6455941 ],
+					"end_point" : [ 0, 151.5549, -0.3267834 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "head",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#head",
+				"name" : "head",
+				"label" : "Head",
+				"parent" : "#neck2",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 151.145, -0.8144608 ],
+					"end_point" : [ 0, 154.425, -0.8479572 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_eye",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#l_eye",
+				"name" : "l_eye",
+				"label" : "Left Eye",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.161, -1.497, -2.935 ],
+						"max" : [ 1.474, 1.489, 2.111 ]
+					},
+					"center_point" : [ 4.803833, 156.6329, 5.725807 ],
+					"end_point" : [ 4.803113, 156.6322, 7.032733 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_eye",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#r_eye",
+				"name" : "r_eye",
+				"label" : "Right Eye",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.473, -1.498, -2.935 ],
+						"max" : [ 1.162, 1.488, 2.111 ]
+					},
+					"center_point" : [ -4.803925, 156.632, 5.725696 ],
+					"end_point" : [ -4.803178, 156.632, 7.032758 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_irislocal",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#l_irislocal",
+				"name" : "l_irislocal",
+				"label" : "Left Iris Local",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.618105, 156.653, 6.90423 ],
+					"end_point" : [ 5.027641, 156.6529, 8.211184 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_iris",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#l_iris",
+				"name" : "l_iris",
+				"label" : "Left Iris",
+				"parent" : "#l_irislocal",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 2.16286, 156.6096, -1.013726 ],
+					"end_point" : [ 4.829553, 156.6096, 7.584035 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_highlight1",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#l_highlight1",
+				"name" : "l_highlight1",
+				"label" : "Left Highlight 1",
+				"parent" : "#l_iris",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.444, -0.486, 9.105 ],
+						"max" : [ 0.457, 0.389, 9.164 ]
+					},
+					"center_point" : [ 2.16286, 156.6096, -1.013726 ],
+					"end_point" : [ 4.829553, 156.6096, 7.584035 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_highlight2",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#l_highlight2",
+				"name" : "l_highlight2",
+				"label" : "Left Highlight 2",
+				"parent" : "#l_iris",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.263, -0.319, 9.137 ],
+						"max" : [ 0.278, 0.205, 9.172 ]
+					},
+					"center_point" : [ 2.16286, 156.6096, -1.013726 ],
+					"end_point" : [ 4.829553, 156.6096, 7.584035 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_irislocal",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#r_irislocal",
+				"name" : "r_irislocal",
+				"label" : "Right Iris Local",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.618405, 156.656, 6.90437 ],
+					"end_point" : [ -5.027941, 156.6559, 8.211324 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_iris",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#r_iris",
+				"name" : "r_iris",
+				"label" : "Right Iris",
+				"parent" : "#r_irislocal",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -2.16316, 156.6126, -1.013586 ],
+					"end_point" : [ -4.829853, 156.6126, 7.584175 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_highlight1",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#r_highlight1",
+				"name" : "r_highlight1",
+				"label" : "Right Highlight 1",
+				"parent" : "#r_iris",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.456, -0.489, 9.105 ],
+						"max" : [ 0.445, 0.386, 9.164 ]
+					},
+					"center_point" : [ -2.16316, 156.6126, -1.013586 ],
+					"end_point" : [ -4.829853, 156.6126, 7.584175 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_highlight2",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#r_highlight2",
+				"name" : "r_highlight2",
+				"label" : "Right Highlight 2",
+				"parent" : "#r_iris",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.277, -0.322, 9.136 ],
+						"max" : [ 0.264, 0.202, 9.172 ]
+					},
+					"center_point" : [ -2.16316, 156.6126, -1.013586 ],
+					"end_point" : [ -4.829853, 156.6126, 7.584175 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			}
+		],
+		"modifiers" : [
+			{
+				"id" : "SkinBinding",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#SkinBinding",
+				"parent" : "#G9ToonFloatingIris-1",
+				"extra" : [
+					{
+						"type" : "skin_settings",
+						"auto_normalize_general" : true,
+						"auto_normalize_local" : true,
+						"auto_normalize_scale" : true,
+						"binding_mode" : "General",
+						"general_map_mode" : "DualQuat",
+						"scale_mode" : "BindingMaps"
+					}
+				]
+			},
+			{
+				"id" : "head_ctrl_EyeballPositionSide-SideRight",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/Morphs/Daz%203D/Head/head_ctrl_EyeballPositionSide-SideRight.dsf#head_ctrl_EyeballPositionSide-SideRight-0xa46395a",
+				"parent" : "#G9ToonFloatingIris",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "head_ctrl_EyeballPositionSide-SideRight",
+					"visible" : false,
+					"current_value" : 0
+				},
+				"region" : "Eyes",
+				"group" : "/Base"
+			},
+			{
+				"id" : "head_ctrl_EyeballPositionSide-SideLeft",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/Morphs/Daz%203D/Head/head_ctrl_EyeballPositionSide-SideLeft.dsf#head_ctrl_EyeballPositionSide-SideLeft-0xa46394c",
+				"parent" : "#G9ToonFloatingIris",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "head_ctrl_EyeballPositionSide-SideLeft",
+					"visible" : false,
+					"current_value" : 0
+				},
+				"region" : "Eyes",
+				"group" : "/Base"
+			},
+			{
+				"id" : "head_ctrl_EyeballPositionHeight",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/Morphs/Daz%203D/Head/head_ctrl_EyeballPositionHeight.dsf#head_ctrl_EyeballPositionHeight-0xa46394c",
+				"parent" : "#G9ToonFloatingIris",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "head_ctrl_EyeballPositionHeight",
+					"visible" : false,
+					"current_value" : 0
+				},
+				"region" : "Eyes",
+				"group" : "/Base"
+			},
+			{
+				"id" : "head_ctrl_EyeballPositionDepth",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/Morphs/Daz%203D/Head/head_ctrl_EyeballPositionDepth.dsf#head_ctrl_EyeballPositionDepth-0xa4639e7",
+				"parent" : "#G9ToonFloatingIris",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "head_ctrl_EyeballPositionDepth",
+					"visible" : false,
+					"current_value" : 0
+				},
+				"region" : "Eyes",
+				"group" : "/Base"
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Eye_Left",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#G9ToonFloatingIris-1",
+				"groups" : [ "Eye_Left" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 1, 1, 1 ],
+						"image" : "#Eyes%2028-1"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa359f5e",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.5333333, 0.5333333, 0.5333333 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow Threshold",
+									"type" : "float",
+									"current_value" : -1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cast Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Eye_Right",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#G9ToonFloatingIris-1",
+				"groups" : [ "Eye_Right" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 1, 1, 1 ],
+						"image" : "#Eyes%2028-1"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa359f5e",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.5333333, 0.5333333, 0.5333333 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow Threshold",
+									"type" : "float",
+									"current_value" : -1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cast Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Highlight Upper",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#G9ToonFloatingIris-1",
+				"groups" : [ "Highlight Upper" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 1, 1, 1 ],
+						"image" : null
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa359f5e",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.5333333, 0.5333333, 0.5333333 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow Threshold",
+									"type" : "float",
+									"current_value" : -1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 500000,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/IrisFloat/Highlight_Round.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "PBR Masked Threshold",
+									"type" : "float",
+									"current_value" : 1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cast Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Highlight Lower",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#G9ToonFloatingIris-1",
+				"groups" : [ "Highlight Lower" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 1, 1, 1 ],
+						"image" : null
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa359f5e",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.5333333, 0.5333333, 0.5333333 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow Threshold",
+									"type" : "float",
+									"current_value" : -1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 500000,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/IrisFloat/Highlight_Round.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "PBR Masked Threshold",
+									"type" : "float",
+									"current_value" : 1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cast Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

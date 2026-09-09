@@ -1,0 +1,9 @@
+const {_electron:electron}=require('playwright-core'),path=require('node:path'),fs=require('node:fs'),assert=require('node:assert/strict');
+(async()=>{
+ const profile=path.resolve('.runtime/video-test');fs.mkdirSync(profile,{recursive:true});fs.writeFileSync(path.join(profile,'empty.jsonl'),'');const env={...process.env,RIN_PROFILE_DIR:profile,RIN_WATCH_FILE:path.join(profile,'empty.jsonl')};delete env.ELECTRON_RUN_AS_NODE;
+ const app=await electron.launch({executablePath:require('electron'),args:[path.resolve('.')],env});
+ try {const page=await app.firstWindow();await page.waitForFunction(()=>window.companionPresence,null,{timeout:120000});
+ const accepted=await page.evaluate(async()=>{window.videoEvents=[];window.desktop.onCodex(e=>{if(e.source==='panel')window.videoEvents.push(e)});const img=new Image();img.src='../previews/companion-face.png';await img.decode();const canvas=document.createElement('canvas');canvas.width=480;canvas.height=480;canvas.getContext('2d').drawImage(img,0,0,480,480);const blob=await new Promise(r=>canvas.toBlob(r,'image/jpeg',.8));await window.desktop.mediaPermission('video',true);await window.desktop.mediaPermission('audio',true);return window.desktop.videoSend({text:'用一句简短中文描述图片里最明显的内容。',image:new Uint8Array(await blob.arrayBuffer())})});assert.ok(accepted.ok,accepted.error);
+ await page.waitForFunction(()=>window.videoEvents.some(e=>['answer','error'].includes(e.state)),null,{timeout:190000});const result=await page.evaluate(()=>{const result=window.videoEvents.find(e=>['answer','error'].includes(e.state));return {...result,elapsedMs:result.time-window.videoEvents.find(e=>e.state==='thinking').time}});fs.writeFileSync('test-results/video.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result));assert.equal(result.state,'answer');assert.doesNotMatch(result.text,/你(?:发来|上传|提供)的/);
+ }finally{await app.close()}
+})().catch(e=>{console.error(e);process.exitCode=1});

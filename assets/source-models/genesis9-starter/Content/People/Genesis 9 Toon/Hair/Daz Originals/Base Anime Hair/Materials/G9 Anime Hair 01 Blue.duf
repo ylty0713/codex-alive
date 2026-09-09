@@ -1,0 +1,4225 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%209%20Toon/Hair/Daz%20Originals/Base%20Anime%20Hair/Materials/G9%20Anime%20Hair%2001%20Blue.duf",
+		"type" : "preset_hierarchical_material",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-09-26T15:16:30Z"
+	},
+	"image_library" : [
+		{
+			"id" : "MAHBaseBlue.jpg",
+			"name" : "MAHBaseBlue.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHBaseBlue.jpg",
+					"label" : "MAHBaseBlue.jpg"
+				}
+			]
+		},
+		{
+			"id" : "MAHTopBlue.jpg",
+			"name" : "MAHTopBlue.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHTopBlue.jpg",
+					"label" : "MAHTopBlue.jpg"
+				}
+			]
+		},
+		{
+			"id" : "MAHLineMaskBase.jpg",
+			"name" : "MAHLineMaskBase.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHLineMaskBase.jpg",
+					"label" : "MAHLineMaskBase.jpg"
+				}
+			]
+		},
+		{
+			"id" : "MAHLineMask.jpg",
+			"name" : "MAHLineMask.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHLineMask.jpg",
+					"label" : "MAHLineMask.jpg"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis9",
+				"url" : "name://@selection/Genesis9:",
+				"geometries" : [
+					{
+						"id" : "Genesis9-1",
+						"url" : "name://@selection#geometries/Genesis9:"
+					}
+				]
+			},
+			{
+				"id" : "Genesis9ToonHair_26467",
+				"url" : "name://@selection/Genesis9ToonHair_26467:",
+				"parent" : "#Genesis9",
+				"geometries" : [
+					{
+						"id" : "geometry",
+						"url" : "name://@selection#geometries/geometry:"
+					}
+				]
+			},
+			{
+				"id" : "G9AnimeHair_ToonOutline",
+				"url" : "name://@selection/G9AnimeHair_ToonOutline:",
+				"parent" : "#Genesis9ToonHair_26467",
+				"geometries" : [
+					{
+						"id" : "geometry-1",
+						"url" : "name://@selection#geometries/geometry:"
+					}
+				]
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Scalp",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#geometry",
+				"groups" : [ "Scalp" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ]
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa4af726",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "BaseHair",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#geometry",
+				"groups" : [ "BaseHair" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ]
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa4af726",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "TopHair",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#geometry",
+				"groups" : [ "TopHair" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ]
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa4af726",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Scalp-1",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Outline.dsf#FilaToon%20-%20Outline",
+				"geometry" : "#geometry-1",
+				"groups" : [ "Scalp" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ]
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "BaseHair-1",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Outline.dsf#FilaToon%20-%20Outline",
+				"geometry" : "#geometry-1",
+				"groups" : [ "BaseHair" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ]
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "TopHair-1",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Outline.dsf#FilaToon%20-%20Outline",
+				"geometry" : "#geometry-1",
+				"groups" : [ "TopHair" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ]
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float"
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Tags/value",
+				"keys" : [ [ 0, "FilaToon - Hair" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?uv_set",
+				"keys" : [ [ 0, "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa4af726" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89.9 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Line%20Preview%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Line%20Start%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Line%20End%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Line%20UV%20Width/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Render%20Priority/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Propagate%20Priority/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/OutlineColorID/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Exclude%20From%20White%20Mode/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?diffuse/value",
+				"keys" : [ [ 0, [ 0.1019608, 0.1215686, 0.2039216 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?diffuse/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight%20Squared/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 0.7529412, 0.7529412, 0.7529412 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Normal%20Map/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Ambient/value",
+				"keys" : [ [ 0, [ 0.7927927, 0.7927927, 0.7927927 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Shadow%20Threshold/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Shadow%20Smooth/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Specular%20Threshold/value",
+				"keys" : [ [ 0, 0.005 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Specular%20Smooth/value",
+				"keys" : [ [ 0, 0.01 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Custom%20LUT%20Map/value",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Shadow%20LUT%20Offset%20V/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Specular%20LUT%20Offset%20V/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Rim%20Amount/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Rim%20Threshold/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Rim%20Shadow%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Rim%20Color/value",
+				"keys" : [ [ 0, [ 0.5024597, 0.5024597, 0.5024597 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap%20Base%20Color%20Blend/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/MatCap/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Environment%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Environment%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Emission%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Emission%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Emission%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Emission%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Emission%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Emission%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Emission%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Emission%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Emission%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Emission%20Temperature/value",
+				"keys" : [ [ 0, 6500 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Emission%20Profile/value",
+				"keys" : [ [ 0, "" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Two%20Sided%20Light/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Luminance/value",
+				"keys" : [ [ 0, 1500 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Luminance/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Luminance/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Luminance/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Luminance/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Luminance/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Luminance/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Luminance/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Luminance/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Luminance/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Luminance%20Units/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/BSDF%20Type/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/PBR%20Masked%20Threshold/value",
+				"keys" : [ [ 0, 0.98 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Displacement%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Displacement%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Minimum%20Displacement/value",
+				"keys" : [ [ 0, -0.1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Maximum%20Displacement/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/SubD%20Displacement%20Level/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Round%20Corners%20Radius/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Round%20Corners%20Across%20Materials/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Round%20Corners%20Roundness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Horizontal%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Horizontal%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Vertical%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Vertical%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Cast%20Shadows/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/Scalp:?extra/studio_material_channels/channels/Receive%20Shadows/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Tags/value",
+				"keys" : [ [ 0, "FilaToon - Hair" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?uv_set",
+				"keys" : [ [ 0, "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa4af726" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89.9 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Line%20Preview%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Line%20Start%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Line%20End%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Line%20UV%20Width/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Render%20Priority/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Propagate%20Priority/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/OutlineColorID/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Exclude%20From%20White%20Mode/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?diffuse/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?diffuse/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHBaseBlue.jpg" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight%20Squared/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 0.2156863, 0.1294118, 0.09019608 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Normal%20Map/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Ambient/value",
+				"keys" : [ [ 0, [ 0.7927927, 0.7927927, 0.7927927 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Shadow%20Threshold/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Shadow%20Smooth/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Specular%20Threshold/value",
+				"keys" : [ [ 0, 0.005 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Specular%20Smooth/value",
+				"keys" : [ [ 0, 0.01 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Custom%20LUT%20Map/value",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Shadow%20LUT%20Offset%20V/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Specular%20LUT%20Offset%20V/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Rim%20Amount/value",
+				"keys" : [ [ 0, 0.4057971 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Rim%20Threshold/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Rim%20Shadow%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Rim%20Color/value",
+				"keys" : [ [ 0, [ 0.1058824, 0.1058824, 0.1490196 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap%20Base%20Color%20Blend/value",
+				"keys" : [ [ 0, 7 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap/value",
+				"keys" : [ [ 0, [ 0.1294118, 0.1294118, 0.1960784 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/MatCap/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Environment%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Environment%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Emission%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Emission%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Emission%20Temperature/value",
+				"keys" : [ [ 0, 6500 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Emission%20Profile/value",
+				"keys" : [ [ 0, "" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Two%20Sided%20Light/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Luminance/value",
+				"keys" : [ [ 0, 1500 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Luminance/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Luminance/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Luminance/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Luminance/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Luminance/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Luminance/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Luminance/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Luminance/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Luminance/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Luminance%20Units/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/BSDF%20Type/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/PBR%20Masked%20Threshold/value",
+				"keys" : [ [ 0, 0.98 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Displacement%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Displacement%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Minimum%20Displacement/value",
+				"keys" : [ [ 0, -0.1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Maximum%20Displacement/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/SubD%20Displacement%20Level/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Round%20Corners%20Radius/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Round%20Corners%20Across%20Materials/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Round%20Corners%20Roundness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Horizontal%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Horizontal%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Vertical%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Vertical%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Cast%20Shadows/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/BaseHair:?extra/studio_material_channels/channels/Receive%20Shadows/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Tags/value",
+				"keys" : [ [ 0, "FilaToon - Hair" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?uv_set",
+				"keys" : [ [ 0, "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa4af726" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89.9 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Line%20Preview%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Line%20Start%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Line%20End%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Line%20UV%20Width/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Render%20Priority/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Propagate%20Priority/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/OutlineColorID/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Exclude%20From%20White%20Mode/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?diffuse/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?diffuse/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHTopBlue.jpg" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight%20Squared/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 0.2156863, 0.1294118, 0.09019608 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Normal%20Map/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Ambient/value",
+				"keys" : [ [ 0, [ 0.7927927, 0.7927927, 0.7927927 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Shadow%20Threshold/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Shadow%20Smooth/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Specular%20Threshold/value",
+				"keys" : [ [ 0, 0.005 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Specular%20Smooth/value",
+				"keys" : [ [ 0, 0.01 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Custom%20LUT%20Map/value",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Shadow%20LUT%20Offset%20V/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Specular%20LUT%20Offset%20V/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Rim%20Amount/value",
+				"keys" : [ [ 0, 0.3550725 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Rim%20Threshold/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Rim%20Shadow%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Rim%20Color/value",
+				"keys" : [ [ 0, [ 0.1490196, 0.1490196, 0.2039216 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap%20Base%20Color%20Blend/value",
+				"keys" : [ [ 0, 29 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/MatCap/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Environment%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Environment%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Environment%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Emission%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Emission%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Emission%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Emission%20Temperature/value",
+				"keys" : [ [ 0, 6500 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Emission%20Profile/value",
+				"keys" : [ [ 0, "" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Two%20Sided%20Light/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Luminance/value",
+				"keys" : [ [ 0, 1500 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Luminance/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Luminance/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Luminance/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Luminance/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Luminance/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Luminance/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Luminance/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Luminance/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Luminance/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Luminance%20Units/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/BSDF%20Type/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/PBR%20Masked%20Threshold/value",
+				"keys" : [ [ 0, 0.98 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Displacement%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Displacement%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Minimum%20Displacement/value",
+				"keys" : [ [ 0, -0.1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Maximum%20Displacement/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/SubD%20Displacement%20Level/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Round%20Corners%20Radius/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Round%20Corners%20Across%20Materials/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Round%20Corners%20Roundness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Horizontal%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Horizontal%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Vertical%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Vertical%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Cast%20Shadows/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "Genesis9ToonHair_26467#materials/TopHair:?extra/studio_material_channels/channels/Receive%20Shadows/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Tags/value",
+				"keys" : [ [ 0, "FilaToon - Outline" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89.9 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Line%20Preview%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Line%20Start%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Line%20End%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Line%20UV%20Width/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Render%20Priority/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Propagate%20Priority/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/OutlineColorID/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?diffuse/value",
+				"keys" : [ [ 0, [ 0.1019608, 0.1215686, 0.2039216 ] ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?diffuse/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Normal%20Map/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Horizontal%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Horizontal%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Vertical%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Vertical%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/Roughness%20Squared/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/Scalp:?extra/studio_material_channels/channels/PBR%20Masked%20Threshold/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Tags/value",
+				"keys" : [ [ 0, "FilaToon - Outline" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89.9 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Line%20Preview%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Line%20Start%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Line%20End%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Line%20UV%20Width/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Render%20Priority/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Propagate%20Priority/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/OutlineColorID/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?diffuse/value",
+				"keys" : [ [ 0, [ 0.1019608, 0.1215686, 0.2039216 ] ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?diffuse/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Normal%20Map/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHLineMaskBase.jpg" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Horizontal%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Horizontal%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Vertical%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Vertical%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/Roughness%20Squared/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/BaseHair:?extra/studio_material_channels/channels/PBR%20Masked%20Threshold/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Tags/value",
+				"keys" : [ [ 0, "FilaToon - Outline" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89.9 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Line%20Preview%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Line%20Start%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Line%20End%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Line%20UV%20Width/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Render%20Priority/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Propagate%20Priority/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/OutlineColorID/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?diffuse/value",
+				"keys" : [ [ 0, [ 0.1019608, 0.1215686, 0.2039216 ] ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?diffuse/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Normal%20Map/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHLineMask.jpg" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Horizontal%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Horizontal%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Vertical%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Vertical%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/Roughness%20Squared/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "G9AnimeHair_ToonOutline#materials/TopHair:?extra/studio_material_channels/channels/PBR%20Masked%20Threshold/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}

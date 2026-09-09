@@ -1,0 +1,74 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/Morphs/Daz%203D/Base/head_ctrl_ToonIrisLink_zRotate_R.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-06-25T19:28:30Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "head_ctrl_ToonIrisLink_zRotate_R-0xa35b7c9",
+			"name" : "head_ctrl_ToonIrisLink_zRotate_R",
+			"parent" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#G9ToonFloatingIris",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "head_ctrl_ToonIrisLink_zRotate_R",
+				"label" : "head_ctrl_ToonIrisLink_zRotate_R",
+				"visible" : false,
+				"value" : 0,
+				"min" : -180,
+				"max" : 180,
+				"clamped" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Hidden/IrisLink",
+			"formulas" : [
+				{
+					"output" : "G9ToonFloatingIris:#head_ctrl_ToonIrisLink_zRotate_R-0xa35b7c9?value",
+					"operations" : [
+						{ "op" : "push", "url" : "r_eye:/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#r_eye?rotation/z" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "G9ToonFloatingIris:#head_ctrl_ToonIrisLink_zRotate_R-0xa35b7c9?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "G9ToonFloatingIris:/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/Morphs/Daz%203D/Base/head_ctrl_ToonIrisLinkPower.dsf#head_ctrl_ToonIrisLinkPower-0xa35b7c9?value" }
+					]
+				},
+				{
+					"output" : "r_iris:/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#r_iris?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "G9ToonFloatingIris:#head_ctrl_ToonIrisLink_zRotate_R-0xa35b7c9?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "head_ctrl_ToonIrisLink_zRotate_R",
+				"url" : "#head_ctrl_ToonIrisLink_zRotate_R-0xa35b7c9"
+			}
+		]
+	}
+}

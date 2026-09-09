@@ -1,0 +1,26 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%209/Characters/Daz%20Originals/ProductName%209%20HD/Materials/Makeup/ProductName%209%20Makeup%20Remove%20Blush.duf",
+		"type" : "preset_layered_image",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.Daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2022-10-12T01:34:38Z"
+	},
+	"scene" : {
+		"extra" : [
+			{
+				"type" : "scene_post_load_script",
+				"name" : "Blush",
+				"script" : "data/Daz 3D/Genesis 9/Base/Tools/Utilities/Makeup-RemoveFoundation.dse",
+				"settings" : {
+					"RunOnce" : true
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/Morphs/Daz%203D/Base/head_ctrl_ToonHighlightLagXLeft.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-06-25T19:28:30Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "head_ctrl_ToonHighlightLagXLeft-0xa38190b",
+			"name" : "head_ctrl_ToonHighlightLagXLeft",
+			"parent" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#G9ToonFloatingIris",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "head_ctrl_ToonHighlightLagXLeft",
+				"label" : "head_ctrl_ToonHighlightLagXLeft",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"step_size" : 0.04
+			},
+			"group" : "/Hidden/HighlightLag",
+			"formulas" : [
+				{
+					"output" : "G9ToonFloatingIris:#head_ctrl_ToonHighlightLagXLeft-0xa38190b?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "G9ToonFloatingIris:/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/Morphs/Daz%203D/Base/head_ctrl_ToonIrisHighlightLagStr.dsf#head_ctrl_ToonIrisHighlightLagStr-0xa38190f?value" }
+					]
+				},
+				{
+					"output" : "G9ToonFloatingIris:#head_ctrl_ToonHighlightLagXLeft-0xa38190b?value",
+					"operations" : [
+						{ "op" : "push", "url" : "l_eye:/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#l_eye?rotation/x" },
+						{ "op" : "push", "val" : 0.03333333 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "l_highlight2:/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#l_highlight2?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "G9ToonFloatingIris:#head_ctrl_ToonHighlightLagXLeft-0xa38190b?value" },
+						{ "op" : "push", "val" : 7.5 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "l_highlight1:/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Floating%20Iris/G9ToonFloatingIris.dsf#l_highlight1?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "G9ToonFloatingIris:#head_ctrl_ToonHighlightLagXLeft-0xa38190b?value" },
+						{ "op" : "push", "val" : 7.5 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "head_ctrl_ToonHighlightLagXLeft",
+				"url" : "#head_ctrl_ToonHighlightLagXLeft-0xa38190b"
+			}
+		]
+	}
+}

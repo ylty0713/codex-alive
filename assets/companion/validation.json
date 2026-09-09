@@ -1,0 +1,34 @@
+{
+  "bones": 101,
+  "morphMeshes": 13,
+  "clips": {
+    "idle": {
+      "duration": 5.983333110809326,
+      "tracks": 303
+    },
+    "talk": {
+      "duration": 23.16666603088379,
+      "tracks": 303
+    }
+  },
+  "drawCalls": 30,
+  "triangles": 109330,
+  "jaw": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "smile": 0.55,
+  "upright": true,
+  "errors": []
+}

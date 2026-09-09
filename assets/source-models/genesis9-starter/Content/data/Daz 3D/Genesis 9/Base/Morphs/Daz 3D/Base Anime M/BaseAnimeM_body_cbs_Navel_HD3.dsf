@@ -1,0 +1,108 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base%20Anime%20M/BaseAnimeM_body_cbs_Navel_HD3.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "0.0",
+		"modified" : "2024-05-28T19:34:19Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "BaseAnimeM_body_cbs_Navel_HD3-0xa3bd1c5",
+			"name" : "BaseAnimeM_body_cbs_Navel_HD3",
+			"parent" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#Genesis9-1",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "BaseAnimeM_body_cbs_Navel_HD3",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/BaseAnimeM/Shapes",
+			"formulas" : [
+				{
+					"output" : "Genesis9:#BaseAnimeM_body_cbs_Navel_HD3-0xa3bd1c5?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base/body_bs_Navel_HD3.dsf#body_bs_Navel_HD3?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:#BaseAnimeM_body_cbs_Navel_HD3-0xa3bd1c5?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base%20Anime%20M/BaseAnimeM_body_bs_BodyMasculine.dsf#BaseAnimeM_body_bs_BodyMasculine-0xa39f004?value" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 25182,
+				"deltas" : {
+					"count" : 31,
+					"values" : [
+						[ 1888, -0.001050949, -0.0008087158, 0.0002698898 ],
+						[ 1889, 4.232561e-09, 0.0004653931, 0.001003265 ],
+						[ 8601, -0.0002769232, 0.0001068115, 0.001280785 ],
+						[ 8602, 2.630971e-07, -5.340576e-05, 0.002296448 ],
+						[ 13887, 0.001050949, -0.000831604, 0.0002670288 ],
+						[ 20423, 0.000276804, 0.0001144409, 0.001285553 ],
+						[ 24987, -0.002471465, -0.01373291, 0.4171276 ],
+						[ 24988, -0.03363717, 0.02929688, 0.06347084 ],
+						[ 24989, -0.01213026, 0.007102966, 0.01815891 ],
+						[ 24990, -7.245621e-05, 0.02445984, 0.01138973 ],
+						[ 24991, -0.01575243, 0.009468079, 0.01186085 ],
+						[ 24992, -0.004618645, -0.0001754761, 0.008712769 ],
+						[ 24993, 6.867736e-05, 0.09944153, 0.195487 ],
+						[ 24994, -0.02774334, 0.03678894, 0.07648754 ],
+						[ 24995, -0.005350351, 0.006851196, 0.01475525 ],
+						[ 24996, 0.03365541, 0.02911377, 0.0634079 ],
+						[ 24997, 0.01213169, 0.007102966, 0.01815796 ],
+						[ 24998, 0.0157398, 0.009407043, 0.01185513 ],
+						[ 24999, 0.004619122, -0.000213623, 0.008712769 ],
+						[ 25000, 0.02771592, 0.03684235, 0.07648849 ],
+						[ 25001, 0.005349398, 0.006835938, 0.01475716 ],
+						[ 25004, 4.944953e-06, 0.01358032, 0.03849506 ],
+						[ 25005, -0.007017493, 0.007957458, 0.02270222 ],
+						[ 25006, 0.007016659, 0.007972717, 0.02270126 ],
+						[ 25007, -0.0006744862, 0.001213074, 0.004127502 ],
+						[ 25008, 0.0006725788, 0.001251221, 0.004126549 ],
+						[ 25017, -0.002133369, -0.001403809, 0.002603531 ],
+						[ 25018, 0.002132893, -0.00138092, 0.002603531 ],
+						[ 25019, -0.003916144, 0.002006531, 0.006105423 ],
+						[ 25020, 0.003916144, 0.002006531, 0.006103516 ],
+						[ 25021, -7.682629e-07, 0.003578186, 0.006492615 ]
+					]
+				},
+				"hd_url" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base%20Anime%20M/BaseAnimeM_body_cbs_Navel_HD3.dhdm"
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "BaseAnimeM_body_cbs_Navel_HD3",
+				"url" : "#BaseAnimeM_body_cbs_Navel_HD3-0xa3bd1c5"
+			}
+		]
+	}
+}

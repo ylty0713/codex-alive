@@ -1,0 +1,76 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Bikini%20Toon/Morphs/Daz%203D/Base/body_cbs_spine3_x35p.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-10-02T19:13:45Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "body_cbs_spine3_x35p",
+			"name" : "body_cbs_spine3_x35p",
+			"parent" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Bikini%20Toon/Undies_002%20UV_4046.dsf#PantyUVOld",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "body_cbs_spine3_x35p",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/Base Correctives/Torso",
+			"morph" : {
+				"vertex_count" : 8624,
+				"deltas" : {
+					"count" : 18,
+					"values" : [
+						[ 321, -2.859408e-06, -2.28559e-05, 1.810678e-05 ],
+						[ 323, -2.859946e-06, -7.637231e-06, 1.52528e-05 ],
+						[ 325, -2.858405e-06, -1.524007e-05, 1.52461e-05 ],
+						[ 327, -1.905161e-06, -7.625195e-06, 1.143002e-05 ],
+						[ 2158, 3.335546e-06, -1.52699e-05, 1.905814e-05 ],
+						[ 2159, 4.943496e-07, -1.530652e-05, 2.00631e-06 ],
+						[ 2160, 2.859423e-06, -2.287997e-05, 1.52498e-05 ],
+						[ 2162, 2.858362e-06, -2.285589e-05, 1.429421e-05 ],
+						[ 2164, 1.904964e-06, -7.618767e-06, 1.143004e-05 ],
+						[ 4133, -2.854089e-06, -2.281767e-05, 1.80729e-05 ],
+						[ 4135, -2.856789e-06, -7.647118e-06, 1.523878e-05 ],
+						[ 4137, -2.853296e-06, -1.519792e-05, 1.521774e-05 ],
+						[ 4139, -1.901534e-06, -7.62105e-06, 1.140492e-05 ],
+						[ 4528, 3.328847e-06, -1.5254e-05, 1.902191e-05 ],
+						[ 4530, 2.856472e-06, -2.285084e-05, 1.523815e-05 ],
+						[ 4531, 4.897217e-07, -1.525468e-05, 1.987388e-06 ],
+						[ 4532, 2.853292e-06, -2.280515e-05, 1.426909e-05 ],
+						[ 4534, 1.901033e-06, -7.61799e-06, 1.140355e-05 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "body_cbs_spine3_x35p-1",
+				"url" : "#body_cbs_spine3_x35p"
+			}
+		]
+	}
+}

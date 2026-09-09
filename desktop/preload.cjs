@@ -1,0 +1,26 @@
+const {contextBridge,ipcRenderer}=require('electron');
+contextBridge.exposeInMainWorld('desktop',{
+  mediaPermission:(kind,enabled)=>ipcRenderer.invoke('media-permission',{kind,enabled}),
+  people:()=>ipcRenderer.invoke('people-list'),
+  savePerson:data=>ipcRenderer.invoke('people-save',data),
+  deletePerson:id=>ipcRenderer.invoke('people-delete',id),
+  startListening:()=>ipcRenderer.invoke('listen-start'),
+  stopListening:()=>ipcRenderer.invoke('listen-stop'),
+  micAudio:data=>ipcRenderer.send('mic-audio',data),
+  onMicText:fn=>{const listener=(_e,data)=>fn(data);ipcRenderer.on('mic-text',listener);return()=>ipcRenderer.removeListener('mic-text',listener)},
+  videoSend:data=>ipcRenderer.invoke('video-send',data),
+  sceneSettings:()=>ipcRenderer.invoke('scene-settings-get'),
+  saveSceneSettings:value=>ipcRenderer.invoke('scene-settings-save',value),
+  onSceneSettings:fn=>{const listener=(_e,data)=>fn(data);ipcRenderer.on('scene-settings',listener);return()=>ipcRenderer.removeListener('scene-settings',listener)},
+  codexStatus:()=>ipcRenderer.invoke('codex-status'),
+  codexSend:text=>ipcRenderer.invoke('codex-send',text),
+  codexStop:()=>ipcRenderer.invoke('codex-stop'),
+  onCodex:fn=>{const listener=(_e,data)=>fn(data);ipcRenderer.on('codex-event',listener);return()=>ipcRenderer.removeListener('codex-event',listener)},
+  voices:()=>ipcRenderer.invoke('voices'),
+  synthesize:(text,voice,rate)=>ipcRenderer.invoke('synthesize',{text,voice,rate}),
+  wallpaper:enabled=>ipcRenderer.invoke('wallpaper',!!enabled),
+  saveModel:bytes=>ipcRenderer.invoke('save-model',bytes),
+  publish:command=>ipcRenderer.send('companion-command',command),
+  subscribe:fn=>{const listener=(_e,data)=>fn(data);ipcRenderer.on('companion-command',listener);return()=>ipcRenderer.removeListener('companion-command',listener);},
+  onWallpaper:fn=>{const listener=(_e,data)=>fn(data);ipcRenderer.on('wallpaper-status',listener);return()=>ipcRenderer.removeListener('wallpaper-status',listener);}
+});

@@ -1,0 +1,28 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url),root=path.resolve(import.meta.dirname,'..');
+const output=path.join(root,'dist','Companion-v0.3.1');
+const electronExe=require('electron'),runtime=path.dirname(electronExe);
+await fs.mkdir(output,{recursive:true});
+for(const entry of await fs.readdir(runtime,{withFileTypes:true})){
+  if(entry.name==='electron.exe')continue;
+  await fs.cp(path.join(runtime,entry.name),path.join(output,entry.name),{recursive:true,force:true});
+}
+await fs.copyFile(electronExe,path.join(output,'Rin.exe'));
+const app=path.join(output,'resources','app');await fs.mkdir(app,{recursive:true});
+for(const name of ['desktop','src','index.html','README.md'])await fs.cp(path.join(root,name),path.join(app,name),{recursive:true,force:true});
+await fs.mkdir(path.join(app,'modeling'),{recursive:true});
+for(const name of ['companion.html','companion.js','scene-settings.js','presence.js','presence-logic.js','mic-worklet.js','lip-sync.js'])await fs.copyFile(path.join(root,'modeling',name),path.join(app,'modeling',name));
+await fs.cp(path.join(root,'assets','stt'),path.join(app,'assets','stt'),{recursive:true});
+for(const name of ['@vladmandic/face-api','pinyin-pro'])await fs.cp(path.join(root,'node_modules',name),path.join(app,'node_modules',name),{recursive:true,dereference:true});
+await fs.mkdir(path.join(app,'assets','companion'),{recursive:true});
+for(const name of ['character.glb','character-runtime.glb','idle.glb','talk.glb'])await fs.copyFile(path.join(root,'assets','companion',name),path.join(app,'assets','companion',name));
+await fs.mkdir(path.join(app,'assets'),{recursive:true});
+await fs.copyFile(path.join(root,'assets','rin-base-rig.glb'),path.join(app,'assets','rin-base-rig.glb'));
+const pkg=JSON.parse(await fs.readFile(path.join(root,'package.json'),'utf8'));
+await fs.writeFile(path.join(app,'package.json'),JSON.stringify({name:pkg.name,version:pkg.version,type:'module',main:pkg.main,private:true},null,2));
+const threeRoot=path.resolve(path.dirname(require.resolve('three')),'..');
+await fs.mkdir(path.join(app,'node_modules','three'),{recursive:true});
+for(const name of ['build','examples','package.json','LICENSE'])await fs.cp(path.join(threeRoot,name),path.join(app,'node_modules','three',name),{recursive:true,force:true});
+console.log(path.join(output,'Rin.exe'));

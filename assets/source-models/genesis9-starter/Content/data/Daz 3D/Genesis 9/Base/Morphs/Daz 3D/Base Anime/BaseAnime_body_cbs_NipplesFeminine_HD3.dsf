@@ -1,0 +1,116 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base%20Anime/BaseAnime_body_cbs_NipplesFeminine_HD3.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.Daz3D.com"
+		},
+		"revision" : "0.0",
+		"modified" : "2024-08-16T17:26:47Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "BaseAnime_body_cbs_NipplesFeminine_HD3-0xa465ac8",
+			"name" : "BaseAnime_body_cbs_NipplesFeminine_HD3",
+			"parent" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#Genesis9-1",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "BaseAnime_body_cbs_NipplesFeminine_HD3",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/BaseAnime9/Shapes",
+			"formulas" : [
+				{
+					"output" : "Genesis9:#BaseAnime_body_cbs_NipplesFeminine_HD3-0xa465ac8?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base%20Anime%20M/BaseAnimeM_body_bs_BodyMasculine.dsf#BaseAnimeM_body_bs_BodyMasculine-0xa39f004?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:#BaseAnime_body_cbs_NipplesFeminine_HD3-0xa465ac8?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base%20Anime%20F/BaseAnimeF_body_bs_BodyFeminine.dsf#BaseAnimeF_body_bs_BodyFeminine-0xa39d1a4?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis9:#BaseAnime_body_cbs_NipplesFeminine_HD3-0xa465ac8?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base/body_bs_NipplesFeminine_HD3.dsf#body_bs_NipplesFeminine_HD3?value" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 25182,
+				"deltas" : {
+					"count" : 31,
+					"values" : [
+						[ 24108, -0.003421783, 0.007324219, -0.01211739 ],
+						[ 24109, -0.06216812, -0.01197815, -0.04214573 ],
+						[ 24117, -0.02011108, -0.008972168, -0.06095695 ],
+						[ 24148, -0.03521633, 0.02663422, -0.04731941 ],
+						[ 24149, -0.05715275, 0.02505493, -0.03936481 ],
+						[ 24157, -0.00395298, 0.02838898, -0.05435085 ],
+						[ 24193, -0.02514458, 0.001251221, -0.03826714 ],
+						[ 24197, -0.01840782, 0.03133392, -0.0581255 ],
+						[ 24233, -0.04417801, -0.01604462, -0.03125954 ],
+						[ 24234, -0.03365707, -0.01643372, -0.05197906 ],
+						[ 24249, -0.01811314, -0.012146, -0.04850483 ],
+						[ 24316, -0.0556612, 0.007720947, -0.04252625 ],
+						[ 24317, -0.00430584, -0.004730225, -0.01852989 ],
+						[ 24330, -0.02159882, 0.006454468, -0.03091145 ],
+						[ 24331, -0.0139513, 0.01126862, -0.05732727 ],
+						[ 24644, 0.003417969, 0.007293701, -0.01211739 ],
+						[ 24645, 0.06217003, -0.01199341, -0.04214573 ],
+						[ 24652, 0.02010822, -0.008972168, -0.06095409 ],
+						[ 24681, 0.03521538, 0.02661896, -0.04731464 ],
+						[ 24682, 0.05715179, 0.02505493, -0.03936481 ],
+						[ 24689, 0.003953934, 0.02840424, -0.05435085 ],
+						[ 24725, 0.02514744, 0.001228333, -0.03826523 ],
+						[ 24729, 0.01840687, 0.03135681, -0.0581255 ],
+						[ 24760, 0.0441761, -0.01604462, -0.03126144 ],
+						[ 24761, 0.03365612, -0.01646423, -0.05197906 ],
+						[ 24776, 0.01811218, -0.012146, -0.04850483 ],
+						[ 24777, 0.01295853, -0.008895874, -0.03609371 ],
+						[ 24839, 0.05565929, 0.007675171, -0.0425272 ],
+						[ 24840, 0.004289627, -0.004676819, -0.01854229 ],
+						[ 24853, 0.02161217, 0.006500244, -0.03091145 ],
+						[ 24854, 0.0139513, 0.01126862, -0.05732727 ]
+					]
+				},
+				"hd_url" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base%20Anime/BaseAnime_body_cbs_NipplesFeminine_HD3.dhdm"
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "BaseAnime_body_cbs_NipplesFeminine_HD3",
+				"url" : "#BaseAnime_body_cbs_NipplesFeminine_HD3-0xa465ac8"
+			}
+		]
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Eyelashes/Morphs/Daz%203D/Base%20Anime/BaseAnime_facs_cbs_BrowDownLeft.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-06-25T19:27:40Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "BaseAnime_facs_cbs_BrowDownLeft-0xa3cfb03",
+			"name" : "BaseAnime_facs_cbs_BrowDownLeft",
+			"parent" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Eyelashes/G9ToonEyelashes.dsf#G9ToonEyelashes-1",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 0.4980392, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "BaseAnime_facs_cbs_BrowDownLeft",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/BaseAnime9/FACS/Brow",
+			"morph" : {
+				"vertex_count" : 802,
+				"deltas" : {
+					"count" : 25,
+					"values" : [
+						[ 0, 0.0129981, -0.02296448, 0.05328274 ],
+						[ 1, 0.0161624, -0.02575684, 0.0516901 ],
+						[ 2, 0.02511334, -0.03048706, 0.06489182 ],
+						[ 3, 0.02012944, -0.02690125, 0.03850746 ],
+						[ 18, 0.009629846, -0.01142883, 0.03067589 ],
+						[ 21, 0.007666588, -0.01567078, 0.02870083 ],
+						[ 30, 0.005210161, -0.006225586, 0.02020454 ],
+						[ 31, 0.01006198, -0.009628296, 0.0342598 ],
+						[ 32, 0.00697279, -0.008483887, 0.02431107 ],
+						[ 33, 0.008087158, -0.01321411, 0.01460361 ],
+						[ 48, 0.002692461, -0.003463745, 0.008201599 ],
+						[ 51, 0.00466013, -0.009765625, 0.01259232 ],
+						[ 65, 0.006294489, -0.01617432, 0.03249359 ],
+						[ 66, 0.009908438, -0.0302887, 0.04899502 ],
+						[ 67, 0.02087569, -0.03392029, 0.06613255 ],
+						[ 68, 0.03059101, -0.03897095, 0.07495594 ],
+						[ 69, 0.02378666, -0.02871704, 0.04916 ],
+						[ 70, 0.01196432, -0.01397705, 0.03856564 ],
+						[ 71, 0.001119852, -0.001403809, 0.001036644 ],
+						[ 89, 0.001805782, -0.004577637, 0.005074501 ],
+						[ 99, 0.004119158, -0.00592041, 0.01413918 ],
+						[ 103, 0.003908873, -0.006530762, 0.007779121 ],
+						[ 110, 0.001646996, -0.002288818, 0.007281303 ],
+						[ 111, 0.002092123, -0.002349854, 0.00835228 ],
+						[ 187, 0.0008397102, -0.001358032, 0.001676559 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "BaseAnime_facs_cbs_BrowDownLeft",
+				"url" : "#BaseAnime_facs_cbs_BrowDownLeft-0xa3cfb03"
+			}
+		]
+	}
+}

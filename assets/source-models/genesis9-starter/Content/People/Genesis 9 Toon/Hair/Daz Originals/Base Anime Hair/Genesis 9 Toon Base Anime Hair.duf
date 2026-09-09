@@ -1,0 +1,2126 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%209%20Toon/Hair/Daz%20Originals/Base%20Anime%20Hair/Genesis%209%20Toon%20Base%20Anime%20Hair.duf",
+		"type" : "wearable",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-09-26T16:37:22Z"
+	},
+	"geometry_library" : [
+		{
+			"id" : "geometry",
+			"name" : "geometry",
+			"type" : "polygon_mesh",
+			"vertices" : {
+				"count" : 0,
+				"values" : [
+				]
+			},
+			"polygon_groups" : {
+				"count" : 0,
+				"values" : [
+				]
+			},
+			"polygon_material_groups" : {
+				"count" : 0,
+				"values" : [
+				]
+			},
+			"polylist" : {
+				"count" : 0,
+				"values" : [
+				]
+			},
+			"extra" : [
+				{
+					"type" : "studio/geometry/shell"
+				},
+				{
+					"type" : "studio_geometry_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "SubDIALevel",
+								"type" : "int",
+								"label" : "View SubD Level",
+								"visible" : false,
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 2,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDRenderLevel",
+								"type" : "int",
+								"label" : "Render SubD Level (Minimum)",
+								"visible" : false,
+								"value" : 0,
+								"current_value" : 0,
+								"min" : 0,
+								"max" : 3,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDAlgorithmControl",
+								"type" : "enum",
+								"label" : "SubDivision Algorithm",
+								"visible" : false,
+								"value" : 0,
+								"current_value" : 0,
+								"enum_values" : [ "Catmark", "Bilinear", "Loop", "Catmull-Clark (Legacy)" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDEdgeInterpolateLevel",
+								"type" : "enum",
+								"label" : "Edge Interpolation",
+								"visible" : false,
+								"value" : 2,
+								"current_value" : 2,
+								"enum_values" : [ "Soft Corners And Edges", "Sharp Edges and Corners", "Sharp Edges" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDNormalSmoothing",
+								"type" : "enum",
+								"label" : "SubDivision Normals",
+								"visible" : false,
+								"value" : 0,
+								"current_value" : 0,
+								"enum_values" : [ "Smoothed", "Preserve Cage" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						}
+					]
+				}
+			]
+		}
+	],
+	"node_library" : [
+		{
+			"id" : "G9AnimeHair_ToonOutline",
+			"name" : "G9AnimeHair_ToonOutline",
+			"type" : "node",
+			"label" : "Genesis 9 Toon Base Anime Hair Outline",
+			"rotation_order" : "XYZ",
+			"inherits_scale" : true,
+			"center_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrigin",
+					"label" : "X Origin",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrigin",
+					"label" : "Y Origin",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrigin",
+					"label" : "Z Origin",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"end_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xEnd",
+					"label" : "X End",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yEnd",
+					"label" : "Y End",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zEnd",
+					"label" : "Z End",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"orientation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrientation",
+					"label" : "X Orientation",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrientation",
+					"label" : "Y Orientation",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrientation",
+					"label" : "Z Orientation",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"rotation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XRotate",
+					"label" : "X Rotate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YRotate",
+					"label" : "Y Rotate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZRotate",
+					"label" : "Z Rotate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				}
+			],
+			"translation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XTranslate",
+					"label" : "X Translate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YTranslate",
+					"label" : "Y Translate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZTranslate",
+					"label" : "Z Translate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				}
+			],
+			"scale" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XScale",
+					"label" : "X Scale",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YScale",
+					"label" : "Y Scale",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZScale",
+					"label" : "Z Scale",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				}
+			],
+			"general_scale" : {
+				"id" : "general_scale",
+				"type" : "float",
+				"name" : "Scale",
+				"label" : "Scale",
+				"value" : 1,
+				"current_value" : 1,
+				"min" : -10000,
+				"max" : 10000,
+				"display_as_percent" : true,
+				"step_size" : 0.005
+			},
+			"extra" : [
+				{
+					"type" : "studio/node/shell"
+				},
+				{
+					"type" : "studio_node_channels",
+					"version" : 4,
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Disable Transform",
+								"type" : "bool",
+								"label" : "Disable Local Transform",
+								"visible" : false,
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/General/Transforms"
+						},
+						{
+							"channel" : {
+								"id" : "Ignore Local Transform",
+								"type" : "bool",
+								"label" : "Ignore Local Transform",
+								"visible" : false,
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/General/Transforms"
+						},
+						{
+							"channel" : {
+								"id" : "Point At",
+								"type" : "numeric_node",
+								"label" : "Point At",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"needs_node" : true,
+								"node" : null
+							},
+							"group" : "/General/Constraints"
+						},
+						{
+							"channel" : {
+								"id" : "Visible",
+								"type" : "bool",
+								"label" : "Visible",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Viewport",
+								"type" : "bool",
+								"label" : "Visible in Viewport",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Selectable",
+								"type" : "bool",
+								"label" : "Selectable (in Viewport)",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Renderable",
+								"type" : "bool",
+								"label" : "Visible in Render",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Cast Shadows",
+								"type" : "bool",
+								"label" : "Cast Shadows",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"current_value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Simulation",
+								"type" : "bool",
+								"label" : "Visible in Simulation",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display/Simulation"
+						},
+						{
+							"channel" : {
+								"id" : "Shell Node",
+								"type" : "node",
+								"label" : "Shell Node"
+							},
+							"group" : "/Shell"
+						},
+						{
+							"channel" : {
+								"id" : "Target Push Modifiers",
+								"type" : "string",
+								"label" : "Target Push Modifiers",
+								"value" : "",
+								"current_value" : ""
+							},
+							"group" : "/Shell"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_head_vis",
+								"type" : "bool",
+								"label" : "head",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_neck2_vis",
+								"type" : "bool",
+								"label" : "neck2",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_Default_vis",
+								"type" : "bool",
+								"label" : "Default",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Scalp_vis",
+								"type" : "bool",
+								"label" : "Scalp",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_TopHair_vis",
+								"type" : "bool",
+								"label" : "TopHair",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_BaseHair_vis",
+								"type" : "bool",
+								"label" : "BaseHair",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						}
+					]
+				}
+			]
+		}
+	],
+	"modifier_library" : [
+		{
+			"id" : "Offset",
+			"name" : "Offset",
+			"parent" : "#G9AnimeHair_ToonOutline",
+			"extra" : [
+				{
+					"type" : "studio/modifier/push",
+					"push_post_smooth" : false
+				},
+				{
+					"type" : "studio_modifier_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Value",
+								"type" : "float",
+								"label" : "Offset Distance (cm)",
+								"value" : 0.1,
+								"current_value" : 0.1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/General/Mesh Offset"
+						}
+					]
+				}
+			]
+		}
+	],
+	"image_library" : [
+		{
+			"id" : "MAHBaseMidBrown.jpg",
+			"name" : "MAHBaseMidBrown.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHBaseMidBrown.jpg",
+					"label" : "MAHBaseMidBrown.jpg"
+				}
+			]
+		},
+		{
+			"id" : "MAHTopMidBrown.jpg",
+			"name" : "MAHTopMidBrown.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHTopMidBrown.jpg",
+					"label" : "MAHTopMidBrown.jpg"
+				}
+			]
+		},
+		{
+			"id" : "MAHLineMaskBase.jpg",
+			"name" : "MAHLineMaskBase.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHLineMaskBase.jpg",
+					"label" : "MAHLineMaskBase.jpg"
+				}
+			]
+		},
+		{
+			"id" : "MAHLineMask.jpg",
+			"name" : "MAHLineMask.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHLineMask.jpg",
+					"label" : "MAHLineMask.jpg"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis9ToonHair_26467",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#Genesis9ToonHair_26467",
+				"name" : "Genesis9ToonHair_26467",
+				"label" : "Genesis 9 Toon Base Anime Hair",
+				"parent" : "name://@selection:",
+				"geometries" : [
+					{
+						"id" : "geometry-1",
+						"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#geometry",
+						"name" : "geometry",
+						"label" : "shape",
+						"type" : "subdivision_surface",
+						"current_subdivision_level" : 1,
+						"edge_interpolation_mode" : "edges_only",
+						"subd_normal_smoothing_mode" : "smooth_all_normals",
+						"extra" : [
+							{
+								"type" : "studio_geometry_channels",
+								"channels" : [
+									{
+										"channel" : {
+											"id" : "SubDRenderLevel",
+											"type" : "int",
+											"current_value" : 0
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"conform_target" : "name://@selection:",
+				"preview" : {
+					"type" : "figure",
+					"oriented_box" : {
+						"min" : [ -12.708, 96.011, -13.613 ],
+						"max" : [ 13.941, 185.373, 11.473 ]
+					},
+					"center_point" : [ 0, 0, 0 ],
+					"end_point" : [ 0, 103.876, 0 ],
+					"rotation_order" : "YXZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "hip",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#hip",
+				"name" : "hip",
+				"label" : "Hip",
+				"parent" : "#Genesis9ToonHair_26467",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 97.04224, 0.2772734 ],
+					"end_point" : [ 0, 81.09516, 0.02737446 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#spine1",
+				"name" : "spine1",
+				"label" : "Spine 1",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 98.73624, -0.7953972 ],
+					"end_point" : [ 0, 105.8161, -0.8404557 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#spine2",
+				"name" : "spine2",
+				"label" : "Spine 2",
+				"parent" : "#spine1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 105.8759, -1.113664 ],
+					"end_point" : [ 0, 112.3415, -1.195155 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine3",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#spine3",
+				"name" : "spine3",
+				"label" : "Spine 3",
+				"parent" : "#spine2",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 112.6649, -2.180527 ],
+					"end_point" : [ 0, 124.7639, -2.624619 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine4",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#spine4",
+				"name" : "spine4",
+				"label" : "Spine 4",
+				"parent" : "#spine3",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 124.7037, -3.714684 ],
+					"end_point" : [ 0, 137.8894, -3.61022 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neck1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#neck1",
+				"name" : "neck1",
+				"label" : "Neck 1",
+				"parent" : "#spine4",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 138.4378, -3.0818 ],
+					"end_point" : [ 0, 144.8269, -1.822019 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neck2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#neck2",
+				"name" : "neck2",
+				"label" : "Neck 2",
+				"parent" : "#neck1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -8.304, -1.582, -10.557 ],
+						"max" : [ 7.253, 6.156, -3.069 ]
+					},
+					"center_point" : [ 0, 144.8512, -0.6455941 ],
+					"end_point" : [ 0, 151.5549, -0.3267834 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "head",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#head",
+				"name" : "head",
+				"label" : "Head",
+				"parent" : "#neck2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -14.524, -1.232, -14.564 ],
+						"max" : [ 15.933, 23.003, 14.08 ]
+					},
+					"center_point" : [ 0, 151.145, -0.8144608 ],
+					"end_point" : [ 0, 154.425, -0.8479572 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lowerjaw",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#lowerjaw",
+				"name" : "lowerjaw",
+				"label" : "Lower Jaw",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 151.9779, 1.487694 ],
+					"end_point" : [ 0, 148.6515, 7.663978 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lowerfacerig",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#lowerfacerig",
+				"name" : "lowerfacerig",
+				"label" : "Lower Face Rig",
+				"parent" : "#lowerjaw",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 152.5329, 0.879428 ],
+					"end_point" : [ 0, 148.4549, 7.59032 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_cheeklower",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#l_cheeklower",
+				"name" : "l_cheeklower",
+				"label" : "Left Cheek Lower",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.931458, 150.0047, 4.871214 ],
+					"end_point" : [ 5.073523, 149.8455, 5.953815 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_cheeklower",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#r_cheeklower",
+				"name" : "r_cheeklower",
+				"label" : "Right Cheek Lower",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.931485, 150.0054, 4.870985 ],
+					"end_point" : [ -5.073388, 149.8455, 5.953804 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "upperfacerig",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#upperfacerig",
+				"name" : "upperfacerig",
+				"label" : "Upper Face Rig",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 151.145, -0.8144608 ],
+					"end_point" : [ 0, 154.425, -0.8479572 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_browinner",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#l_browinner",
+				"name" : "l_browinner",
+				"label" : "Left Brow Inner",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 3.107545, 159.819, 9.276444 ],
+					"end_point" : [ 3.124823, 159.7612, 10.17567 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_browouter",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#l_browouter",
+				"name" : "l_browouter",
+				"label" : "Left Brow Outer",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 6.496352, 159.7963, 7.943681 ],
+					"end_point" : [ 6.532217, 159.6992, 8.998503 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_browinner",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#r_browinner",
+				"name" : "r_browinner",
+				"label" : "Right Brow Inner",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -3.107688, 159.8187, 9.276509 ],
+					"end_point" : [ -3.124788, 159.7623, 10.17602 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_browouter",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#r_browouter",
+				"name" : "r_browouter",
+				"label" : "Right Brow Outer",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -6.49628, 159.7974, 7.943826 ],
+					"end_point" : [ -6.532967, 159.6986, 8.998447 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "centerbrow",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#centerbrow",
+				"name" : "centerbrow",
+				"label" : "Center Brow",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 159.476, 10.23646 ],
+					"end_point" : [ 0, 159.3076, 11.04835 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_cheek",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#l_cheek",
+				"name" : "l_cheek",
+				"label" : "Left Cheek",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 6.446023, 153.1442, 7.066991 ],
+					"end_point" : [ 6.531008, 152.9942, 8.034546 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_cheek",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#r_cheek",
+				"name" : "r_cheek",
+				"label" : "Right Cheek",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -6.446057, 153.1447, 7.06698 ],
+					"end_point" : [ -6.531617, 152.9932, 8.034439 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ear",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#l_ear",
+				"name" : "l_ear",
+				"label" : "Left Ear",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 8.221359, 154.7276, -0.3007646 ],
+					"end_point" : [ 10.45792, 154.4844, -2.71842 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ear",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#r_ear",
+				"name" : "r_ear",
+				"label" : "Right Ear",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -8.221293, 154.7275, -0.3006175 ],
+					"end_point" : [ -10.458, 154.4847, -2.718417 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "G9AnimeHair_ToonOutline-1",
+				"url" : "#G9AnimeHair_ToonOutline",
+				"name" : "G9AnimeHair_ToonOutline",
+				"label" : "Genesis 9 Toon Base Anime Hair Outline",
+				"parent" : "#Genesis9ToonHair_26467",
+				"geometries" : [
+					{
+						"id" : "geometry-2",
+						"url" : "#geometry",
+						"name" : "Shell",
+						"label" : "shape",
+						"polygon_material_groups" : {
+							"count" : 3,
+							"values" : [
+								"Scalp",
+								"BaseHair",
+								"TopHair"
+							]
+						},
+						"type" : "polygon_mesh",
+						"extra" : [
+							{
+								"type" : "studio/geometry/shell"
+							}
+						]
+					}
+				],
+				"preview" : {
+					"oriented_box" : {
+						"min" : [ -12.76, 158.805, -13.705 ],
+						"max" : [ 13.979, 185.468, 11.556 ]
+					},
+					"center_point" : [ 0, 0, 0 ],
+					"end_point" : [ 0, 0, 0 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio/node/shell",
+						"polygon_groups" : [ "head", "neck2", "Default" ],
+						"polygon_material_groups" : [ "Scalp", "TopHair", "BaseHair" ],
+						"material_uvs" : [ [ "Scalp", "Default UVs" ], [ "BaseHair", "Default UVs" ], [ "TopHair", "Default UVs" ] ]
+					},
+					{
+						"type" : "studio_node_channels",
+						"version" : 4,
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Shell Node",
+									"type" : "node",
+									"node" : "#Genesis9ToonHair_26467"
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"modifiers" : [
+			{
+				"id" : "SkinBinding",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/Genesis9ToonHair_26467.dsf#SkinBinding",
+				"parent" : "#geometry-1",
+				"extra" : [
+					{
+						"type" : "skin_settings",
+						"auto_normalize_general" : true,
+						"auto_normalize_local" : true,
+						"auto_normalize_scale" : true,
+						"binding_mode" : "General",
+						"general_map_mode" : "DualQuat",
+						"scale_mode" : "BindingMaps"
+					}
+				]
+			},
+			{
+				"id" : "Offset-1",
+				"url" : "#Offset",
+				"parent" : "#G9AnimeHair_ToonOutline-1",
+				"extra" : [
+					{
+						"type" : "studio/modifier/push"
+					}
+				]
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Scalp",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#geometry-1",
+				"groups" : [ "Scalp" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 0.2235294, 0.09019608, 0.0509804 ],
+						"image" : null
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa4af726",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - Hair"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.7927927, 0.7927927, 0.7927927 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0.5024597, 0.5024597, 0.5024597 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "BaseHair",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#geometry-1",
+				"groups" : [ "BaseHair" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 1, 1, 1 ],
+						"image_file" : "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHBaseMidBrown.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa4af726",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - Hair"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight Squared",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.2156863, 0.1294118, 0.09019608 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.7927927, 0.7927927, 0.7927927 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Amount",
+									"type" : "float",
+									"current_value" : 0.4057971
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0.1686275, 0.1137255, 0.08627452 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Base Color Blend",
+									"type" : "enum",
+									"current_value" : 7
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap",
+									"type" : "color",
+									"current_value" : [ 0.1294118, 0.1294118, 0.1960784 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "TopHair",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#geometry-1",
+				"groups" : [ "TopHair" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 1, 1, 1 ],
+						"image_file" : "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHTopMidBrown.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/Genesis%209%20Toon%20Hair/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa4af726",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - Hair"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight Squared",
+									"type" : "bool",
+									"current_value" : true
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.2156863, 0.1294118, 0.09019608 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.7927927, 0.7927927, 0.7927927 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Amount",
+									"type" : "float",
+									"current_value" : 0.3550725
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0.1686275, 0.1137255, 0.08627452 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Base Color Blend",
+									"type" : "enum",
+									"current_value" : 29
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Scalp-1",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Outline.dsf#FilaToon%20-%20Outline",
+				"geometry" : "#geometry-2",
+				"groups" : [ "Scalp" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ],
+						"current_value" : [ 0.2470588, 0.1176471, 0.09803922 ],
+						"image" : null
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - Outline"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "PBR Masked Threshold",
+									"type" : "float",
+									"current_value" : 1
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "BaseHair-1",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Outline.dsf#FilaToon%20-%20Outline",
+				"geometry" : "#geometry-2",
+				"groups" : [ "BaseHair" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ],
+						"current_value" : [ 0.2470588, 0.1176471, 0.09803922 ],
+						"image" : null
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - Outline"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHLineMaskBase.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "PBR Masked Threshold",
+									"type" : "float",
+									"current_value" : 1
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "TopHair-1",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Outline.dsf#FilaToon%20-%20Outline",
+				"geometry" : "#geometry-2",
+				"groups" : [ "TopHair" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ],
+						"current_value" : [ 0.2235294, 0.09019608, 0.0509804 ],
+						"image" : null
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - Outline"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/Mihrelle/MichaelAnimeHair/MAHLineMask.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "PBR Masked Threshold",
+									"type" : "float",
+									"current_value" : 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

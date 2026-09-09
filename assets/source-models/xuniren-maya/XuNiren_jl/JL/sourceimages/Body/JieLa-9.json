@@ -1,0 +1,104 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "scene": {
+        "scale_factor": 92.9084243774414
+    },
+    "shaders": {
+        "Main shader": {
+            "displacementTessellation": {
+                "displacement": {
+                    "scale": 0,
+                    "source_channel": 0
+                },
+                "enable": true,
+                "tessellation": {
+                    "max_length": 64,
+                    "subdiv_count": 1,
+                    "subdiv_mode": 0
+                }
+            },
+            "parameters": {
+                "次表面散射参数": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssRayleigh": 0,
+                    "sssRedShift": 0,
+                    "sssScale": 0.5,
+                    "sssScatteringColorSource": 0,
+                    "sssType": 1
+                },
+                "视差贴图": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "通用参数": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        },
+        "Main shader (Copy)": {
+            "displacementTessellation": {
+                "displacement": {
+                    "scale": 0,
+                    "source_channel": 0
+                },
+                "enable": true,
+                "tessellation": {
+                    "max_length": 64,
+                    "subdiv_count": 1,
+                    "subdiv_mode": 0
+                }
+            },
+            "parameters": {
+                "次表面散射参数": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssRayleigh": 0,
+                    "sssRedShift": 0,
+                    "sssScale": 0.5,
+                    "sssScatteringColorSource": 0,
+                    "sssType": 1
+                },
+                "视差贴图": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "通用参数": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader (Copy)"
+        }
+    },
+    "texturesets": {
+        "1001": {
+            "shader": "Main shader (Copy)"
+        },
+        "1002": {
+            "shader": "Main shader"
+        }
+    }
+}

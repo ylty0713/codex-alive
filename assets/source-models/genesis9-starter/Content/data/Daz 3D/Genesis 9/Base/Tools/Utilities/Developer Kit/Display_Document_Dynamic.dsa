@@ -1,0 +1,103 @@
+/**********************************************************************
+ 
+	This script is provided as part of the Daz Script Documentation. The
+	contents of this script, and\or any portion thereof, may only be used
+	in accordance with the following license:
+ 
+	Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+	- http://creativecommons.org/licenses/by/3.0
+ 
+	To contact Daz 3D or for more information about Daz Script visit the
+	Daz 3D website:
+ 
+	- http://www.daz3d.com
+ 
+**********************************************************************/
+// Source: /public/software/dazstudio/4/referenceguide/scripting/api_reference/samples/general_ui/display_document_dynamic/start
+
+// Define an anonymous function;
+// serves as our main loop,
+// limits the scope of variables
+(function( sRelativePath ){
+	// Globals
+	var g_oFile = new DzFileInfo( getScriptFileName() );
+	var g_oFilePath = g_oFile.path();
+	
+	/*********************************************************************/
+	// String : A function for retrieving a translation if one exists
+	function text( sText )
+	{
+		// If the version of the application supports qsTr()
+		if( typeof( qsTr ) != "undefined" ){
+			// Return the translated (if any) text
+			return qsTr( sText );
+		}
+ 
+		// Return the original text
+		return sText;
+	};
+	
+	/*********************************************************************/
+	// Get the content manager
+	var oContentMgr = App.getContentMgr();
+	// If we do not have a content manager
+	if( !oContentMgr ){
+		// We are done...
+		return;
+	}
+	
+	// Declareworking variables
+	var sPreferredBasePath, sAbsolutePath;
+	
+	// Get the path of this script
+	var sScriptPath = getScriptFileName();
+	
+	// If the version is 4.8.1.51 or newer
+	if( App.version64 >= 0x0004000800010033 ){
+		// Define the directory type to look in
+		var nDirType = DzContentMgr.AllDirs;
+		
+		// If the version is 4.9.0.51 or newer
+		if( App.version64 >= 0x0004000900000033 ){
+			// Also look in cloud directories
+			nDirType = DzContentMgr.AllDirsAndCloud;
+		}
+		
+		//Define the preferred [mapped] base path; use the path of the current script
+		sPreferredBasePath = oContentMgr.getMappedPath( nDirType, sScriptPath, false );
+		
+		// Get the absolute path of the file to be shown/opened
+		sAbsolutePath = oContentMgr.getAbsolutePath( nDirType, sRelativePath, sPreferredBasePath );
+	// If the version is older than 4.8.1.51
+	} else {
+		// Define the preferred [mapped] base path; use the path of the current script
+		sPreferredBasePath = oContentMgr.getMappedPath( sScriptPath, true, false );
+		
+		// Get the absolute path of the file to be shown/opened
+		sAbsolutePath = oContentMgr.getAbsolutePath( sRelativePath, true, sPreferredBasePath );
+	}
+
+	// If the path is empty, look next to script
+	if( sAbsolutePath.isEmpty() ){
+		sAbsolutePath = g_oFilePath + "/" + sRelativePath;
+		var oFile = new DzFileInfo( sAbsolutePath );
+		if( !oFile.exists() ){
+			sAbsolutePath = "";
+		}
+	}
+	
+	// If the file was found
+	if( !sAbsolutePath.isEmpty() ){
+		// Prompt the operating system to perform its default handling of the given file type
+		App.showURL( String("file:///%1").arg( sAbsolutePath ) );
+	// If the file was not found
+	} else {
+		// Inform the user
+		MessageBox.information(
+			text( "'%1' could not be found in a mapped content directory. " +
+				"Check the installation and try again.").arg( sRelativePath ),
+			text( "File Not Found" ), text( "&OK" ) );
+	}
+	
+// Finalize the function and invoke
+})( "Genesis 9 Scripts Documentation.pdf" );

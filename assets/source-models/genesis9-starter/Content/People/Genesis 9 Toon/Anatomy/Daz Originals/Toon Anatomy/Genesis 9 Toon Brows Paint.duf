@@ -1,0 +1,1114 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%209%20Toon/Anatomy/Daz%20Originals/Toon%20Anatomy/Genesis%209%20Toon%20Brows%20Paint.duf",
+		"type" : "wearable",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-10-04T15:56:23Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Brow Offset",
+			"name" : "Brow Offset",
+			"parent" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#Genesis9ToonBrowsPaint",
+			"extra" : [
+				{
+					"type" : "studio/modifier/push",
+					"push_post_smooth" : false
+				},
+				{
+					"type" : "studio_modifier_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Value",
+								"type" : "float",
+								"label" : "Brow Offset",
+								"value" : 0.15,
+								"current_value" : 0.15,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/General/Mesh Offset"
+						}
+					]
+				}
+			]
+		}
+	],
+	"image_library" : [
+		{
+			"id" : "G9ToonBrow_06.png-1",
+			"name" : "G9ToonBrow_06.png",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Brows%20Painted/G9ToonBrow_06.png",
+					"label" : "G9ToonBrow_06.png"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis9ToonBrowsPaint",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#Genesis9ToonBrowsPaint",
+				"name" : "Genesis9ToonBrowsPaint",
+				"label" : "Genesis 9 Toon Brows Paint",
+				"parent" : "name://@selection:",
+				"geometries" : [
+					{
+						"id" : "Genesis9ToonBrowsPaint-1",
+						"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#Genesis9ToonBrowsPaint-1",
+						"name" : "Genesis9ToonBrowsPaint",
+						"label" : "shape",
+						"type" : "subdivision_surface",
+						"current_subdivision_level" : 1,
+						"edge_interpolation_mode" : "edges_only",
+						"subd_normal_smoothing_mode" : "smooth_all_normals",
+						"extra" : [
+							{
+								"type" : "studio_geometry_channels",
+								"channels" : [
+									{
+										"channel" : {
+											"id" : "SubDRenderLevel",
+											"type" : "int",
+											"current_value" : 0
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"conform_target" : "name://@selection:",
+				"preview" : {
+					"type" : "figure",
+					"oriented_box" : {
+						"min" : [ -13.521, 94.965, -5.032 ],
+						"max" : [ 13.521, 176.095, 9.816 ]
+					},
+					"center_point" : [ 0, 0, 0 ],
+					"end_point" : [ 0, 103.876, 0 ],
+					"rotation_order" : "YXZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "hip",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#hip",
+				"name" : "hip",
+				"label" : "Hip",
+				"parent" : "#Genesis9ToonBrowsPaint",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 97.04224, 0.2772734 ],
+					"end_point" : [ 0, 81.09516, 0.02737446 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "pelvis",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#pelvis",
+				"name" : "pelvis",
+				"label" : "Pelvis",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 98.67117, -0.2791472 ],
+					"end_point" : [ 0, 80.04765, -0.2800249 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine1",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#spine1",
+				"name" : "spine1",
+				"label" : "Spine 1",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 98.73624, -0.7953972 ],
+					"end_point" : [ 0, 105.8161, -0.8404557 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine2",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#spine2",
+				"name" : "spine2",
+				"label" : "Spine 2",
+				"parent" : "#spine1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 105.8759, -1.113664 ],
+					"end_point" : [ 0, 112.3415, -1.195155 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine3",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#spine3",
+				"name" : "spine3",
+				"label" : "Spine 3",
+				"parent" : "#spine2",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 112.6649, -2.180527 ],
+					"end_point" : [ 0, 124.7639, -2.624619 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine4",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#spine4",
+				"name" : "spine4",
+				"label" : "Spine 4",
+				"parent" : "#spine3",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 124.7037, -3.714684 ],
+					"end_point" : [ 0, 137.8894, -3.61022 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_shoulder",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_shoulder",
+				"name" : "l_shoulder",
+				"label" : "Left Shoulder",
+				"parent" : "#spine4",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 3.360759, 133.2193, -3.867896 ],
+					"end_point" : [ 13.33615, 135.0178, -4.564863 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_shoulder",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_shoulder",
+				"name" : "r_shoulder",
+				"label" : "Right Shoulder",
+				"parent" : "#spine4",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -3.363083, 133.2199, -3.867264 ],
+					"end_point" : [ -13.33717, 135.0194, -4.564727 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neck1",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#neck1",
+				"name" : "neck1",
+				"label" : "Neck 1",
+				"parent" : "#spine4",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 138.4378, -3.0818 ],
+					"end_point" : [ 0, 144.8269, -1.822019 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neck2",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#neck2",
+				"name" : "neck2",
+				"label" : "Neck 2",
+				"parent" : "#neck1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 144.8512, -0.6455941 ],
+					"end_point" : [ 0, 151.5549, -0.3267834 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "head",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#head",
+				"name" : "head",
+				"label" : "Head",
+				"parent" : "#neck2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -9.58, 5.145, 4.443 ],
+						"max" : [ 9.579, 12.504, 11.146 ]
+					},
+					"center_point" : [ 0, 151.145, -0.8144608 ],
+					"end_point" : [ 0, 154.425, -0.8479572 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "upperteeth",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#upperteeth",
+				"name" : "upperteeth",
+				"label" : "Upper Teeth",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 149.976, 6.08751 ],
+					"end_point" : [ 0, 150.0626, 7.100144 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lowerjaw",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#lowerjaw",
+				"name" : "lowerjaw",
+				"label" : "Lower Jaw",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 151.9779, 1.487694 ],
+					"end_point" : [ 0, 148.6515, 7.663978 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "upperfacerig",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#upperfacerig",
+				"name" : "upperfacerig",
+				"label" : "Upper Face Rig",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 151.145, -0.8144608 ],
+					"end_point" : [ 0, 154.425, -0.8479572 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_browinner",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_browinner",
+				"name" : "l_browinner",
+				"label" : "Left Brow Inner",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 3.107545, 159.819, 9.276444 ],
+					"end_point" : [ 3.124823, 159.7612, 10.17567 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_browouter",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_browouter",
+				"name" : "l_browouter",
+				"label" : "Left Brow Outer",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 6.496352, 159.7963, 7.943681 ],
+					"end_point" : [ 6.532217, 159.6992, 8.998503 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_browinner",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_browinner",
+				"name" : "r_browinner",
+				"label" : "Right Brow Inner",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -3.107688, 159.8187, 9.276509 ],
+					"end_point" : [ -3.124788, 159.7623, 10.17602 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_browouter",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_browouter",
+				"name" : "r_browouter",
+				"label" : "Right Brow Outer",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -6.49628, 159.7974, 7.943826 ],
+					"end_point" : [ -6.532967, 159.6986, 8.998447 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "centerbrow",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#centerbrow",
+				"name" : "centerbrow",
+				"label" : "Center Brow",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 159.476, 10.23646 ],
+					"end_point" : [ 0, 159.3076, 11.04835 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_eyelidupper",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_eyelidupper",
+				"name" : "l_eyelidupper",
+				"label" : "Left Eyelid Upper",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.804212, 156.6503, 5.725736 ],
+					"end_point" : [ 4.92039, 157.0648, 7.015526 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_eyelidlower",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_eyelidlower",
+				"name" : "l_eyelidlower",
+				"label" : "Left Eyelid Lower",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.80381, 156.6158, 5.725714 ],
+					"end_point" : [ 4.933699, 156.0326, 6.900839 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_eyelidupper",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_eyelidupper",
+				"name" : "r_eyelidupper",
+				"label" : "Right Eyelid Upper",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.804106, 156.6494, 5.725695 ],
+					"end_point" : [ -4.920424, 157.0656, 7.015608 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_eyelidlower",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_eyelidlower",
+				"name" : "r_eyelidlower",
+				"label" : "Right Eyelid Lower",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.803769, 156.615, 5.725784 ],
+					"end_point" : [ -4.933699, 156.0311, 6.900836 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_squint",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_squint",
+				"name" : "l_squint",
+				"label" : "Left Squint",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 3.692097, 154.6238, 7.760644 ],
+					"end_point" : [ 3.645112, 154.6157, 8.933331 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_squint",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_squint",
+				"name" : "r_squint",
+				"label" : "Right Squint",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -3.692176, 154.6242, 7.760658 ],
+					"end_point" : [ -3.644907, 154.6166, 8.933208 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_cheek",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_cheek",
+				"name" : "l_cheek",
+				"label" : "Left Cheek",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 6.446023, 153.1442, 7.066991 ],
+					"end_point" : [ 6.531008, 152.9942, 8.034546 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_cheek",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_cheek",
+				"name" : "r_cheek",
+				"label" : "Right Cheek",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -6.446057, 153.1447, 7.06698 ],
+					"end_point" : [ -6.531617, 152.9932, 8.034439 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_nostril",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_nostril",
+				"name" : "l_nostril",
+				"label" : "Left Nostril",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0.7819424, 151.5301, 10.58822 ],
+					"end_point" : [ 0.6488099, 152.0982, 11.28276 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_nostril",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_nostril",
+				"name" : "r_nostril",
+				"label" : "Right Nostril",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -0.7819645, 151.5298, 10.58817 ],
+					"end_point" : [ -0.6488093, 152.099, 11.28283 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lipuppermiddle",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#lipuppermiddle",
+				"name" : "lipuppermiddle",
+				"label" : "Lip Upper Middle",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 149.7847, 9.424577 ],
+					"end_point" : [ 0, 149.6124, 10.47793 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_lipupper",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_lipupper",
+				"name" : "l_lipupper",
+				"label" : "Left Lip Upper",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 1.349126, 149.6201, 8.78932 ],
+					"end_point" : [ 1.192089, 149.4819, 9.642234 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_lipupper",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_lipupper",
+				"name" : "r_lipupper",
+				"label" : "Right Lip Upper",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -1.349142, 149.6198, 8.789268 ],
+					"end_point" : [ -1.192087, 149.4813, 9.642191 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_infraorbital",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_infraorbital",
+				"name" : "l_infraorbital",
+				"label" : "Left Infraorbital",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 2.838346, 153.7931, 7.255153 ],
+					"end_point" : [ 2.747575, 153.4615, 8.393809 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_infraorbital",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_infraorbital",
+				"name" : "r_infraorbital",
+				"label" : "Right Infraorbital",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -2.837896, 153.7936, 7.255291 ],
+					"end_point" : [ -2.747312, 153.4616, 8.393828 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_eye",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_eye",
+				"name" : "l_eye",
+				"label" : "Left Eye",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.803833, 156.6329, 5.725807 ],
+					"end_point" : [ 4.803113, 156.6322, 7.032733 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_eye",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_eye",
+				"name" : "r_eye",
+				"label" : "Right Eye",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.803925, 156.632, 5.725696 ],
+					"end_point" : [ -4.803178, 156.632, 7.032758 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ear",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_ear",
+				"name" : "l_ear",
+				"label" : "Left Ear",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 8.221359, 154.7276, -0.3007646 ],
+					"end_point" : [ 10.45792, 154.4844, -2.71842 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ear",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_ear",
+				"name" : "r_ear",
+				"label" : "Right Ear",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -8.221293, 154.7275, -0.3006175 ],
+					"end_point" : [ -10.458, 154.4847, -2.718417 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pectoral",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#l_pectoral",
+				"name" : "l_pectoral",
+				"label" : "Left Pectoral",
+				"parent" : "#spine3",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.50922, 123.478, -0.3783704 ],
+					"end_point" : [ 7.721224, 125.2304, 6.206356 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pectoral",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#r_pectoral",
+				"name" : "r_pectoral",
+				"label" : "Right Pectoral",
+				"parent" : "#spine3",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.504757, 123.4706, -0.3783304 ],
+					"end_point" : [ -7.721253, 125.2303, 6.206294 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			}
+		],
+		"modifiers" : [
+			{
+				"id" : "SkinBinding",
+				"url" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/Genesis9ToonBrowsPaint.dsf#SkinBinding",
+				"parent" : "#Genesis9ToonBrowsPaint-1",
+				"extra" : [
+					{
+						"type" : "skin_settings",
+						"auto_normalize_general" : true,
+						"auto_normalize_local" : true,
+						"auto_normalize_scale" : true,
+						"binding_mode" : "General",
+						"general_map_mode" : "DualQuat",
+						"scale_mode" : "BindingMaps"
+					}
+				]
+			},
+			{
+				"id" : "Brow Offset-1",
+				"url" : "#Brow%20Offset",
+				"parent" : "#Genesis9ToonBrowsPaint",
+				"extra" : [
+					{
+						"type" : "studio/modifier/push"
+					}
+				]
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Brow",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#Genesis9ToonBrowsPaint-1",
+				"groups" : [ "Brow" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 0, 0, 0 ],
+						"image" : null
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Brows%20Paint/UV%20Sets/Daz%203D/Base/default.dsf#default-0xa3cb75f",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.5333333, 0.5333333, 0.5333333 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow Threshold",
+									"type" : "float",
+									"current_value" : -1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Brows%20Painted/G9ToonBrow_06.png"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "PBR Masked Threshold",
+									"type" : "float",
+									"current_value" : 1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cast Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

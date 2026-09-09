@@ -1,0 +1,4708 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%209%20Toon/Genesis%209%20Base%20Anime%20Feminine.duf",
+		"type" : "character",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-09-09T20:12:18Z"
+	},
+	"image_library" : [
+		{
+			"id" : "AnimeBase9_Nails_D_1005.jpg-1",
+			"name" : "AnimeBase9_Nails_D_1005.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Nails_D_1005.jpg",
+					"label" : "AnimeBase9_Nails_D_1005.jpg"
+				}
+			]
+		},
+		{
+			"id" : "AnimeBase9_Legs_D_1003.png",
+			"name" : "AnimeBase9_Legs_D_1003.png",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Legs_D_1003.png",
+					"label" : "AnimeBase9_Legs_D_1003.png"
+				}
+			]
+		},
+		{
+			"id" : "AnimeBase9_Arms_D_1004.png",
+			"name" : "AnimeBase9_Arms_D_1004.png",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Arms_D_1004.png",
+					"label" : "AnimeBase9_Arms_D_1004.png"
+				}
+			]
+		},
+		{
+			"id" : "AnimeBase9_Head_D_1001 35",
+			"name" : "AnimeBase9_Head_D_1001 35",
+			"map_size" : [ 4096, 4096 ],
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Head_D_1001.png",
+					"label" : "AnimeHead",
+					"active" : true,
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "blend_source_over"
+				},
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Blush01_D_1001.png",
+					"label" : "Blush",
+					"active" : true,
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 0.5,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "blend_source_over"
+				},
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Cheeks_D_1001.png",
+					"label" : "Cheeks",
+					"active" : true,
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "blend_source_over"
+				},
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Lips_D_1001.png",
+					"label" : "Lips",
+					"active" : true,
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "blend_source_over"
+				},
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Nose01_D_1001.png",
+					"label" : "Nose",
+					"active" : true,
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 0.4,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "blend_source_over"
+				},
+				{
+					"label" : "Eyelids Detail",
+					"active" : true,
+					"color" : [ 0.6627451, 0.4392157, 0.3960784 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "blend_source_over",
+					"mask" : {
+						"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Eyelids01_CM_1001.jpg",
+						"label" : "Mask",
+						"active" : true,
+						"color" : [ 1, 1, 1 ],
+						"transparency" : 1,
+						"invert" : false,
+						"rotation" : 0,
+						"xmirror" : false,
+						"ymirror" : false,
+						"xscale" : 1,
+						"yscale" : 1,
+						"xoffset" : 0,
+						"yoffset" : 0
+					}
+				}
+			]
+		},
+		{
+			"id" : "AnimeBase9_Body_D_1002 40",
+			"name" : "AnimeBase9_Body_D_1002 40",
+			"map_size" : [ 4096, 4096 ],
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_BodyF_D_1002.png",
+					"label" : "AnimeBody",
+					"active" : true,
+					"color" : [ 0, 0, 0 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "blend_source_over"
+				},
+				{
+					"label" : "Navel Detail",
+					"active" : true,
+					"color" : [ 0.8039216, 0.6509804, 0.6039216 ],
+					"transparency" : 1,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "blend_source_over",
+					"mask" : {
+						"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Navel01_CM_1002.jpg",
+						"label" : "Mask",
+						"active" : true,
+						"color" : [ 0, 0, 0 ],
+						"transparency" : 1,
+						"invert" : false,
+						"rotation" : 0,
+						"xmirror" : false,
+						"ymirror" : false,
+						"xscale" : 1,
+						"yscale" : 1,
+						"xoffset" : 0,
+						"yoffset" : 0
+					}
+				},
+				{
+					"label" : "Areolas",
+					"active" : true,
+					"color" : [ 1, 0, 0 ],
+					"transparency" : 0.35,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "blend_source_over",
+					"mask" : {
+						"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Nipples/AnimeBase9_NipplesF01_WM_1002.png",
+						"label" : "Mask",
+						"active" : true,
+						"color" : [ 1, 1, 1 ],
+						"transparency" : 1,
+						"invert" : false,
+						"rotation" : 0,
+						"xmirror" : false,
+						"ymirror" : false,
+						"xscale" : 1,
+						"yscale" : 1,
+						"xoffset" : 0,
+						"yoffset" : 0
+					}
+				},
+				{
+					"label" : "Nipples",
+					"active" : true,
+					"color" : [ 0.7058824, 0.3098039, 0.1803922 ],
+					"transparency" : 0.2,
+					"invert" : false,
+					"rotation" : 0,
+					"xmirror" : false,
+					"ymirror" : false,
+					"xscale" : 1,
+					"yscale" : 1,
+					"xoffset" : 0,
+					"yoffset" : 0,
+					"operation" : "blend_source_over",
+					"mask" : {
+						"url" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Nipples/AnimeBase9_NipplesFTip01_WM_1002.png",
+						"label" : "Mask",
+						"active" : true,
+						"color" : [ 1, 1, 1 ],
+						"transparency" : 1,
+						"invert" : false,
+						"rotation" : 0,
+						"xmirror" : false,
+						"ymirror" : false,
+						"xscale" : 1,
+						"yscale" : 1,
+						"xoffset" : 0,
+						"yoffset" : 0
+					}
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis9",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#Genesis9",
+				"name" : "Genesis9",
+				"label" : "Base Anime Feminine",
+				"geometries" : [
+					{
+						"id" : "Genesis9-1",
+						"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#Genesis9-1",
+						"name" : "Genesis9",
+						"label" : "shape",
+						"type" : "subdivision_surface",
+						"current_subdivision_level" : 2,
+						"edge_interpolation_mode" : "edges_only",
+						"subd_normal_smoothing_mode" : "smooth_all_normals",
+						"extra" : [
+							{
+								"type" : "studio_geometry_channels",
+								"channels" : [
+									{
+										"channel" : {
+											"id" : "SubDIALevel",
+											"type" : "int",
+											"value" : 2,
+											"current_value" : 2
+										}
+									},
+									{
+										"channel" : {
+											"id" : "SubDRenderLevel",
+											"type" : "int",
+											"current_value" : 2
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"preview" : {
+					"type" : "figure",
+					"oriented_box" : {
+						"min" : [ -59.133, -0.292, -11.552 ],
+						"max" : [ 59.134, 182.972, 13.538 ]
+					},
+					"center_point" : [ 0, 0, 0 ],
+					"end_point" : [ 0, 103.876, 0 ],
+					"rotation_order" : "YXZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "hip",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#hip",
+				"name" : "hip",
+				"label" : "Hip",
+				"parent" : "#Genesis9",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 97.99328, 0.6817889 ],
+					"end_point" : [ 0, 84.01721, -0.7392477 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "pelvis",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#pelvis",
+				"name" : "pelvis",
+				"label" : "Pelvis",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -16.739, -16.639, -11.746 ],
+						"max" : [ 16.74, 1.066, 8.175 ]
+					},
+					"center_point" : [ 0, 99.67149, 0.2305742 ],
+					"end_point" : [ 0, 83.13706, -1.23892 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_thigh",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_thigh",
+				"name" : "l_thigh",
+				"label" : "Left Thigh",
+				"parent" : "#pelvis",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -6.805, -49.857, -11.137 ],
+						"max" : [ 9.968, -1.185, 8.643 ]
+					},
+					"center_point" : [ 7.51344, 90.21498, -0.4040551 ],
+					"end_point" : [ 9.807085, 41.74277, -2.219886 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_shin",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_shin",
+				"name" : "l_shin",
+				"label" : "Left Shin",
+				"parent" : "#l_thigh",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.475, -51.855, -8.045 ],
+						"max" : [ 6.213, -0.084, 4.858 ]
+					},
+					"center_point" : [ 9.801178, 41.76673, -2.253375 ],
+					"end_point" : [ 10.67085, -9.874055, -4.724477 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_foot",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_foot",
+				"name" : "l_foot",
+				"label" : "Left Foot",
+				"parent" : "#l_shin",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -3.642, -6.184, -3.296 ],
+						"max" : [ 3.868, 2.755, 12.258 ]
+					},
+					"center_point" : [ 10.77564, -9.912056, -4.721657 ],
+					"end_point" : [ 13.78243, -14.21422, 6.132478 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_toes",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_toes",
+				"name" : "l_toes",
+				"label" : "Left Toes",
+				"parent" : "#l_foot",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.063, -1.521, -2.361 ],
+						"max" : [ 3.592, 2.252, 4.972 ]
+					},
+					"center_point" : [ 14.12645, -14.50658, 7.123602 ],
+					"end_point" : [ 15.53079, -14.57849, 11.23023 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_bigtoe1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_bigtoe1",
+				"name" : "l_bigtoe1",
+				"label" : "Left Big Toe 1",
+				"parent" : "#l_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 11.61589, -14.08543, 8.234285 ],
+					"end_point" : [ 12.39115, -14.58613, 10.41343 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_bigtoe2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_bigtoe2",
+				"name" : "l_bigtoe2",
+				"label" : "Left Big Toe 2",
+				"parent" : "#l_bigtoe1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 12.41626, -14.58219, 10.41213 ],
+					"end_point" : [ 13.0107, -14.93408, 12.17189 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_indextoe1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_indextoe1",
+				"name" : "l_indextoe1",
+				"label" : "Left Index Toe 1",
+				"parent" : "#l_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 13.56001, -13.85115, 8.086865 ],
+					"end_point" : [ 14.06647, -14.30131, 9.823888 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_indextoe2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_indextoe2",
+				"name" : "l_indextoe2",
+				"label" : "Left Index Toe 2",
+				"parent" : "#l_indextoe1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 14.07685, -14.2962, 9.816913 ],
+					"end_point" : [ 14.43638, -15.01293, 11.50805 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_midtoe1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_midtoe1",
+				"name" : "l_midtoe1",
+				"label" : "Left Mid Toe 1",
+				"parent" : "#l_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 14.76616, -13.93038, 7.812454 ],
+					"end_point" : [ 15.16126, -14.42961, 9.280635 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_midtoe2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_midtoe2",
+				"name" : "l_midtoe2",
+				"label" : "Left Mid Toe 2",
+				"parent" : "#l_midtoe1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 15.17174, -14.41843, 9.283826 ],
+					"end_point" : [ 15.51519, -15.26678, 10.75666 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ringtoe1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_ringtoe1",
+				"name" : "l_ringtoe1",
+				"label" : "Left Ring Toe 1",
+				"parent" : "#l_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 15.67279, -14.23377, 7.229101 ],
+					"end_point" : [ 16.07823, -14.67118, 8.481165 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ringtoe2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_ringtoe2",
+				"name" : "l_ringtoe2",
+				"label" : "Left Ring Toe 2",
+				"parent" : "#l_ringtoe1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 16.03838, -14.67162, 8.488297 ],
+					"end_point" : [ 16.33681, -15.3821, 9.686597 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pinkytoe1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_pinkytoe1",
+				"name" : "l_pinkytoe1",
+				"label" : "Left Pinky Toe 1",
+				"parent" : "#l_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 16.811, -14.46686, 6.497376 ],
+					"end_point" : [ 16.91459, -14.79843, 7.339889 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pinkytoe2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_pinkytoe2",
+				"name" : "l_pinkytoe2",
+				"label" : "Left Pinky Toe 2",
+				"parent" : "#l_pinkytoe1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 16.91892, -14.79865, 7.350852 ],
+					"end_point" : [ 16.97857, -15.29127, 8.200038 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_metatarsal",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_metatarsal",
+				"name" : "l_metatarsal",
+				"label" : "Left Metatarsal",
+				"parent" : "#l_foot",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 10.83655, -10.01851, -4.483107 ],
+					"end_point" : [ 13.3459, -12.63514, 1.707255 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_thightwist1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_thightwist1",
+				"name" : "l_thightwist1",
+				"label" : "Left Thigh Twist 1",
+				"parent" : "#l_thigh",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 8.551427, 75.78542, -1.12484 ],
+					"end_point" : [ 9.174904, 58.26583, -2.243878 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_thightwist2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_thightwist2",
+				"name" : "l_thightwist2",
+				"label" : "Left Thigh Twist 2",
+				"parent" : "#l_thigh",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 9.227817, 57.91883, -1.502775 ],
+					"end_point" : [ 9.760668, 42.26564, -3.028986 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_thigh",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_thigh",
+				"name" : "r_thigh",
+				"label" : "Right Thigh",
+				"parent" : "#pelvis",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -9.981, -49.853, -11.136 ],
+						"max" : [ 6.792, -1.181, 8.645 ]
+					},
+					"center_point" : [ -7.499892, 90.20992, -0.4047704 ],
+					"end_point" : [ -9.807756, 41.73936, -2.219759 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_shin",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_shin",
+				"name" : "r_shin",
+				"label" : "Right Shin",
+				"parent" : "#r_thigh",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -6.211, -51.851, -8.046 ],
+						"max" : [ 4.476, -0.079, 4.856 ]
+					},
+					"center_point" : [ -9.802053, 41.76256, -2.252603 ],
+					"end_point" : [ -10.6716, -9.872194, -4.723081 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_foot",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_foot",
+				"name" : "r_foot",
+				"label" : "Right Foot",
+				"parent" : "#r_shin",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -3.866, -6.175, -3.299 ],
+						"max" : [ 3.644, 2.763, 12.255 ]
+					},
+					"center_point" : [ -10.77693, -9.921667, -4.722162 ],
+					"end_point" : [ -13.7828, -14.21669, 6.134309 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_toes",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_toes",
+				"name" : "r_toes",
+				"label" : "Right Toes",
+				"parent" : "#r_foot",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -3.592, -1.523, -2.36 ],
+						"max" : [ 4.062, 2.25, 4.973 ]
+					},
+					"center_point" : [ -14.1252, -14.50507, 7.12336 ],
+					"end_point" : [ -15.52918, -14.58236, 11.23159 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_bigtoe1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_bigtoe1",
+				"name" : "r_bigtoe1",
+				"label" : "Right Big Toe 1",
+				"parent" : "#r_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -11.61516, -14.08683, 8.234371 ],
+					"end_point" : [ -12.39158, -14.58658, 10.41354 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_bigtoe2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_bigtoe2",
+				"name" : "r_bigtoe2",
+				"label" : "Right Big Toe 2",
+				"parent" : "#r_bigtoe1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -12.41653, -14.58339, 10.41272 ],
+					"end_point" : [ -13.01049, -14.93359, 12.17158 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_indextoe1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_indextoe1",
+				"name" : "r_indextoe1",
+				"label" : "Right Index Toe 1",
+				"parent" : "#r_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -13.56125, -13.84925, 8.086802 ],
+					"end_point" : [ -14.06458, -14.30011, 9.823029 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_indextoe2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_indextoe2",
+				"name" : "r_indextoe2",
+				"label" : "Right Index Toe 2",
+				"parent" : "#r_indextoe1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -14.0753, -14.29652, 9.816097 ],
+					"end_point" : [ -14.4341, -15.01198, 11.50606 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_midtoe1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_midtoe1",
+				"name" : "r_midtoe1",
+				"label" : "Right Mid Toe 1",
+				"parent" : "#r_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -14.76632, -13.93052, 7.812524 ],
+					"end_point" : [ -15.16047, -14.42905, 9.279578 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_midtoe2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_midtoe2",
+				"name" : "r_midtoe2",
+				"label" : "Right Mid Toe 2",
+				"parent" : "#r_midtoe1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -15.16983, -14.41807, 9.282824 ],
+					"end_point" : [ -15.51627, -15.26721, 10.75703 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ringtoe1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_ringtoe1",
+				"name" : "r_ringtoe1",
+				"label" : "Right Ring Toe 1",
+				"parent" : "#r_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -15.67366, -14.23517, 7.229248 ],
+					"end_point" : [ -16.07631, -14.67067, 8.48033 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ringtoe2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_ringtoe2",
+				"name" : "r_ringtoe2",
+				"label" : "Right Ring Toe 2",
+				"parent" : "#r_ringtoe1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -16.03686, -14.67233, 8.487758 ],
+					"end_point" : [ -16.33726, -15.38201, 9.686975 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pinkytoe1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_pinkytoe1",
+				"name" : "r_pinkytoe1",
+				"label" : "Right Pinky Toe 1",
+				"parent" : "#r_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -16.8092, -14.46509, 6.496588 ],
+					"end_point" : [ -16.91348, -14.79833, 7.339362 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pinkytoe2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_pinkytoe2",
+				"name" : "r_pinkytoe2",
+				"label" : "Right Pinky Toe 2",
+				"parent" : "#r_pinkytoe1",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -16.91769, -14.79822, 7.350518 ],
+					"end_point" : [ -16.97868, -15.291, 8.2001 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_metatarsal",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_metatarsal",
+				"name" : "r_metatarsal",
+				"label" : "Right Metatarsal",
+				"parent" : "#r_foot",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -10.83762, -10.01923, -4.483483 ],
+					"end_point" : [ -13.34514, -12.63477, 1.707207 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_thightwist1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_thightwist1",
+				"name" : "r_thightwist1",
+				"label" : "Right Thigh Twist 1",
+				"parent" : "#r_thigh",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -8.549901, 75.79713, -1.125511 ],
+					"end_point" : [ -9.175141, 58.26323, -2.243603 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_thightwist2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_thightwist2",
+				"name" : "r_thightwist2",
+				"label" : "Right Thigh Twist 2",
+				"parent" : "#r_thigh",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -9.225666, 57.91759, -1.50156 ],
+					"end_point" : [ -9.760686, 42.26522, -3.028886 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#spine1",
+				"name" : "spine1",
+				"label" : "Spine 1",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -13.259, -2.921, -8.076 ],
+						"max" : [ 13.26, 7.898, 8.905 ]
+					},
+					"center_point" : [ 0, 99.65435, -0.166601 ],
+					"end_point" : [ 0, 106.7333, 0.5671691 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#spine2",
+				"name" : "spine2",
+				"label" : "Spine 2",
+				"parent" : "#spine1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -10.509, -0.335, -5.647 ],
+						"max" : [ 10.51, 10.84, 9.498 ]
+					},
+					"center_point" : [ 0, 106.8104, 0.3482009 ],
+					"end_point" : [ 0, 113.3977, 0.7426971 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine3",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#spine3",
+				"name" : "spine3",
+				"label" : "Spine 3",
+				"parent" : "#spine2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -12.283, 1.477, -8.47 ],
+						"max" : [ 12.284, 14.054, 11.166 ]
+					},
+					"center_point" : [ 0, 113.8316, -0.04255047 ],
+					"end_point" : [ 0, 125.3659, -0.8487745 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine4",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#spine4",
+				"name" : "spine4",
+				"label" : "Spine 4",
+				"parent" : "#spine3",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -12.762, -1.836, -8.425 ],
+						"max" : [ 12.763, 15.475, 10.594 ]
+					},
+					"center_point" : [ 0, 125.3733, -1.815438 ],
+					"end_point" : [ 0, 137.5033, -3.115242 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_shoulder",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_shoulder",
+				"name" : "l_shoulder",
+				"label" : "Left Shoulder",
+				"parent" : "#spine4",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 7.774, -9.434, -5.679 ],
+						"max" : [ 19.124, 5.333, 4.776 ]
+					},
+					"center_point" : [ 2.938745, 133.1561, -2.963708 ],
+					"end_point" : [ 11.90447, 134.2262, -3.940728 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_upperarm",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_upperarm",
+				"name" : "l_upperarm",
+				"label" : "Left Upper Arm",
+				"parent" : "#l_shoulder",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 7.301, -3.179, -4.055 ],
+						"max" : [ 23.461, 5.006, 3.116 ]
+					},
+					"center_point" : [ 13.77192, 131.9253, -3.996379 ],
+					"end_point" : [ 32.08737, 114.266, -3.878585 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_forearm",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_forearm",
+				"name" : "l_forearm",
+				"label" : "Left Forearm",
+				"parent" : "#l_upperarm",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.84, -3.807, -3.439 ],
+						"max" : [ 22.106, 3.502, 3.105 ]
+					},
+					"center_point" : [ 30.83139, 115.6753, -3.905258 ],
+					"end_point" : [ 47.29088, 100.6278, 1.668298 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_hand",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_hand",
+				"name" : "l_hand",
+				"label" : "Left Hand",
+				"parent" : "#l_forearm",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.003, -2.497, -4.631 ],
+						"max" : [ 9.319, 1.977, 3.128 ]
+					},
+					"center_point" : [ 47.60143, 100.2874, 1.747706 ],
+					"end_point" : [ 53.74138, 94.35883, 3.576534 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_thumb1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_thumb1",
+				"name" : "l_thumb1",
+				"label" : "Left Thumb 1",
+				"parent" : "#l_hand",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.54, -1.658, -2.763 ],
+						"max" : [ 4.316, 1.857, 2.033 ]
+					},
+					"center_point" : [ 47.85395, 98.50327, 3.3501 ],
+					"end_point" : [ 48.73455, 96.20845, 6.539264 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_thumb2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_thumb2",
+				"name" : "l_thumb2",
+				"label" : "Left Thumb 2",
+				"parent" : "#l_thumb1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.371, -1.055, -1.284 ],
+						"max" : [ 2.816, 1.068, 0.986 ]
+					},
+					"center_point" : [ 48.72503, 96.23001, 6.557841 ],
+					"end_point" : [ 49.55337, 93.91385, 8.125099 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_thumb3",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_thumb3",
+				"name" : "l_thumb3",
+				"label" : "Left Thumb 3",
+				"parent" : "#l_thumb2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.375, -0.887, -0.978 ],
+						"max" : [ 2.795, 0.802, 0.659 ]
+					},
+					"center_point" : [ 49.5625, 93.90544, 8.130851 ],
+					"end_point" : [ 50.45959, 92.04322, 9.940869 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_indexmetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_indexmetacarpal",
+				"name" : "l_indexmetacarpal",
+				"label" : "Left Index Metacarpal",
+				"parent" : "#l_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 47.91457, 99.97578, 2.911642 ],
+					"end_point" : [ 52.36787, 94.68973, 4.686118 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_index1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_index1",
+				"name" : "l_index1",
+				"label" : "Left Index 1",
+				"parent" : "#l_indexmetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 1.142, -0.869, -0.76 ],
+						"max" : [ 4.07, 0.848, 0.849 ]
+					},
+					"center_point" : [ 52.36874, 94.68729, 4.75825 ],
+					"end_point" : [ 54.83076, 91.67408, 5.287013 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_index2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_index2",
+				"name" : "l_index2",
+				"label" : "Left Index 2",
+				"parent" : "#l_index1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.044, -0.696, -0.665 ],
+						"max" : [ 2.261, 0.703, 0.682 ]
+					},
+					"center_point" : [ 54.83076, 91.67408, 5.287013 ],
+					"end_point" : [ 56.09844, 89.9651, 5.489161 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_index3",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_index3",
+				"name" : "l_index3",
+				"label" : "Left Index 3",
+				"parent" : "#l_index2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.061, -0.61, -0.629 ],
+						"max" : [ 2.157, 0.531, 0.599 ]
+					},
+					"center_point" : [ 56.09844, 89.9651, 5.489161 ],
+					"end_point" : [ 57.44442, 88.27268, 5.666386 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_midmetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_midmetacarpal",
+				"name" : "l_midmetacarpal",
+				"label" : "Left Mid Metacarpal",
+				"parent" : "#l_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 48.12336, 99.83652, 2.123634 ],
+					"end_point" : [ 52.76409, 94.51478, 2.947231 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_mid1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_mid1",
+				"name" : "l_mid1",
+				"label" : "Left Mid 1",
+				"parent" : "#l_midmetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 1.116, -1.02, -0.787 ],
+						"max" : [ 4.664, 0.833, 0.886 ]
+					},
+					"center_point" : [ 52.79047, 94.5327, 2.885106 ],
+					"end_point" : [ 55.53896, 91.25812, 3.149734 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_mid2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_mid2",
+				"name" : "l_mid2",
+				"label" : "Left Mid 2",
+				"parent" : "#l_mid1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.283, -0.794, -0.682 ],
+						"max" : [ 2.926, 0.609, 0.714 ]
+					},
+					"center_point" : [ 55.66877, 91.34163, 3.148883 ],
+					"end_point" : [ 57.26567, 89.12351, 3.296425 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_mid3",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_mid3",
+				"name" : "l_mid3",
+				"label" : "Left Mid 3",
+				"parent" : "#l_mid2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.108, -0.666, -0.629 ],
+						"max" : [ 2.143, 0.451, 0.602 ]
+					},
+					"center_point" : [ 57.27068, 89.13502, 3.299648 ],
+					"end_point" : [ 58.7362, 87.53429, 3.384037 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ringmetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_ringmetacarpal",
+				"name" : "l_ringmetacarpal",
+				"label" : "Left Ring Metacarpal",
+				"parent" : "#l_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 48.21065, 99.81746, 1.220513 ],
+					"end_point" : [ 52.31647, 94.65417, 1.219429 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ring1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_ring1",
+				"name" : "l_ring1",
+				"label" : "Left Ring 1",
+				"parent" : "#l_ringmetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 1.316, -1.007, -0.847 ],
+						"max" : [ 4.358, 0.805, 0.717 ]
+					},
+					"center_point" : [ 52.43453, 94.79494, 1.217346 ],
+					"end_point" : [ 54.98264, 91.7182, 1.077696 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ring2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_ring2",
+				"name" : "l_ring2",
+				"label" : "Left Ring 2",
+				"parent" : "#l_ring1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.317, -0.733, -0.655 ],
+						"max" : [ 2.518, 0.621, 0.65 ]
+					},
+					"center_point" : [ 54.98264, 91.7182, 1.077696 ],
+					"end_point" : [ 56.35619, 89.94568, 1.007918 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ring3",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_ring3",
+				"name" : "l_ring3",
+				"label" : "Left Ring 3",
+				"parent" : "#l_ring2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.212, -0.653, -0.565 ],
+						"max" : [ 2.272, 0.455, 0.571 ]
+					},
+					"center_point" : [ 56.35619, 89.94568, 1.007918 ],
+					"end_point" : [ 57.7605, 88.29985, 0.9548758 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pinkymetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_pinkymetacarpal",
+				"name" : "l_pinkymetacarpal",
+				"label" : "Left Pinky Metacarpal",
+				"parent" : "#l_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 48.23875, 99.81021, 0.3699015 ],
+					"end_point" : [ 51.764, 94.78958, -0.4149176 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pinky1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_pinky1",
+				"name" : "l_pinky1",
+				"label" : "Left Pinky 1",
+				"parent" : "#l_pinkymetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.93, -0.709, -0.58 ],
+						"max" : [ 2.727, 0.657, 0.64 ]
+					},
+					"center_point" : [ 51.82186, 94.69011, -0.4851018 ],
+					"end_point" : [ 53.49866, 92.65501, -0.739951 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pinky2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_pinky2",
+				"name" : "l_pinky2",
+				"label" : "Left Pinky 2",
+				"parent" : "#l_pinky1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.018, -0.615, -0.538 ],
+						"max" : [ 1.856, 0.542, 0.554 ]
+					},
+					"center_point" : [ 53.49866, 92.65501, -0.739951 ],
+					"end_point" : [ 54.56564, 91.29047, -0.8997083 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pinky3",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_pinky3",
+				"name" : "l_pinky3",
+				"label" : "Left Pinky 3",
+				"parent" : "#l_pinky2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0.046, -0.518, -0.506 ],
+						"max" : [ 1.927, 0.406, 0.477 ]
+					},
+					"center_point" : [ 54.56686, 91.28941, -0.91881 ],
+					"end_point" : [ 55.79461, 89.89648, -1.107552 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_hand_anchor",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_hand_anchor",
+				"name" : "l_hand_anchor",
+				"label" : "Left Hand Anchor",
+				"parent" : "#l_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 49.85799, 94.02141, 2.085916 ],
+					"end_point" : [ 49.98487, 93.44942, 11.92054 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_forearmtwist1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_forearmtwist1",
+				"name" : "l_forearmtwist1",
+				"label" : "Left Forearm Twist 1",
+				"parent" : "#l_forearm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 34.91463, 112.1297, -2.551422 ],
+					"end_point" : [ 41.50883, 106.3798, 0.5598302 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_forearmtwist2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_forearmtwist2",
+				"name" : "l_forearmtwist2",
+				"label" : "Left Forearm Twist 2",
+				"parent" : "#l_forearm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 41.67831, 106.1282, -0.164466 ],
+					"end_point" : [ 47.52919, 100.2662, 1.721489 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_upperarmtwist1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_upperarmtwist1",
+				"name" : "l_upperarmtwist1",
+				"label" : "Left Upper Arm Twist 1",
+				"parent" : "#l_upperarm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 16.66527, 128.7266, -3.875965 ],
+					"end_point" : [ 23.32241, 122.7305, -3.741641 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_upperarmtwist2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_upperarmtwist2",
+				"name" : "l_upperarmtwist2",
+				"label" : "Left Upper Arm Twist 2",
+				"parent" : "#l_upperarm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 22.98071, 123.0243, -3.985272 ],
+					"end_point" : [ 30.62771, 115.8468, -3.605782 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_shoulder",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_shoulder",
+				"name" : "r_shoulder",
+				"label" : "Right Shoulder",
+				"parent" : "#spine4",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -19.121, -9.433, -5.68 ],
+						"max" : [ -7.771, 5.333, 4.775 ]
+					},
+					"center_point" : [ -2.940463, 133.1561, -2.962762 ],
+					"end_point" : [ -11.9059, 134.2278, -3.94037 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_upperarm",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_upperarm",
+				"name" : "r_upperarm",
+				"label" : "Right Upper Arm",
+				"parent" : "#r_shoulder",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -23.452, -3.174, -4.056 ],
+						"max" : [ -7.292, 5.011, 3.115 ]
+					},
+					"center_point" : [ -13.77344, 131.9165, -3.995298 ],
+					"end_point" : [ -32.08934, 114.2672, -3.878681 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_forearm",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_forearm",
+				"name" : "r_forearm",
+				"label" : "Right Forearm",
+				"parent" : "#r_upperarm",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -22.105, -3.807, -3.44 ],
+						"max" : [ 0.84, 3.501, 3.104 ]
+					},
+					"center_point" : [ -30.831, 115.676, -3.904283 ],
+					"end_point" : [ -47.28907, 100.6285, 1.668471 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_hand",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_hand",
+				"name" : "r_hand",
+				"label" : "Right Hand",
+				"parent" : "#r_forearm",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -9.321, -2.497, -4.632 ],
+						"max" : [ 2.001, 1.977, 3.127 ]
+					},
+					"center_point" : [ -47.59915, 100.2895, 1.747591 ],
+					"end_point" : [ -53.74142, 94.35889, 3.576539 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_thumb1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_thumb1",
+				"name" : "r_thumb1",
+				"label" : "Right Thumb 1",
+				"parent" : "#r_hand",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.315, -1.659, -2.581 ],
+						"max" : [ 0.541, 1.856, 2.033 ]
+					},
+					"center_point" : [ -47.85453, 98.50316, 3.349646 ],
+					"end_point" : [ -48.73396, 96.20839, 6.539089 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_thumb2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_thumb2",
+				"name" : "r_thumb2",
+				"label" : "Right Thumb 2",
+				"parent" : "#r_thumb1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.815, -1.056, -1.283 ],
+						"max" : [ 0.373, 1.067, 0.986 ]
+					},
+					"center_point" : [ -48.72556, 96.22968, 6.55769 ],
+					"end_point" : [ -49.55394, 93.91336, 8.125362 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_thumb3",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_thumb3",
+				"name" : "r_thumb3",
+				"label" : "Right Thumb 3",
+				"parent" : "#r_thumb2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.794, -0.887, -0.978 ],
+						"max" : [ 0.376, 0.802, 0.659 ]
+					},
+					"center_point" : [ -49.56222, 93.90607, 8.13091 ],
+					"end_point" : [ -50.45955, 92.0433, 9.940861 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_indexmetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_indexmetacarpal",
+				"name" : "r_indexmetacarpal",
+				"label" : "Right Index Metacarpal",
+				"parent" : "#r_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -47.91473, 99.97598, 2.91142 ],
+					"end_point" : [ -52.36694, 94.68983, 4.685889 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_index1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_index1",
+				"name" : "r_index1",
+				"label" : "Right Index 1",
+				"parent" : "#r_indexmetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.069, -0.868, -0.76 ],
+						"max" : [ -1.141, 0.848, 0.848 ]
+					},
+					"center_point" : [ -52.36805, 94.6873, 4.758264 ],
+					"end_point" : [ -54.83064, 91.67384, 5.286983 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_index2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_index2",
+				"name" : "r_index2",
+				"label" : "Right Index 2",
+				"parent" : "#r_index1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.26, -0.696, -0.665 ],
+						"max" : [ -0.043, 0.703, 0.682 ]
+					},
+					"center_point" : [ -54.83064, 91.67384, 5.286983 ],
+					"end_point" : [ -56.09827, 89.96528, 5.489024 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_index3",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_index3",
+				"name" : "r_index3",
+				"label" : "Right Index 3",
+				"parent" : "#r_index2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.157, -0.61, -0.629 ],
+						"max" : [ -0.06, 0.531, 0.599 ]
+					},
+					"center_point" : [ -56.09827, 89.96528, 5.489024 ],
+					"end_point" : [ -57.44432, 88.27243, 5.666387 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_midmetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_midmetacarpal",
+				"name" : "r_midmetacarpal",
+				"label" : "Right Mid Metacarpal",
+				"parent" : "#r_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -48.12368, 99.83748, 2.124084 ],
+					"end_point" : [ -52.76452, 94.51514, 2.946803 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_mid1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_mid1",
+				"name" : "r_mid1",
+				"label" : "Right Mid 1",
+				"parent" : "#r_midmetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.663, -1.021, -0.787 ],
+						"max" : [ -1.116, 0.833, 0.885 ]
+					},
+					"center_point" : [ -52.79016, 94.53353, 2.885283 ],
+					"end_point" : [ -55.53847, 91.2581, 3.149565 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_mid2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_mid2",
+				"name" : "r_mid2",
+				"label" : "Right Mid 2",
+				"parent" : "#r_mid1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.926, -0.794, -0.682 ],
+						"max" : [ -0.283, 0.61, 0.714 ]
+					},
+					"center_point" : [ -55.66832, 91.34197, 3.148744 ],
+					"end_point" : [ -57.26602, 89.12393, 3.296417 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_mid3",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_mid3",
+				"name" : "r_mid3",
+				"label" : "Right Mid 3",
+				"parent" : "#r_mid2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.142, -0.666, -0.629 ],
+						"max" : [ -0.108, 0.451, 0.601 ]
+					},
+					"center_point" : [ -57.27084, 89.13541, 3.299872 ],
+					"end_point" : [ -58.7363, 87.53448, 3.384046 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ringmetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_ringmetacarpal",
+				"name" : "r_ringmetacarpal",
+				"label" : "Right Ring Metacarpal",
+				"parent" : "#r_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -48.21203, 99.81832, 1.220216 ],
+					"end_point" : [ -52.31792, 94.65431, 1.219852 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ring1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_ring1",
+				"name" : "r_ring1",
+				"label" : "Right Ring 1",
+				"parent" : "#r_ringmetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.357, -1.007, -0.847 ],
+						"max" : [ -1.316, 0.805, 0.878 ]
+					},
+					"center_point" : [ -52.4342, 94.79562, 1.217388 ],
+					"end_point" : [ -54.98185, 91.71784, 1.077772 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ring2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_ring2",
+				"name" : "r_ring2",
+				"label" : "Right Ring 2",
+				"parent" : "#r_ring1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.517, -0.733, -0.656 ],
+						"max" : [ -0.317, 0.622, 0.649 ]
+					},
+					"center_point" : [ -54.98185, 91.71784, 1.077772 ],
+					"end_point" : [ -56.356, 89.94508, 1.007957 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ring3",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_ring3",
+				"name" : "r_ring3",
+				"label" : "Right Ring 3",
+				"parent" : "#r_ring2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.271, -0.652, -0.565 ],
+						"max" : [ -0.21, 0.455, 0.571 ]
+					},
+					"center_point" : [ -56.356, 89.94508, 1.007957 ],
+					"end_point" : [ -57.76075, 88.29993, 0.9548804 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pinkymetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_pinkymetacarpal",
+				"name" : "r_pinkymetacarpal",
+				"label" : "Right Pinky Metacarpal",
+				"parent" : "#r_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -48.2392, 99.80975, 0.3697183 ],
+					"end_point" : [ -51.76445, 94.78859, -0.4149257 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pinky1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_pinky1",
+				"name" : "r_pinky1",
+				"label" : "Right Pinky 1",
+				"parent" : "#r_pinkymetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.726, -0.709, -0.58 ],
+						"max" : [ -0.929, 0.658, 0.64 ]
+					},
+					"center_point" : [ -51.82104, 94.68981, -0.4850258 ],
+					"end_point" : [ -53.49826, 92.65456, -0.7398912 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pinky2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_pinky2",
+				"name" : "r_pinky2",
+				"label" : "Right Pinky 2",
+				"parent" : "#r_pinky1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.855, -0.615, -0.538 ],
+						"max" : [ -0.017, 0.543, 0.554 ]
+					},
+					"center_point" : [ -53.49826, 92.65456, -0.7398912 ],
+					"end_point" : [ -54.5664, 91.2905, -0.8997624 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pinky3",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_pinky3",
+				"name" : "r_pinky3",
+				"label" : "Right Pinky 3",
+				"parent" : "#r_pinky2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.926, -0.518, -0.506 ],
+						"max" : [ -0.045, 0.405, 0.477 ]
+					},
+					"center_point" : [ -54.56706, 91.28923, -0.9188461 ],
+					"end_point" : [ -55.79462, 89.89661, -1.107533 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_hand_anchor",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_hand_anchor",
+				"name" : "r_hand_anchor",
+				"label" : "Right Hand Anchor",
+				"parent" : "#r_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -49.85916, 94.02222, 2.085778 ],
+					"end_point" : [ -50.03806, 93.4192, 12.0528 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_forearmtwist1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_forearmtwist1",
+				"name" : "r_forearmtwist1",
+				"label" : "Right Forearm Twist 1",
+				"parent" : "#r_forearm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -34.91548, 112.1307, -2.551082 ],
+					"end_point" : [ -41.50728, 106.3776, 0.5599506 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_forearmtwist2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_forearmtwist2",
+				"name" : "r_forearmtwist2",
+				"label" : "Right Forearm Twist 2",
+				"parent" : "#r_forearm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -41.67747, 106.1278, -0.1650091 ],
+					"end_point" : [ -47.52802, 100.2687, 1.721269 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_upperarmtwist1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_upperarmtwist1",
+				"name" : "r_upperarmtwist1",
+				"label" : "Right Upper Arm Twist 1",
+				"parent" : "#r_upperarm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -16.66993, 128.7322, -3.877204 ],
+					"end_point" : [ -23.32261, 122.7315, -3.741822 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_upperarmtwist2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_upperarmtwist2",
+				"name" : "r_upperarmtwist2",
+				"label" : "Right Upper Arm Twist 2",
+				"parent" : "#r_upperarm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -22.98369, 123.0225, -3.985076 ],
+					"end_point" : [ -30.62562, 115.85, -3.606527 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neck1",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#neck1",
+				"name" : "neck1",
+				"label" : "Neck 1",
+				"parent" : "#spine4",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -5.234, 0.213, -4.523 ],
+						"max" : [ 5.235, 6.137, 4.099 ]
+					},
+					"center_point" : [ 0, 138.0611, -2.725469 ],
+					"end_point" : [ 0, 143.803, -1.781565 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neck2",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#neck2",
+				"name" : "neck2",
+				"label" : "Neck 2",
+				"parent" : "#neck1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -5.671, -1.797, -5.698 ],
+						"max" : [ 5.672, 5.498, 3.537 ]
+					},
+					"center_point" : [ 0, 144.1801, -1.032837 ],
+					"end_point" : [ 0, 150.5824, -0.346642 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "head",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#head",
+				"name" : "head",
+				"label" : "Head",
+				"parent" : "#neck2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -11.187, -6.066, -10.185 ],
+						"max" : [ 11.188, 20.214, 13.001 ]
+					},
+					"center_point" : [ 0, 150.137, -0.8144767 ],
+					"end_point" : [ 0, 153.4165, -0.8475124 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "upperteeth",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#upperteeth",
+				"name" : "upperteeth",
+				"label" : "Upper Teeth",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.101, -0.101, 0 ],
+						"max" : [ 0.102, 0.102, 1.016 ]
+					},
+					"center_point" : [ 0, 148.9689, 6.08767 ],
+					"end_point" : [ 0, 149.0541, 7.100151 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lowerjaw",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#lowerjaw",
+				"name" : "lowerjaw",
+				"label" : "Lower Jaw",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.701, -0.701, 0 ],
+						"max" : [ 0.702, 0.702, 7.015 ]
+					},
+					"center_point" : [ 0, 150.97, 1.487624 ],
+					"end_point" : [ 0, 147.6434, 7.664039 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lowerteeth",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#lowerteeth",
+				"name" : "lowerteeth",
+				"label" : "Lower Teeth",
+				"parent" : "#lowerjaw",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 147.7895, 5.968963 ],
+					"end_point" : [ 0, 147.6471, 7.089978 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lowerfacerig",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#lowerfacerig",
+				"name" : "lowerfacerig",
+				"label" : "Lower Face Rig",
+				"parent" : "#lowerjaw",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 151.5246, 0.8792018 ],
+					"end_point" : [ 0, 147.4473, 7.590424 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_lipcorner",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_lipcorner",
+				"name" : "l_lipcorner",
+				"label" : "Left Lip Corner",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 3.009747, 148.4, 7.715616 ],
+					"end_point" : [ 2.772736, 148.1973, 8.741499 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_liplower",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_liplower",
+				"name" : "l_liplower",
+				"label" : "Left Lip Lower",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 1.356615, 147.8631, 8.456224 ],
+					"end_point" : [ 1.152212, 147.7894, 9.208345 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "liplowermiddle",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#liplowermiddle",
+				"name" : "liplowermiddle",
+				"label" : "Lip Lower Middle",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 147.462, 8.928464 ],
+					"end_point" : [ 0, 147.3743, 9.796046 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_liplower",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_liplower",
+				"name" : "r_liplower",
+				"label" : "Right Lip Lower",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -1.356683, 147.87, 8.456596 ],
+					"end_point" : [ -1.152215, 147.7895, 9.208356 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_lipcorner",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_lipcorner",
+				"name" : "r_lipcorner",
+				"label" : "Right Lip Corner",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -3.00966, 148.4006, 7.715678 ],
+					"end_point" : [ -2.772605, 148.1974, 8.74217 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_cheeklower",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_cheeklower",
+				"name" : "l_cheeklower",
+				"label" : "Left Cheek Lower",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.931475, 148.9968, 4.871262 ],
+					"end_point" : [ 5.073471, 148.8375, 5.953888 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_cheeklower",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_cheeklower",
+				"name" : "r_cheeklower",
+				"label" : "Right Cheek Lower",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.931514, 148.9973, 4.870966 ],
+					"end_point" : [ -5.073393, 148.8376, 5.95381 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "chin",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#chin",
+				"name" : "chin",
+				"label" : "Chin",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 145.2862, 7.452884 ],
+					"end_point" : [ 0, 144.9658, 8.557936 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "upperfacerig",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#upperfacerig",
+				"name" : "upperfacerig",
+				"label" : "Upper Face Rig",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 150.137, -0.8144767 ],
+					"end_point" : [ 0, 153.4165, -0.8475124 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_browinner",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_browinner",
+				"name" : "l_browinner",
+				"label" : "Left Brow Inner",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 3.10757, 158.811, 9.276433 ],
+					"end_point" : [ 3.124799, 158.7532, 10.1757 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_browouter",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_browouter",
+				"name" : "l_browouter",
+				"label" : "Left Brow Outer",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 6.496422, 158.7882, 7.943682 ],
+					"end_point" : [ 6.531709, 158.6908, 8.998304 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_browinner",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_browinner",
+				"name" : "r_browinner",
+				"label" : "Right Brow Inner",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -3.107717, 158.8107, 9.276505 ],
+					"end_point" : [ -3.124675, 158.7542, 10.17606 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_browouter",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_browouter",
+				"name" : "r_browouter",
+				"label" : "Right Brow Outer",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -6.496275, 158.7894, 7.943869 ],
+					"end_point" : [ -6.53292, 158.6905, 8.998312 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "centerbrow",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#centerbrow",
+				"name" : "centerbrow",
+				"label" : "Center Brow",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 158.4678, 10.23646 ],
+					"end_point" : [ 0, 158.2996, 11.04814 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_eyelidupper",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_eyelidupper",
+				"name" : "l_eyelidupper",
+				"label" : "Left Eyelid Upper",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.804226, 155.6422, 5.725722 ],
+					"end_point" : [ 4.920377, 156.0558, 7.015481 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_eyelidlower",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_eyelidlower",
+				"name" : "l_eyelidlower",
+				"label" : "Left Eyelid Lower",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.803833, 155.6077, 5.725687 ],
+					"end_point" : [ 4.933694, 155.0248, 6.900852 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_eyelidupper",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_eyelidupper",
+				"name" : "r_eyelidupper",
+				"label" : "Right Eyelid Upper",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.804058, 155.6413, 5.725655 ],
+					"end_point" : [ -4.92043, 156.0576, 7.015613 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_eyelidlower",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_eyelidlower",
+				"name" : "r_eyelidlower",
+				"label" : "Right Eyelid Lower",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.803767, 155.607, 5.725799 ],
+					"end_point" : [ -4.933695, 155.0231, 6.900848 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_squint",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_squint",
+				"name" : "l_squint",
+				"label" : "Left Squint",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 3.692082, 153.6159, 7.760665 ],
+					"end_point" : [ 3.645067, 153.6076, 8.933431 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_squint",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_squint",
+				"name" : "r_squint",
+				"label" : "Right Squint",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -3.692169, 153.6162, 7.760674 ],
+					"end_point" : [ -3.644949, 153.6089, 8.933299 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_cheek",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_cheek",
+				"name" : "l_cheek",
+				"label" : "Left Cheek",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 6.446038, 152.1365, 7.067 ],
+					"end_point" : [ 6.530883, 151.9863, 8.034519 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_cheek",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_cheek",
+				"name" : "r_cheek",
+				"label" : "Right Cheek",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -6.446059, 152.1368, 7.066976 ],
+					"end_point" : [ -6.53173, 151.9851, 8.034408 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_nostril",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_nostril",
+				"name" : "l_nostril",
+				"label" : "Left Nostril",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0.7819405, 150.5219, 10.58821 ],
+					"end_point" : [ 0.6488259, 151.0913, 11.28283 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_nostril",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_nostril",
+				"name" : "r_nostril",
+				"label" : "Right Nostril",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -0.7819654, 150.5217, 10.58816 ],
+					"end_point" : [ -0.6488129, 151.0912, 11.28284 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lipuppermiddle",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#lipuppermiddle",
+				"name" : "lipuppermiddle",
+				"label" : "Lip Upper Middle",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 148.7768, 9.424601 ],
+					"end_point" : [ 0, 148.6043, 10.47792 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_lipupper",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_lipupper",
+				"name" : "l_lipupper",
+				"label" : "Left Lip Upper",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 1.349128, 148.6123, 8.789334 ],
+					"end_point" : [ 1.19208, 148.4727, 9.642167 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_lipupper",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_lipupper",
+				"name" : "r_lipupper",
+				"label" : "Right Lip Upper",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -1.34915, 148.6119, 8.789262 ],
+					"end_point" : [ -1.192084, 148.4726, 9.642154 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_infraorbital",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_infraorbital",
+				"name" : "l_infraorbital",
+				"label" : "Left Infraorbital",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 2.838373, 152.785, 7.255184 ],
+					"end_point" : [ 2.747646, 152.4532, 8.393816 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_infraorbital",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_infraorbital",
+				"name" : "r_infraorbital",
+				"label" : "Right Infraorbital",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -2.83788, 152.7857, 7.25525 ],
+					"end_point" : [ -2.747323, 152.4535, 8.393857 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_eye",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_eye",
+				"name" : "l_eye",
+				"label" : "Left Eye",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.13, -0.13, 0 ],
+						"max" : [ 0.131, 0.131, 1.307 ]
+					},
+					"center_point" : [ 4.803841, 155.6249, 5.725834 ],
+					"end_point" : [ 4.803158, 155.6239, 7.032745 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_eye",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_eye",
+				"name" : "r_eye",
+				"label" : "Right Eye",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.13, -0.13, 0 ],
+						"max" : [ 0.131, 0.131, 1.307 ]
+					},
+					"center_point" : [ -4.803989, 155.624, 5.725657 ],
+					"end_point" : [ -4.803261, 155.624, 7.032785 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ear",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_ear",
+				"name" : "l_ear",
+				"label" : "Left Ear",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 8.221295, 153.7194, -0.3007188 ],
+					"end_point" : [ 10.45795, 153.4768, -2.718431 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ear",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_ear",
+				"name" : "r_ear",
+				"label" : "Right Ear",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -8.221283, 153.7194, -0.300621 ],
+					"end_point" : [ -10.45799, 153.4768, -2.718367 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pectoral",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#l_pectoral",
+				"name" : "l_pectoral",
+				"label" : "Left Pectoral",
+				"parent" : "#spine3",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.425, -5.905, 5.813 ],
+						"max" : [ 5.959, 3.208, 10.652 ]
+					},
+					"center_point" : [ 3.988931, 124.0046, 1.514641 ],
+					"end_point" : [ 7.645866, 126.0891, 10.10156 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pectoral",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#r_pectoral",
+				"name" : "r_pectoral",
+				"label" : "Right Pectoral",
+				"parent" : "#spine3",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -5.961, -5.895, 5.816 ],
+						"max" : [ 4.424, 3.218, 10.656 ]
+					},
+					"center_point" : [ -3.985748, 123.9942, 1.514037 ],
+					"end_point" : [ -7.645623, 126.0888, 10.10142 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			}
+		],
+		"modifiers" : [
+			{
+				"id" : "SkinBinding",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#SkinBinding",
+				"parent" : "#Genesis9"
+			},
+			{
+				"id" : "BaseAnimeF_figure_ctrl_Character",
+				"url" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base%20Anime%20F/BaseAnimeF_figure_ctrl_Character.dsf#BaseAnimeF_figure_ctrl_Character-0xa3b222a",
+				"parent" : "#Genesis9",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "BaseAnimeF_figure_ctrl_Character",
+					"value" : 1,
+					"current_value" : 1
+				}
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Fingernails",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#Genesis9-1",
+				"groups" : [ "Fingernails" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 0.9215686, 0.6, 0.5490196 ],
+						"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Nails_D_1005.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209/Base/UV%20Sets/Daz%203D/Base/Base%20Multi%20UDIM.dsf#Base%20Multi%20UDIM",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.9287904, 0.8221681, 0.7927927 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Custom LUT Map",
+									"type" : "image",
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Toenails",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#Genesis9-1",
+				"groups" : [ "Toenails" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 0.8784314, 0.7372549, 0.6392157 ],
+						"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Nails_D_1005.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209/Base/UV%20Sets/Daz%203D/Base/Base%20Multi%20UDIM.dsf#Base%20Multi%20UDIM",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.9287904, 0.8221681, 0.7927927 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Custom LUT Map",
+									"type" : "image",
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Legs",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#Genesis9-1",
+				"groups" : [ "Legs" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 0.8784314, 0.7372549, 0.6392157 ],
+						"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Legs_D_1003.png"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209/Base/UV%20Sets/Daz%203D/Base/Base%20Multi%20UDIM.dsf#Base%20Multi%20UDIM",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.9287904, 0.8221681, 0.7927927 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Custom LUT Map",
+									"type" : "image",
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Mouth Cavity",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#Genesis9-1",
+				"groups" : [ "Mouth Cavity" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 0.5607843, 0.1764706, 0.1764706 ],
+						"image" : null
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209/Base/UV%20Sets/Daz%203D/Base/Base%20Multi%20UDIM.dsf#Base%20Multi%20UDIM",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.9287904, 0.8221681, 0.7927927 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow Threshold",
+									"type" : "float",
+									"current_value" : -1
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cast Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Arms",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#Genesis9-1",
+				"groups" : [ "Arms" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 0.8784314, 0.7372549, 0.6392157 ],
+						"image_file" : "/Runtime/Textures/DAZ/Characters/Genesis9/Toon/Skin/AnimeBase9_Arms_D_1004.png"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209/Base/UV%20Sets/Daz%203D/Base/Base%20Multi%20UDIM.dsf#Base%20Multi%20UDIM",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.9287904, 0.8221681, 0.7927927 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Custom LUT Map",
+									"type" : "image",
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Head",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#Genesis9-1",
+				"groups" : [ "Head" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 0.8784314, 0.7372549, 0.6392157 ],
+						"image" : "#AnimeBase9_Head_D_1001%2035"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209/Base/UV%20Sets/Daz%203D/Base/Base%20Multi%20UDIM.dsf#Base%20Multi%20UDIM",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.9287904, 0.8221681, 0.7927927 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Custom LUT Map",
+									"type" : "image",
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Body",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#Genesis9-1",
+				"groups" : [ "Body" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 0.8784314, 0.7372549, 0.6392157 ],
+						"image" : "#AnimeBase9_Body_D_1002%2040"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209/Base/UV%20Sets/Daz%203D/Base/Base%20Multi%20UDIM.dsf#Base%20Multi%20UDIM",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.9287904, 0.8221681, 0.7927927 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Custom LUT Map",
+									"type" : "image",
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Receive Shadows",
+									"type" : "bool",
+									"current_value" : false
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"extra" : [
+			{
+				"type" : "scene_post_load_script",
+				"name" : "Genesis9PostLoad{945415f9-4f03-46a1-b1bd-4f813eb871b9}",
+				"script" : "/data/Daz 3D/Genesis 9/Base/Tools/Utilities/Character Addon Loader.dse",
+				"settings" : {
+					"PostLoadAddons" : {
+						"type" : "settings",
+						"value" : {
+							"Script/Utility" : {
+								"type" : "settings",
+								"value" : {
+									"AssetName" : "ToonSetup",
+									"AssetFile" : "data/Daz 3D/Genesis 9/Base/Tools/Script Loads/Daz Anime/Genesis 9 Toon Prep.duf"
+								}
+							},
+							"Follower/Attachment/Head/Face/Eyes/EyeSockets" : {
+								"type" : "settings",
+								"value" : {
+									"AssetName" : "G9ToonEyeSocket",
+									"AssetFile" : "data/Daz 3D/Genesis 9/Base/Tools/Script Loads/Daz Anime/Genesis 9 Toon Eye Socket.duf"
+								}
+							},
+							"Follower/Attachment/Head/Face/Eyelashes" : {
+								"type" : "settings",
+								"value" : {
+									"AssetName" : "G9ToonEyelashes",
+									"AssetFile" : "data/Daz 3D/Genesis 9/Base/Tools/Script Loads/Daz Anime/Genesis 9 Toon Eyelashes.duf"
+								}
+							},
+							"Follower/Attachment/Head/Face/Eyes/ShadowPlane" : {
+								"type" : "settings",
+								"value" : {
+									"AssetName" : "G9ToonShadowPlane",
+									"AssetFile" : "data/Daz 3D/Genesis 9/Base/Tools/Script Loads/Daz Anime/Genesis 9 Toon Shadow Plane.duf"
+								}
+							},
+							"Follower/Attachment/Head/Face/Eyes" : {
+								"type" : "settings",
+								"value" : {
+									"AssetName" : "G9ToonFloatingIris",
+									"AssetFile" : "data/Daz 3D/Genesis 9/Base/Tools/Script Loads/Daz Anime/Genesis 9 Toon Floating Iris.duf"
+								}
+							},
+							"Follower/Attachment/Head/Forehead/Eyebrows" : {
+								"type" : "settings",
+								"value" : {
+									"AssetName" : "Genesis9ToonBrowsPaint",
+									"AssetFile" : "data/Daz 3D/Genesis 9/Base/Tools/Script Loads/Daz Anime/Genesis 9 Toon Brows Paint.duf"
+								}
+							},
+							"Follower/Attachment/Head/Face/Mouth" : {
+								"type" : "settings",
+								"value" : {
+									"AssetName" : "G9ToonMouth",
+									"AssetFile" : "data/Daz 3D/Genesis 9/Base/Tools/Script Loads/Daz Anime/Genesis 9 Toon Mouth.duf",
+									"Presets" : {
+										"type" : "settings",
+										"value" : {
+											"Mat" : {
+												"type" : "settings",
+												"value" : {
+													"PresetFile" : "data/Daz 3D/Genesis 9/Base/Tools/Script Loads/Daz Anime/Genesis9ToonFem_AddOnMAT.duf",
+													"SelectAddon" : false
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"FigureInstanceID" : "#Genesis9",
+					"RunOnce" : true
+				}
+			}
+		]
+	}
+}

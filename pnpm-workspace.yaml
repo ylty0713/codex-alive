@@ -1,0 +1,5 @@
+minimumReleaseAgeExclude:
+  - electron@44.3.0
+  - three@0.186.0
+allowBuilds:
+  electron: true

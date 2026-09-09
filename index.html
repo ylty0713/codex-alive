@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self' data: blob:; media-src 'self' blob: data:; connect-src 'self' blob:; object-src 'none'; base-uri 'none'">
+  <title>凛 · 桌面伙伴</title>
+  <link rel="stylesheet" href="src/style.css">
+  <script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+  <script type="module" src="src/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="凛的桌面"><span class="brand-mark">凛</span><span>RIN<span class="brand-sub">你的桌面伙伴</span></span></a>
+    <span class="edition">SHELTER / 01 <span>基础模型原型</span></span>
+    <button class="wallpaper-button" id="wallpaper"><span>▧</span> 进入桌面壁纸</button>
+  </header>
+  <main class="layout">
+    <section class="world" aria-label="凛的三维空间">
+      <div id="viewport"></div>
+      <div class="scene-label"><span class="overline">A SMALL WORLD, WITH YOU</span><h1>一起，待一会儿。</h1><p>风吹过的时候，她也在这里。</p></div>
+      <div class="live-status"><span class="status-dot"></span><span id="status">正在醒来</span><span class="divider">/</span><span id="performance">3D</span></div>
+      <div class="scene-tools"><button id="camera-reset" title="恢复镜头">↺ <span>恢复镜头</span></button><button id="face-view" title="查看脸部">◎ <span>近看</span></button><button id="rotate" title="旋转一周">⟳ <span>转一圈</span></button></div>
+      <div class="subtitle" id="subtitle" role="status" hidden></div>
+      <div class="world-footer"><span>拖动旋转视角 · 滚轮缩放 · 双击地面走过去</span><button id="scene-toggle">切换纯色背景</button></div>
+      <div class="loading" id="loading">正在布置凛的小世界…</div>
+    </section>
+    <aside class="panel">
+      <div class="panel-heading"><div><span class="overline">COMPANION</span><h2>凛 <span>Rin</span></h2></div><span class="local-badge">本地运行</span></div>
+      <p class="intro">叫她一声，或者让她安静地陪着你。</p>
+      <section class="control-section"><h3>和她互动 <span>01</span></h3><div class="action-grid">
+        <button data-action="wave"><span>✧</span>打个招呼</button>
+        <button data-action="listening"><span>◌</span>看向我</button>
+        <button data-action="walking"><span>↝</span>走一走</button>
+        <button data-action="thinking"><span>···</span>思考动作</button>
+      </div></section>
+      <section class="control-section"><h3>她的声音 <span>02</span></h3>
+        <label class="field-label" for="voice">电脑上的语音</label><select id="voice"><option value="">正在读取本地语音…</option></select>
+        <div class="range-row"><label for="rate">语速</label><input id="rate" type="range" min="-3" max="3" step="1" value="0"><output id="rate-value">自然</output></div>
+        <label class="toggle-row"><span>静音<span class="hint">保留字幕与动作</span></span><input id="muted" type="checkbox" role="switch"><span class="switch"></span></label>
+      </section>
+      <section class="control-section"><h3>陪伴方式 <span>03</span></h3>
+        <label class="toggle-row"><span>自由活动<span class="hint">偶尔转头、挥手和走动</span></span><input id="autonomy" type="checkbox" role="switch" checked><span class="switch"></span></label>
+        <label class="toggle-row"><span>轻柔模式<span class="hint">减少移动与发丝摆动</span></span><input id="reduced" type="checkbox" role="switch"><span class="switch"></span></label>
+      </section>
+      <button id="export" class="export-button">↓ 导出三维基础模型 <span>.glb</span></button>
+      <div class="model-note">外观与动作制作中 · v0.1<br>这是可旋转的基础网格，细节仍需精修。</div>
+    </aside>
+    <section class="conversation" aria-label="与凛交流">
+      <div class="conversation-heading"><span class="tiny-flower">✳</span><span id="dialogue-hint">离线互动：试试「现在几点」或「挥挥手」</span><div class="mode-picker"><button class="active" id="chat-mode" aria-pressed="true">互动</button><button id="read-mode" aria-pressed="false">朗读</button></div></div>
+      <form id="message-form"><label class="sr-only" for="message">输入给凛的话</label><textarea id="message" rows="1" maxlength="2000" placeholder="和凛打个招呼吧…"></textarea><button id="stop" type="button" title="停止语音和动作">停止</button><button class="send" id="send" type="submit">发送 <span>↗</span></button></form>
+      <div class="conversation-footer"><span id="speech-status">离线回应使用固定规则；自由聊天尚未接入。</span><span>Enter 发送 · Shift + Enter 换行</span></div>
+    </section>
+  </main>
+  <div class="toast" id="toast" role="alert" hidden></div>
+</body>
+</html>

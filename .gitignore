@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.runtime/
+test-results/
+desktop/tts-deps/
+desktop/stt-deps/
+desktop/runtime-status.json
+desktop/companion-config.local.json
+**/__pycache__/
+*.pyc
+*.log
+.env*

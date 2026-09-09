@@ -1,0 +1,73 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%209/Base/Tools/Projection%20Templates/G9%20Long%20Gloves/Morphs/Daz%203D/Base/body_bs_PectoralsHeight.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2022-10-31T21:41:00Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "body_bs_PectoralsHeight",
+			"name" : "body_bs_PectoralsHeight",
+			"parent" : "/data/Daz%203D/Genesis%209/Base/Tools/Projection%20Templates/G9%20Long%20Gloves/G9GlovesTemplate.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "body_bs_PectoralsHeight",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Chest",
+			"group" : "/Masculine",
+			"morph" : {
+				"vertex_count" : 7312,
+				"deltas" : {
+					"count" : 15,
+					"values" : [
+						[ 1, 0.0006008148, 0.00100708, 0.001100302 ],
+						[ 2, -0.002597809, 0.1239929, 0.08890596 ],
+						[ 3, -0.03159714, 0.1509857, 0.05718994 ],
+						[ 4, -0.03290176, 0.1139984, 0.01590967 ],
+						[ 9, -0.01370049, 0.1609955, 0.09605992 ],
+						[ 25, -0.001197815, 0.07200623, 0.048805 ],
+						[ 117, -0.01239967, 0.07600403, 0.02504003 ],
+						[ 118, 0.002597809, 0.07400513, 0.04371989 ],
+						[ 3658, 0.002599716, 0.1239929, 0.08890599 ],
+						[ 3659, 0.03179741, 0.1509857, 0.05684018 ],
+						[ 3660, 0.03289986, 0.1139984, 0.01590991 ],
+						[ 3665, 0.01429939, 0.1600037, 0.09524977 ],
+						[ 3681, 0.001899719, 0.07200623, 0.049321 ],
+						[ 3773, 0.01239967, 0.07598877, 0.02504003 ],
+						[ 3774, -0.001897812, 0.07400513, 0.04359984 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "body_bs_PectoralsHeight-1",
+				"url" : "#body_bs_PectoralsHeight"
+			}
+		]
+	}
+}

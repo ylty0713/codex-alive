@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base%20Pose/alias_head_body_ctrl_NeckHeadBend.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "0.0",
+		"modified" : "2024-10-10T18:49:21Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "alias_head_body_ctrl_NeckHeadBend-0xa4d9cf8",
+			"name" : "body_ctrl_NeckHeadBend",
+			"parent" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#head",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base%20Pose/body_ctrl_NeckHeadBend.png",
+				"colors" : [ [ 0.3764706, 0.2784314, 0.3254902 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "body_ctrl_NeckHeadBend",
+				"label" : "Neck-Head Bend",
+				"target_channel" : "Genesis9:/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/Base%20Pose/body_ctrl_NeckHeadBend.dsf#CTRLNeckHeadBend?value"
+			},
+			"group" : "/Pose Controls/Neck"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "body_ctrl_NeckHeadBend",
+				"url" : "#alias_head_body_ctrl_NeckHeadBend-0xa4d9cf8"
+			}
+		]
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS%20Plus/facs_ctrl_TeethLowerSide-Side.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "0.0",
+		"modified" : "2024-06-06T13:09:24Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "facs_ctrl_TeethLowerSide-Side-0xa3cf880",
+			"name" : "facs_ctrl_TeethLowerSide-Side",
+			"parent" : "/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#Genesis9",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS%20Plus/facs_ctrl_TeethLowerSide-Side.png",
+				"icon_small" : "/data/Daz%203D/Genesis%209/Base/Morphs/Daz%203D/FACS%20Plus/facs_ctrl_TeethLowerSide-Side.png",
+				"colors" : [ [ 0.3764706, 0.2784314, 0.3254902 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "facs_ctrl_TeethLowerSide-Side",
+				"label" : "Teeth Lower Side-Side",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "",
+			"group" : "/Pose Controls/Head/Mouth/Base Anime",
+			"formulas" : [
+				{
+					"output" : "lowerteeth:/data/Daz%203D/Genesis%209/Base/Genesis9.dsf#lowerteeth?translation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis9:#facs_ctrl_TeethLowerSide-Side-0xa3cf880?value" },
+						{ "op" : "push", "val" : 0.5 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "facs_ctrl_TeethLowerSide-Side",
+				"url" : "#facs_ctrl_TeethLowerSide-Side-0xa3cf880"
+			}
+		]
+	}
+}

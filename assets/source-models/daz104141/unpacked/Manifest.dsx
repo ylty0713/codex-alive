@@ -1,0 +1,118 @@
+<DAZInstallManifest VERSION="0.1">
+ <GlobalID VALUE="ea07cbec-4acd-45ee-8cdf-69a1be6dd1d5"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Body.dhdm"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Body.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Body.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Head.dhdm"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Head.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki Head.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki_figure_ctrl_Character.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/Mitsuki_figure_ctrl_Character.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLarmsJCM01.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLarmsJCM02.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLarmsJCM03.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLarmsJCM04.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLeyesJCM01.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLlegsJCM01.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiLlegsJCM02.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiRarmsJCM01.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiRarmsJCM02.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiRarmsJCM03.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiRarmsJCM04.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiReyesJCM01.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiRlegsJCM01.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Base/Morphs/Noki/Noki Mitsuki/MitsukiRlegsJCM02.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Genesis 9 Eyelashes/Morphs/Noki/Noki Mitsuki/Mitsuki Head.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Genesis 9 Eyes/Morphs/Noki/Noki Mitsuki/Mitsuki Head.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/data/Daz 3D/Genesis 9/Genesis 9 Mouth/Morphs/Noki/Noki Mitsuki/Mitsuki Head.dsf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Mitsuki.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Mitsuki.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Mitsuki.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Body Add.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Body Add.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Body Add.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Body Remove.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Body Remove.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Body Remove.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Full Body Add.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Full Body Add.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Full Body Add.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Full Body Remove.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Full Body Remove.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Full Body Remove.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Head Add.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Head Add.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Head Add.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Head Remove.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Head Remove.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Mitsuki Head Remove.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Daily Eyes Mat.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Daily Eyes Mat.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Daily Eyes Mat.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Daily Eyes.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Daily Eyes.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Daily Eyes.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Eyelashes Mat.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Eyelashes Mat.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Eyelashes Mat.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Eyelashes.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Eyelashes.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Eyelashes.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Mouth Mat.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Mouth Mat.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Mouth Mat.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Mouth.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Mouth.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Mouth.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Rose Eyes Mat.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Rose Eyes Mat.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Rose Eyes Mat.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Rose Eyes.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Rose Eyes.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Rose Eyes.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Daily Set.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Daily Set.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Daily Set.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Rose Set1.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Rose Set1.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Rose Set1.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Rose Set2.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Rose Set2.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki Skin mat Rose Set2.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki tear Mat.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki tear Mat.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki tear Mat.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki tear.duf"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki tear.duf.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/People/Genesis 9/Characters/Noki/Noki Mitsuki/Materials/Mitsuki tear.tip.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Support/DAZ_3D_104141_Noki_Mitsuki_HD_for_Genesis_9.dsa"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Support/DAZ_3D_104141_Noki_Mitsuki_HD_for_Genesis_9.dsx"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Support/DAZ_3D_104141_Noki_Mitsuki_HD_for_Genesis_9.jpg"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - armsB.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - ArmsD.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - ArmsN.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - ArmsR.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - ArmsS.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - bodyB.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - BodyD.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - BodyN.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - BodyR.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - BodyS.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - Eyes1.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - Eyes2.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - fingersD.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - fingersN.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - fingersS.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadB.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadD 01.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadD 02.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadD 03.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadN.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadR.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - HeadS.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - legB.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - LegsD.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - LegsN.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - LegsR.png"/>
+ <File TARGET="Content" ACTION="Install" VALUE="Content/Runtime/Textures/Noki/Noki Mitsuki/Mitsuki - LegsS.png"/>
+</DAZInstallManifest>

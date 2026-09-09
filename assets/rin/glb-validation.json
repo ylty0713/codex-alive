@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "combinedMeshes": 106,
+  "baseMeshes": 76,
+  "outfitMeshes": 30,
+  "checks": [
+    "all meshes skinned",
+    "base and clothing separate",
+    "identical rest skeletons in independent GLBs",
+    "zero morph values at rest",
+    "animation exported"
+  ]
+}

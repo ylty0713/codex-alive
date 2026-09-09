@@ -1,0 +1,69 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Mouth/Morphs/Daz%203D/FACS/facs_ctrl_vL.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-06-25T19:28:59Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "facs_ctrl_vL",
+			"name" : "facs_ctrl_vL",
+			"parent" : "/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Mouth/G9ToonMouth.dsf#G9ToonMouth",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3764706, 0.2784314, 0.3254902 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "facs_ctrl_vL",
+				"label" : "L",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Pose Controls/Head/Visemes",
+			"formulas" : [
+				{
+					"output" : "G9ToonMouth:/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Mouth/Morphs/Daz%203D/FACS/facs_ctrl_TongueTipBend.dsf#facs_ctrl_TongueTipBend?value",
+					"operations" : [
+						{ "op" : "push", "url" : "G9ToonMouth:#facs_ctrl_vL?value" },
+						{ "op" : "push", "val" : 0.25 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "G9ToonMouth:/data/Daz%203D/G9ToonCommon/Genesis%209%20Toon%20Mouth/Morphs/Daz%203D/FACS/facs_ctrl_TongueUp.dsf#facs_ctrl_TongueUp?value",
+					"operations" : [
+						{ "op" : "push", "url" : "G9ToonMouth:#facs_ctrl_vL?value" },
+						{ "op" : "push", "val" : 0.34 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "facs_ctrl_vL-1",
+				"url" : "#facs_ctrl_vL"
+			}
+		]
+	}
+}

@@ -1,0 +1,37 @@
+{
+  "bones": 143,
+  "rest": {
+    "Body": {
+      "max_position_error_m": 2.4374332730405914e-07,
+      "vertices": 25182
+    },
+    "Eyes": {
+      "max_position_error_m": 1.6092219253223522e-07,
+      "vertices": 2120
+    },
+    "Mouth": {
+      "max_position_error_m": 1.4467609844454666e-07,
+      "vertices": 5079
+    },
+    "Eyelashes": {
+      "max_position_error_m": 2.4374332730405914e-07,
+      "vertices": 2028
+    }
+  },
+  "pose": {
+    "head": {
+      "max_movement_m": 0.04271475872785774,
+      "unweighted_vertices_stationary": true,
+      "max_foot_movement_m": 0.0,
+      "eyes_follow_head_m": 0.020427554190553192
+    },
+    "l_upperarm": {
+      "max_movement_m": 0.15110402919682256,
+      "unweighted_vertices_stationary": true,
+      "max_foot_movement_m": 0.00040790223257182597
+    }
+  },
+  "packed_images": 10,
+  "passed": true,
+  "source_weight_note": "Native source contains small upper-arm weights on some foot vertices; 15-degree arm test moves one foot vertex about 0.4 mm. Preserved for source fidelity; clean before production animation."
+}

@@ -1,0 +1,53 @@
+{
+  "meshes": {
+    "Body": {
+      "vertices": 25182,
+      "polygons": 25156,
+      "weight_sum_min": 0.99999984,
+      "weight_sum_max": 1.000000142,
+      "morphs": [
+        "Mitsuki Body",
+        "Mitsuki Head"
+      ],
+      "uv_seam_overrides": 3744
+    },
+    "Eyes": {
+      "vertices": 2120,
+      "polygons": 2112,
+      "weight_sum_min": 1.0,
+      "weight_sum_max": 1.0,
+      "morphs": [
+        "Mitsuki Head"
+      ],
+      "uv_seam_overrides": 192
+    },
+    "Mouth": {
+      "vertices": 5079,
+      "polygons": 5000,
+      "weight_sum_min": 0.9999998999999999,
+      "weight_sum_max": 1.000000108,
+      "morphs": [
+        "Mitsuki Head"
+      ],
+      "uv_seam_overrides": 1724
+    },
+    "Eyelashes": {
+      "vertices": 2028,
+      "polygons": 858,
+      "weight_sum_min": 0.9999998999999999,
+      "weight_sum_max": 1.0000000199999999,
+      "morphs": [
+        "Mitsuki Head"
+      ],
+      "uv_seam_overrides": 0
+    }
+  },
+  "limitations": [
+    "Base-resolution Mitsuki deltas only; DHDM HD details omitted.",
+    "Iray shaders approximated with Principled BSDF.",
+    "DAZ ERC, JCM drivers and rotation conventions are not translated; this is an editable source import, not an animation-ready final Rin.",
+    "Hair and academy outfit still require fitting and anime art direction."
+  ],
+  "bones": 143,
+  "textures": 12
+}

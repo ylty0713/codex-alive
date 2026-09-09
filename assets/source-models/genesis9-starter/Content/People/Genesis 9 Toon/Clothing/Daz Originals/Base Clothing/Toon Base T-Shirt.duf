@@ -1,0 +1,5150 @@
+{
+	"file_version" : "0.6.1.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%209%20Toon/Clothing/Daz%20Originals/Base%20Clothing/Toon%20Base%20T-Shirt.duf",
+		"type" : "wearable",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2024-09-07T07:04:46Z"
+	},
+	"geometry_library" : [
+		{
+			"id" : "geometry",
+			"name" : "geometry",
+			"type" : "polygon_mesh",
+			"vertices" : {
+				"count" : 0,
+				"values" : [
+				]
+			},
+			"polygon_groups" : {
+				"count" : 0,
+				"values" : [
+				]
+			},
+			"polygon_material_groups" : {
+				"count" : 0,
+				"values" : [
+				]
+			},
+			"polylist" : {
+				"count" : 0,
+				"values" : [
+				]
+			},
+			"extra" : [
+				{
+					"type" : "studio/geometry/shell"
+				},
+				{
+					"type" : "studio_geometry_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "SubDIALevel",
+								"type" : "int",
+								"label" : "View SubD Level",
+								"visible" : false,
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 2,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDRenderLevel",
+								"type" : "int",
+								"label" : "Render SubD Level (Minimum)",
+								"visible" : false,
+								"value" : 0,
+								"current_value" : 0,
+								"min" : 0,
+								"max" : 3,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDAlgorithmControl",
+								"type" : "enum",
+								"label" : "SubDivision Algorithm",
+								"visible" : false,
+								"value" : 0,
+								"current_value" : 0,
+								"enum_values" : [ "Catmark", "Bilinear", "Loop", "Catmull-Clark (Legacy)" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDEdgeInterpolateLevel",
+								"type" : "enum",
+								"label" : "Edge Interpolation",
+								"visible" : false,
+								"value" : 2,
+								"current_value" : 2,
+								"enum_values" : [ "Soft Corners And Edges", "Sharp Edges and Corners", "Sharp Edges" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDNormalSmoothing",
+								"type" : "enum",
+								"label" : "SubDivision Normals",
+								"visible" : false,
+								"value" : 0,
+								"current_value" : 0,
+								"enum_values" : [ "Smoothed", "Preserve Cage" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						}
+					]
+				}
+			]
+		}
+	],
+	"node_library" : [
+		{
+			"id" : "G9BaseShirt_ToonOutline",
+			"name" : "G9BaseShirt_ToonOutline",
+			"type" : "node",
+			"label" : "G9 Base Shirt Toon Outline",
+			"rotation_order" : "XYZ",
+			"inherits_scale" : true,
+			"center_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrigin",
+					"label" : "X Origin",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrigin",
+					"label" : "Y Origin",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrigin",
+					"label" : "Z Origin",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"end_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xEnd",
+					"label" : "X End",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yEnd",
+					"label" : "Y End",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zEnd",
+					"label" : "Z End",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"orientation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrientation",
+					"label" : "X Orientation",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrientation",
+					"label" : "Y Orientation",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrientation",
+					"label" : "Z Orientation",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"rotation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XRotate",
+					"label" : "X Rotate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YRotate",
+					"label" : "Y Rotate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZRotate",
+					"label" : "Z Rotate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				}
+			],
+			"translation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XTranslate",
+					"label" : "X Translate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YTranslate",
+					"label" : "Y Translate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZTranslate",
+					"label" : "Z Translate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				}
+			],
+			"scale" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XScale",
+					"label" : "X Scale",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YScale",
+					"label" : "Y Scale",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZScale",
+					"label" : "Z Scale",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				}
+			],
+			"general_scale" : {
+				"id" : "general_scale",
+				"type" : "float",
+				"name" : "Scale",
+				"label" : "Scale",
+				"value" : 1,
+				"current_value" : 1,
+				"min" : -10000,
+				"max" : 10000,
+				"display_as_percent" : true,
+				"step_size" : 0.005
+			},
+			"extra" : [
+				{
+					"type" : "studio/node/shell"
+				},
+				{
+					"type" : "studio_node_channels",
+					"version" : 4,
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Disable Transform",
+								"type" : "bool",
+								"label" : "Disable Local Transform",
+								"visible" : false,
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/General/Transforms"
+						},
+						{
+							"channel" : {
+								"id" : "Ignore Local Transform",
+								"type" : "bool",
+								"label" : "Ignore Local Transform",
+								"visible" : false,
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/General/Transforms"
+						},
+						{
+							"channel" : {
+								"id" : "Point At",
+								"type" : "numeric_node",
+								"label" : "Point At",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"needs_node" : true,
+								"node" : null
+							},
+							"group" : "/General/Constraints"
+						},
+						{
+							"channel" : {
+								"id" : "Visible",
+								"type" : "bool",
+								"label" : "Visible",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Viewport",
+								"type" : "bool",
+								"label" : "Visible in Viewport",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Selectable",
+								"type" : "bool",
+								"label" : "Selectable (in Viewport)",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Renderable",
+								"type" : "bool",
+								"label" : "Visible in Render",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Cast Shadows",
+								"type" : "bool",
+								"label" : "Cast Shadows",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"current_value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Simulation",
+								"type" : "bool",
+								"label" : "Visible in Simulation",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display/Simulation"
+						},
+						{
+							"channel" : {
+								"id" : "Shell Node",
+								"type" : "node",
+								"label" : "Shell Node"
+							},
+							"group" : "/Shell"
+						},
+						{
+							"channel" : {
+								"id" : "Target Push Modifiers",
+								"type" : "string",
+								"label" : "Target Push Modifiers",
+								"value" : "",
+								"current_value" : ""
+							},
+							"group" : "/Shell"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_neck2_vis",
+								"type" : "bool",
+								"label" : "neck2",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_head_vis",
+								"type" : "bool",
+								"label" : "head",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_spine1_vis",
+								"type" : "bool",
+								"label" : "spine1",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_r_thigh_vis",
+								"type" : "bool",
+								"label" : "r_thigh",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_spine2_vis",
+								"type" : "bool",
+								"label" : "spine2",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_spine3_vis",
+								"type" : "bool",
+								"label" : "spine3",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_l_shoulder_vis",
+								"type" : "bool",
+								"label" : "l_shoulder",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_spine4_vis",
+								"type" : "bool",
+								"label" : "spine4",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_r_pectoral_vis",
+								"type" : "bool",
+								"label" : "r_pectoral",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_r_shoulder_vis",
+								"type" : "bool",
+								"label" : "r_shoulder",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_l_pectoral_vis",
+								"type" : "bool",
+								"label" : "l_pectoral",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_pelvis_vis",
+								"type" : "bool",
+								"label" : "pelvis",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_l_upperarm_vis",
+								"type" : "bool",
+								"label" : "l_upperarm",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_l_thigh_vis",
+								"type" : "bool",
+								"label" : "l_thigh",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_r_upperarm_vis",
+								"type" : "bool",
+								"label" : "r_upperarm",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_neck1_vis",
+								"type" : "bool",
+								"label" : "neck1",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Shirt_vis",
+								"type" : "bool",
+								"label" : "Shirt",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Trim_Hip_vis",
+								"type" : "bool",
+								"label" : "Trim_Hip",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Trim_Arms_vis",
+								"type" : "bool",
+								"label" : "Trim_Arms",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Trim_Neck_vis",
+								"type" : "bool",
+								"label" : "Trim_Neck",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						}
+					]
+				}
+			]
+		}
+	],
+	"modifier_library" : [
+		{
+			"id" : "DzMeshSmoothModifier",
+			"name" : "DzMeshSmoothModifier",
+			"parent" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#G9BodysuitTight2_14867",
+			"extra" : [
+				{
+					"type" : "studio/modifier/smoothing"
+				},
+				{
+					"type" : "studio_modifier_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Enable Smoothing",
+								"type" : "bool",
+								"label" : "Enable Smoothing",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/General/Mesh Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Smoothing Type",
+								"type" : "enum",
+								"label" : "Smoothing Type",
+								"value" : 0,
+								"current_value" : 0,
+								"enum_values" : [ "Base Shape Matching", "Generic" ]
+							},
+							"group" : "/General/Mesh Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Smoothing Iterations",
+								"type" : "int",
+								"label" : "Smoothing Iterations",
+								"value" : 2,
+								"current_value" : 2,
+								"min" : 0,
+								"max" : 200,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Weight",
+								"type" : "float",
+								"label" : "Weight",
+								"visible" : false,
+								"value" : 0.5,
+								"current_value" : 0.5,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/General/Mesh Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Secondary Weight",
+								"type" : "float",
+								"label" : "Secondary Weight",
+								"visible" : false,
+								"value" : -0.5,
+								"current_value" : -0.5,
+								"min" : -1,
+								"max" : 0,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/General/Mesh Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Lock Distance",
+								"type" : "float",
+								"label" : "Lock Distance",
+								"visible" : false,
+								"value" : 0.001,
+								"current_value" : 0.001,
+								"min" : 0,
+								"max" : 0.1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/General/Mesh Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Length Influence",
+								"type" : "float",
+								"label" : "Length Influence",
+								"visible" : false,
+								"value" : 0.5,
+								"current_value" : 0.5,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/General/Mesh Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Interactive Update",
+								"type" : "bool",
+								"label" : "Interactive Update",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/General/Mesh Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Collision Item",
+								"type" : "node",
+								"label" : "Collision Item"
+							},
+							"group" : "/General/Mesh Smoothing/Collision"
+						},
+						{
+							"channel" : {
+								"id" : "Collision Iterations",
+								"type" : "int",
+								"label" : "Collision Iterations",
+								"value" : 3,
+								"current_value" : 3,
+								"min" : 0,
+								"max" : 100,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Smoothing/Collision"
+						},
+						{
+							"channel" : {
+								"id" : "Collision Smoothing Interval",
+								"type" : "int",
+								"label" : "Collision Smoothing Interval",
+								"visible" : false,
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 1,
+								"max" : 20,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Smoothing/Collision"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "Offset",
+			"name" : "Offset",
+			"parent" : "#G9BaseShirt_ToonOutline",
+			"extra" : [
+				{
+					"type" : "studio/modifier/push",
+					"push_post_smooth" : false
+				},
+				{
+					"type" : "studio_modifier_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Value",
+								"type" : "float",
+								"label" : "Offset Distance (cm)",
+								"value" : 0.1,
+								"current_value" : 0.1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/General/Mesh Offset"
+						}
+					]
+				}
+			]
+		}
+	],
+	"image_library" : [
+		{
+			"id" : "BaseToon_TShirt5Stripes_BaseColor.jpg-3",
+			"name" : "BaseToon_TShirt5Stripes_BaseColor.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Mada/BaseClothing/Male/TS5/BaseToon_TShirt5Stripes_BaseColor.jpg",
+					"label" : "BaseToon_TShirt5Stripes_BaseColor.jpg"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "G9BaseShirt",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#G9BodysuitTight2_14867",
+				"name" : "G9BaseShirt",
+				"label" : "G9 Base Shirt",
+				"parent" : "name://@selection:",
+				"geometries" : [
+					{
+						"id" : "G9TShirtBasics",
+						"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#G9TShirtBasics",
+						"name" : "G9BodysuitTight2",
+						"label" : "shape",
+						"type" : "subdivision_surface",
+						"current_subdivision_level" : 1,
+						"edge_interpolation_mode" : "edges_only",
+						"subd_normal_smoothing_mode" : "smooth_all_normals",
+						"extra" : [
+							{
+								"type" : "studio_geometry_channels",
+								"channels" : [
+									{
+										"channel" : {
+											"id" : "SubDRenderLevel",
+											"type" : "int",
+											"current_value" : 0
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"conform_target" : "name://@selection:",
+				"preview" : {
+					"type" : "figure",
+					"oriented_box" : {
+						"min" : [ -63.312, 1.162, -14.126 ],
+						"max" : [ 63.313, 172.937, 13.333 ]
+					},
+					"center_point" : [ 0, 0, 0 ],
+					"end_point" : [ 0, 103.876, 0 ],
+					"rotation_order" : "YXZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "hip",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#hip",
+				"name" : "hip",
+				"label" : "Hip",
+				"parent" : "#G9BaseShirt",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 97.04224, 0.2772734 ],
+					"end_point" : [ 0, 81.09516, 0.02737446 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "pelvis",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#pelvis",
+				"name" : "pelvis",
+				"label" : "Pelvis",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -16.298, -15.112, -13.199 ],
+						"max" : [ 16.113, 3.022, 11.068 ]
+					},
+					"center_point" : [ 0, 98.67117, -0.2791472 ],
+					"end_point" : [ 0, 80.04765, -0.2800249 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_thigh",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_thigh",
+				"name" : "l_thigh",
+				"label" : "Left Thigh",
+				"parent" : "#pelvis",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.318, -4.607, -12.843 ],
+						"max" : [ 9.634, -0.018, 10.244 ]
+					},
+					"center_point" : [ 6.806614, 88.65144, -0.4681562 ],
+					"end_point" : [ 10.13914, 42.13035, -2.290596 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_shin",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_shin",
+				"name" : "l_shin",
+				"label" : "Left Shin",
+				"parent" : "#l_thigh",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -5.058, -50.591, -5.058 ],
+						"max" : [ 5.059, 0, 5.059 ]
+					},
+					"center_point" : [ 10.14117, 42.12659, -2.290671 ],
+					"end_point" : [ 10.74416, -8.406942, -4.646254 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_foot",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_foot",
+				"name" : "l_foot",
+				"label" : "Left Foot",
+				"parent" : "#l_shin",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.304, -1.304, 0 ],
+						"max" : [ 1.305, 1.305, 13.054 ]
+					},
+					"center_point" : [ 10.85898, -8.441097, -4.638317 ],
+					"end_point" : [ 14.14477, -12.90051, 7.181874 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_toes",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_toes",
+				"name" : "l_toes",
+				"label" : "Left Toes",
+				"parent" : "#l_foot",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.507, -0.507, 0 ],
+						"max" : [ 0.508, 0.508, 5.084 ]
+					},
+					"center_point" : [ 14.38469, -13.24723, 8.248386 ],
+					"end_point" : [ 15.92394, -13.22883, 13.09353 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_bigtoe1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_bigtoe1",
+				"name" : "l_bigtoe1",
+				"label" : "Left Big Toe 1",
+				"parent" : "#l_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 11.47016, -12.84251, 9.595381 ],
+					"end_point" : [ 12.21683, -13.31245, 12.1025 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_indextoe1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_indextoe1",
+				"name" : "l_indextoe1",
+				"label" : "Left Index Toe 1",
+				"parent" : "#l_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 13.64127, -12.49332, 9.427295 ],
+					"end_point" : [ 14.17799, -12.83774, 11.41644 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_midtoe1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_midtoe1",
+				"name" : "l_midtoe1",
+				"label" : "Left Mid Toe 1",
+				"parent" : "#l_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 15.16692, -12.48555, 9.087495 ],
+					"end_point" : [ 15.52725, -12.90334, 10.73355 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ringtoe1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_ringtoe1",
+				"name" : "l_ringtoe1",
+				"label" : "Left Ring Toe 1",
+				"parent" : "#l_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 16.28998, -12.84297, 8.339501 ],
+					"end_point" : [ 16.6381, -13.18714, 9.788242 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pinkytoe1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_pinkytoe1",
+				"name" : "l_pinkytoe1",
+				"label" : "Left Pinky Toe 1",
+				"parent" : "#l_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 17.68008, -13.14131, 7.517881 ],
+					"end_point" : [ 17.79394, -13.4281, 8.437354 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_metatarsal",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_metatarsal",
+				"name" : "l_metatarsal",
+				"label" : "Left Metatarsal",
+				"parent" : "#l_foot",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 10.92289, -8.546447, -4.384216 ],
+					"end_point" : [ 13.74309, -11.04336, 2.203333 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_thightwist1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_thightwist1",
+				"name" : "l_thightwist1",
+				"label" : "Left Thigh Twist 1",
+				"parent" : "#l_thigh",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 7.934865, 74.40549, -1.213575 ],
+					"end_point" : [ 9.249151, 57.97693, -2.643825 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_thightwist2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_thightwist2",
+				"name" : "l_thightwist2",
+				"label" : "Left Thigh Twist 2",
+				"parent" : "#l_thigh",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 9.306781, 57.66727, -1.885539 ],
+					"end_point" : [ 10.0737, 42.6114, -3.115082 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_thigh",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_thigh",
+				"name" : "r_thigh",
+				"label" : "Right Thigh",
+				"parent" : "#pelvis",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -9.721, -4.746, -12.675 ],
+						"max" : [ 3.792, 0.484, 10.454 ]
+					},
+					"center_point" : [ -6.794973, 88.64619, -0.4688867 ],
+					"end_point" : [ -10.14019, 42.12684, -2.290477 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_shin",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_shin",
+				"name" : "r_shin",
+				"label" : "Right Shin",
+				"parent" : "#r_thigh",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -5.058, -50.585, -5.058 ],
+						"max" : [ 5.059, 0, 5.059 ]
+					},
+					"center_point" : [ -10.14193, 42.12265, -2.28994 ],
+					"end_point" : [ -10.7448, -8.405138, -4.644793 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_foot",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_foot",
+				"name" : "r_foot",
+				"label" : "Right Foot",
+				"parent" : "#r_shin",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.304, -1.304, 0 ],
+						"max" : [ 1.305, 1.305, 13.053 ]
+					},
+					"center_point" : [ -10.86018, -8.450266, -4.638681 ],
+					"end_point" : [ -14.14505, -12.90284, 7.183624 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_toes",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_toes",
+				"name" : "r_toes",
+				"label" : "Right Toes",
+				"parent" : "#r_foot",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.508, -0.508, 0 ],
+						"max" : [ 0.509, 0.509, 5.086 ]
+					},
+					"center_point" : [ -14.38358, -13.24599, 8.247876 ],
+					"end_point" : [ -15.92327, -13.23139, 13.09477 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_bigtoe1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_bigtoe1",
+				"name" : "r_bigtoe1",
+				"label" : "Right Big Toe 1",
+				"parent" : "#r_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -11.46935, -12.84407, 9.595463 ],
+					"end_point" : [ -12.21719, -13.31282, 12.10268 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_indextoe1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_indextoe1",
+				"name" : "r_indextoe1",
+				"label" : "Right Index Toe 1",
+				"parent" : "#r_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -13.64236, -12.4915, 9.427167 ],
+					"end_point" : [ -14.17614, -12.8368, 11.41546 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_midtoe1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_midtoe1",
+				"name" : "r_midtoe1",
+				"label" : "Right Mid Toe 1",
+				"parent" : "#r_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -15.16707, -12.48568, 9.087545 ],
+					"end_point" : [ -15.52648, -12.90282, 10.73246 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ringtoe1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_ringtoe1",
+				"name" : "r_ringtoe1",
+				"label" : "Right Ring Toe 1",
+				"parent" : "#r_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -16.29093, -12.84429, 8.339668 ],
+					"end_point" : [ -16.63604, -13.18674, 9.787279 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pinkytoe1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_pinkytoe1",
+				"name" : "r_pinkytoe1",
+				"label" : "Right Pinky Toe 1",
+				"parent" : "#r_toes",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -17.67801, -13.13941, 7.517009 ],
+					"end_point" : [ -17.7926, -13.42801, 8.436711 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_metatarsal",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_metatarsal",
+				"name" : "r_metatarsal",
+				"label" : "Right Metatarsal",
+				"parent" : "#r_foot",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -10.92391, -8.547174, -4.384608 ],
+					"end_point" : [ -13.74234, -11.04299, 2.203297 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_thightwist1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_thightwist1",
+				"name" : "r_thightwist1",
+				"label" : "Right Thigh Twist 1",
+				"parent" : "#r_thigh",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -7.933441, 74.41653, -1.214272 ],
+					"end_point" : [ -9.249421, 57.97438, -2.643548 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_thightwist2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_thightwist2",
+				"name" : "r_thightwist2",
+				"label" : "Right Thigh Twist 2",
+				"parent" : "#r_thigh",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -9.304577, 57.66608, -1.884351 ],
+					"end_point" : [ -10.07372, 42.61093, -3.115015 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#spine1",
+				"name" : "spine1",
+				"label" : "Spine 1",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -14.573, -2.201, -12.691 ],
+						"max" : [ 14.25, 8.476, 10.826 ]
+					},
+					"center_point" : [ 0, 98.73624, -0.7953972 ],
+					"end_point" : [ 0, 105.8161, -0.8404557 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#spine2",
+				"name" : "spine2",
+				"label" : "Spine 2",
+				"parent" : "#spine1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -13.391, -0.674, -12.147 ],
+						"max" : [ 13.946, 12.253, 11.369 ]
+					},
+					"center_point" : [ 0, 105.8759, -1.113664 ],
+					"end_point" : [ 0, 112.3415, -1.195155 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine3",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#spine3",
+				"name" : "spine3",
+				"label" : "Spine 3",
+				"parent" : "#spine2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -15.803, -1.113, -11.497 ],
+						"max" : [ 16.051, 15.683, 12.183 ]
+					},
+					"center_point" : [ 0, 112.6649, -2.180527 ],
+					"end_point" : [ 0, 124.7639, -2.624619 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "spine4",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#spine4",
+				"name" : "spine4",
+				"label" : "Spine 4",
+				"parent" : "#spine3",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -17.803, -3.974, -10.408 ],
+						"max" : [ 17.387, 18.387, 11.822 ]
+					},
+					"center_point" : [ 0, 124.7037, -3.714684 ],
+					"end_point" : [ 0, 137.8894, -3.61022 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_shoulder",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_shoulder",
+				"name" : "l_shoulder",
+				"label" : "Left Shoulder",
+				"parent" : "#spine4",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 7.436, -10.239, -7.255 ],
+						"max" : [ 22.162, 7.089, 6.691 ]
+					},
+					"center_point" : [ 3.360759, 133.2193, -3.867896 ],
+					"end_point" : [ 13.33615, 135.0178, -4.564863 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_upperarm",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_upperarm",
+				"name" : "l_upperarm",
+				"label" : "Left Upper Arm",
+				"parent" : "#l_shoulder",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 7.032, -4.518, -6.248 ],
+						"max" : [ 15.576, 5.315, 5.927 ]
+					},
+					"center_point" : [ 15.53926, 132.6735, -4.705193 ],
+					"end_point" : [ 32.70635, 115.7621, -4.15514 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_forearm",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_forearm",
+				"name" : "l_forearm",
+				"label" : "Left Forearm",
+				"parent" : "#l_upperarm",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -2.504, -2.504 ],
+						"max" : [ 25.055, 2.505, 2.505 ]
+					},
+					"center_point" : [ 32.43363, 116.023, -4.169736 ],
+					"end_point" : [ 50.53548, 99.70341, 1.637865 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_hand",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_hand",
+				"name" : "l_hand",
+				"label" : "Left Hand",
+				"parent" : "#l_forearm",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.961, -0.961 ],
+						"max" : [ 9.623, 0.962, 0.962 ]
+					},
+					"center_point" : [ 50.88679, 99.32519, 1.728849 ],
+					"end_point" : [ 57.62928, 92.83852, 3.978118 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_thumb1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_thumb1",
+				"name" : "l_thumb1",
+				"label" : "Left Thumb 1",
+				"parent" : "#l_hand",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.428, -0.428 ],
+						"max" : [ 4.288, 0.429, 0.429 ]
+					},
+					"center_point" : [ 51.08843, 97.27325, 3.554943 ],
+					"end_point" : [ 51.86777, 94.7925, 6.964239 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_thumb2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_thumb2",
+				"name" : "l_thumb2",
+				"label" : "Left Thumb 2",
+				"parent" : "#l_thumb1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.301, -0.301 ],
+						"max" : [ 3.016, 0.302, 0.302 ]
+					},
+					"center_point" : [ 51.85546, 94.81742, 6.985199 ],
+					"end_point" : [ 52.68171, 92.37673, 8.552903 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_thumb3",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_thumb3",
+				"name" : "l_thumb3",
+				"label" : "Left Thumb 3",
+				"parent" : "#l_thumb2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.29, -0.29 ],
+						"max" : [ 2.909, 0.291, 0.291 ]
+					},
+					"center_point" : [ 52.69201, 92.36887, 8.558523 ],
+					"end_point" : [ 53.60964, 90.41123, 10.50538 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_indexmetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_indexmetacarpal",
+				"name" : "l_indexmetacarpal",
+				"label" : "Left Index Metacarpal",
+				"parent" : "#l_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 51.22087, 98.97609, 3.052524 ],
+					"end_point" : [ 56.05376, 93.15405, 5.252895 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_index1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_index1",
+				"name" : "l_index1",
+				"label" : "Left Index 1",
+				"parent" : "#l_indexmetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.398, -0.398 ],
+						"max" : [ 3.987, 0.399, 0.399 ]
+					},
+					"center_point" : [ 56.05252, 93.1537, 5.339211 ],
+					"end_point" : [ 58.52855, 90.08717, 5.942173 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_index2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_index2",
+				"name" : "l_index2",
+				"label" : "Left Index 2",
+				"parent" : "#l_index1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.215, -0.215 ],
+						"max" : [ 2.16, 0.216, 0.216 ]
+					},
+					"center_point" : [ 58.52855, 90.08717, 5.942173 ],
+					"end_point" : [ 59.73621, 88.3149, 6.200356 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_index3",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_index3",
+				"name" : "l_index3",
+				"label" : "Left Index 3",
+				"parent" : "#l_index2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.225, -0.225 ],
+						"max" : [ 2.256, 0.226, 0.226 ]
+					},
+					"center_point" : [ 59.73621, 88.3149, 6.200356 ],
+					"end_point" : [ 61.06413, 86.51006, 6.462379 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_midmetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_midmetacarpal",
+				"name" : "l_midmetacarpal",
+				"label" : "Left Mid Metacarpal",
+				"parent" : "#l_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 51.47828, 98.82229, 2.162341 ],
+					"end_point" : [ 56.53575, 92.96455, 3.233774 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_mid1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_mid1",
+				"name" : "l_mid1",
+				"label" : "Left Mid 1",
+				"parent" : "#l_midmetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.446, -0.446 ],
+						"max" : [ 4.467, 0.447, 0.447 ]
+					},
+					"center_point" : [ 56.56827, 92.98775, 3.16175 ],
+					"end_point" : [ 59.35833, 89.51999, 3.536561 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_mid2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_mid2",
+				"name" : "l_mid2",
+				"label" : "Left Mid 2",
+				"parent" : "#l_mid1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.272, -0.272 ],
+						"max" : [ 2.733, 0.273, 0.273 ]
+					},
+					"center_point" : [ 59.51426, 89.61346, 3.536692 ],
+					"end_point" : [ 60.99929, 87.33169, 3.776924 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_mid3",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_mid3",
+				"name" : "l_mid3",
+				"label" : "Left Mid 3",
+				"parent" : "#l_mid2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.23, -0.23 ],
+						"max" : [ 2.307, 0.231, 0.231 ]
+					},
+					"center_point" : [ 61.00607, 87.34431, 3.781218 ],
+					"end_point" : [ 62.5182, 85.6074, 3.920019 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ringmetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_ringmetacarpal",
+				"name" : "l_ringmetacarpal",
+				"label" : "Left Ring Metacarpal",
+				"parent" : "#l_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 51.61043, 98.79884, 1.100598 ],
+					"end_point" : [ 56.05161, 93.12763, 1.236305 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ring1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_ring1",
+				"name" : "l_ring1",
+				"label" : "Left Ring 1",
+				"parent" : "#l_ringmetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.418, -0.418 ],
+						"max" : [ 4.189, 0.419, 0.419 ]
+					},
+					"center_point" : [ 56.19042, 93.29551, 1.231639 ],
+					"end_point" : [ 58.79748, 90.0172, 1.237393 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ring2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_ring2",
+				"name" : "l_ring2",
+				"label" : "Left Ring 2",
+				"parent" : "#l_ring1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.235, -0.235 ],
+						"max" : [ 2.36, 0.236, 0.236 ]
+					},
+					"center_point" : [ 58.79748, 90.0172, 1.237393 ],
+					"end_point" : [ 60.1646, 88.09309, 1.255761 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ring3",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_ring3",
+				"name" : "l_ring3",
+				"label" : "Left Ring 3",
+				"parent" : "#l_ring2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.227, -0.227 ],
+						"max" : [ 2.28, 0.228, 0.228 ]
+					},
+					"center_point" : [ 60.1646, 88.09309, 1.255761 ],
+					"end_point" : [ 61.59309, 86.31659, 1.26536 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pinkymetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_pinkymetacarpal",
+				"name" : "l_pinkymetacarpal",
+				"label" : "Left Pinky Metacarpal",
+				"parent" : "#l_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 51.67734, 98.78849, 0.06865359 ],
+					"end_point" : [ 55.60718, 93.25393, -0.6950313 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pinky1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_pinky1",
+				"name" : "l_pinky1",
+				"label" : "Left Pinky 1",
+				"parent" : "#l_pinkymetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.312, -0.312 ],
+						"max" : [ 3.133, 0.313, 0.313 ]
+					},
+					"center_point" : [ 55.66368, 93.14996, -0.774852 ],
+					"end_point" : [ 57.65826, 90.73833, -0.9249645 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pinky2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_pinky2",
+				"name" : "l_pinky2",
+				"label" : "Left Pinky 2",
+				"parent" : "#l_pinky1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.19, -0.19 ],
+						"max" : [ 1.905, 0.191, 0.191 ]
+					},
+					"center_point" : [ 57.65826, 90.73833, -0.9249645 ],
+					"end_point" : [ 58.78501, 89.20431, -1.007517 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pinky3",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_pinky3",
+				"name" : "l_pinky3",
+				"label" : "Left Pinky 3",
+				"parent" : "#l_pinky2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 0, -0.195, -0.195 ],
+						"max" : [ 1.962, 0.196, 0.196 ]
+					},
+					"center_point" : [ 58.78445, 89.20323, -1.032861 ],
+					"end_point" : [ 59.9498, 87.63103, -1.176666 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_forearmtwist1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_forearmtwist1",
+				"name" : "l_forearmtwist1",
+				"label" : "Left Forearm Twist 1",
+				"parent" : "#l_forearm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 36.5936, 112.4034, -2.796721 ],
+					"end_point" : [ 43.91412, 106.0816, 0.4163317 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_forearmtwist2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_forearmtwist2",
+				"name" : "l_forearmtwist2",
+				"label" : "Left Forearm Twist 2",
+				"parent" : "#l_forearm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 44.15735, 105.7865, -0.3890735 ],
+					"end_point" : [ 50.80216, 99.29926, 1.699427 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_upperarmtwist1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_upperarmtwist1",
+				"name" : "l_upperarmtwist1",
+				"label" : "Left Upper Arm Twist 1",
+				"parent" : "#l_upperarm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 18.73115, 129.2635, -4.469953 ],
+					"end_point" : [ 24.99915, 123.2229, -3.931504 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_upperarmtwist2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_upperarmtwist2",
+				"name" : "l_upperarmtwist2",
+				"label" : "Left Upper Arm Twist 2",
+				"parent" : "#l_upperarm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 24.7093, 123.5646, -4.256289 ],
+					"end_point" : [ 32.25987, 116.2091, -3.796908 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_shoulder",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_shoulder",
+				"name" : "r_shoulder",
+				"label" : "Right Shoulder",
+				"parent" : "#spine4",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -21.755, -10.25, -7.484 ],
+						"max" : [ -7.396, 6.777, 7.192 ]
+					},
+					"center_point" : [ -3.363083, 133.2199, -3.867264 ],
+					"end_point" : [ -13.33717, 135.0194, -4.564727 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_upperarm",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_upperarm",
+				"name" : "r_upperarm",
+				"label" : "Right Upper Arm",
+				"parent" : "#r_shoulder",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -15.6, -5.462, -6.251 ],
+						"max" : [ -7.025, 5.314, 6.061 ]
+					},
+					"center_point" : [ -15.54013, 132.6668, -4.704308 ],
+					"end_point" : [ -32.70793, 115.7636, -4.15545 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_forearm",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_forearm",
+				"name" : "r_forearm",
+				"label" : "Right Forearm",
+				"parent" : "#r_upperarm",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -25.054, -2.504, -2.504 ],
+						"max" : [ 0, 2.505, 2.505 ]
+					},
+					"center_point" : [ -32.43235, 116.0246, -4.168991 ],
+					"end_point" : [ -50.53375, 99.70434, 1.638137 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_hand",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_hand",
+				"name" : "r_hand",
+				"label" : "Right Hand",
+				"parent" : "#r_forearm",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -9.623, -0.961, -0.961 ],
+						"max" : [ 0, 0.962, 0.962 ]
+					},
+					"center_point" : [ -50.88574, 99.32654, 1.728914 ],
+					"end_point" : [ -57.6293, 92.83856, 3.978123 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_thumb1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_thumb1",
+				"name" : "r_thumb1",
+				"label" : "Right Thumb 1",
+				"parent" : "#r_hand",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.287, -0.428, -0.428 ],
+						"max" : [ 0, 0.429, 0.429 ]
+					},
+					"center_point" : [ -51.08793, 97.27275, 3.554522 ],
+					"end_point" : [ -51.86701, 94.79215, 6.964086 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_thumb2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_thumb2",
+				"name" : "r_thumb2",
+				"label" : "Right Thumb 2",
+				"parent" : "#r_thumb1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -3.015, -0.301, -0.301 ],
+						"max" : [ 0, 0.302, 0.302 ]
+					},
+					"center_point" : [ -51.85597, 94.81664, 6.985074 ],
+					"end_point" : [ -52.68182, 92.37612, 8.553008 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_thumb3",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_thumb3",
+				"name" : "r_thumb3",
+				"label" : "Right Thumb 3",
+				"parent" : "#r_thumb2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.908, -0.29, -0.29 ],
+						"max" : [ 0, 0.291, 0.291 ]
+					},
+					"center_point" : [ -52.6918, 92.36906, 8.558602 ],
+					"end_point" : [ -53.60962, 90.41131, 10.50538 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_indexmetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_indexmetacarpal",
+				"name" : "r_indexmetacarpal",
+				"label" : "Right Index Metacarpal",
+				"parent" : "#r_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -51.22098, 98.97603, 3.052311 ],
+					"end_point" : [ -56.05311, 93.15353, 5.252667 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_index1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_index1",
+				"name" : "r_index1",
+				"label" : "Right Index 1",
+				"parent" : "#r_indexmetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -3.987, -0.398, -0.398 ],
+						"max" : [ 0, 0.399, 0.399 ]
+					},
+					"center_point" : [ -56.05179, 93.15357, 5.339168 ],
+					"end_point" : [ -58.52856, 90.08675, 5.942194 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_index2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_index2",
+				"name" : "r_index2",
+				"label" : "Right Index 2",
+				"parent" : "#r_index1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.159, -0.215, -0.215 ],
+						"max" : [ 0, 0.216, 0.216 ]
+					},
+					"center_point" : [ -58.52856, 90.08675, 5.942194 ],
+					"end_point" : [ -59.73629, 88.31512, 6.200328 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_index3",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_index3",
+				"name" : "r_index3",
+				"label" : "Right Index 3",
+				"parent" : "#r_index2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.255, -0.225, -0.225 ],
+						"max" : [ 0, 0.226, 0.226 ]
+					},
+					"center_point" : [ -59.73629, 88.31512, 6.200328 ],
+					"end_point" : [ -61.06404, 86.50989, 6.462368 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_midmetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_midmetacarpal",
+				"name" : "r_midmetacarpal",
+				"label" : "Right Mid Metacarpal",
+				"parent" : "#r_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -51.47922, 98.82317, 2.162549 ],
+					"end_point" : [ -56.53561, 92.96429, 3.233385 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_mid1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_mid1",
+				"name" : "r_mid1",
+				"label" : "Right Mid 1",
+				"parent" : "#r_midmetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.466, -0.446, -0.446 ],
+						"max" : [ 0, 0.447, 0.447 ]
+					},
+					"center_point" : [ -56.56741, 92.98767, 3.161957 ],
+					"end_point" : [ -59.35762, 89.51995, 3.536434 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_mid2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_mid2",
+				"name" : "r_mid2",
+				"label" : "Right Mid 2",
+				"parent" : "#r_mid1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.732, -0.272, -0.272 ],
+						"max" : [ 0, 0.273, 0.273 ]
+					},
+					"center_point" : [ -59.51404, 89.61355, 3.536611 ],
+					"end_point" : [ -60.99947, 87.33208, 3.776926 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_mid3",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_mid3",
+				"name" : "r_mid3",
+				"label" : "Right Mid 3",
+				"parent" : "#r_mid2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.306, -0.23, -0.23 ],
+						"max" : [ 0, 0.231, 0.231 ]
+					},
+					"center_point" : [ -61.00626, 87.34458, 3.78142 ],
+					"end_point" : [ -62.51828, 85.60753, 3.920027 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ringmetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_ringmetacarpal",
+				"name" : "r_ringmetacarpal",
+				"label" : "Right Ring Metacarpal",
+				"parent" : "#r_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -51.61115, 98.79959, 1.100513 ],
+					"end_point" : [ -56.05246, 93.12746, 1.236584 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ring1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_ring1",
+				"name" : "r_ring1",
+				"label" : "Right Ring 1",
+				"parent" : "#r_ringmetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.188, -0.418, -0.418 ],
+						"max" : [ 0, 0.419, 0.419 ]
+					},
+					"center_point" : [ -56.19007, 93.29565, 1.231668 ],
+					"end_point" : [ -58.79688, 90.01678, 1.237523 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ring2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_ring2",
+				"name" : "r_ring2",
+				"label" : "Right Ring 2",
+				"parent" : "#r_ring1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.36, -0.235, -0.235 ],
+						"max" : [ 0, 0.236, 0.236 ]
+					},
+					"center_point" : [ -58.79688, 90.01678, 1.237523 ],
+					"end_point" : [ -60.16452, 88.09247, 1.255822 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ring3",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_ring3",
+				"name" : "r_ring3",
+				"label" : "Right Ring 3",
+				"parent" : "#r_ring2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.278, -0.227, -0.227 ],
+						"max" : [ 0, 0.228, 0.228 ]
+					},
+					"center_point" : [ -60.16452, 88.09247, 1.255822 ],
+					"end_point" : [ -61.5932, 86.31657, 1.265367 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pinkymetacarpal",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_pinkymetacarpal",
+				"name" : "r_pinkymetacarpal",
+				"label" : "Right Pinky Metacarpal",
+				"parent" : "#r_hand",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -51.67693, 98.78775, 0.06844335 ],
+					"end_point" : [ -55.60767, 93.25324, -0.6951413 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pinky1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_pinky1",
+				"name" : "r_pinky1",
+				"label" : "Right Pinky 1",
+				"parent" : "#r_pinkymetacarpal",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -3.132, -0.312, -0.312 ],
+						"max" : [ 0, 0.313, 0.313 ]
+					},
+					"center_point" : [ -55.663, 93.1496, -0.7747419 ],
+					"end_point" : [ -57.65807, 90.73806, -0.9249735 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pinky2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_pinky2",
+				"name" : "r_pinky2",
+				"label" : "Right Pinky 2",
+				"parent" : "#r_pinky1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.904, -0.19, -0.19 ],
+						"max" : [ 0, 0.191, 0.191 ]
+					},
+					"center_point" : [ -57.65807, 90.73806, -0.9249735 ],
+					"end_point" : [ -58.7856, 89.20435, -1.007563 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pinky3",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_pinky3",
+				"name" : "r_pinky3",
+				"label" : "Right Pinky 3",
+				"parent" : "#r_pinky2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -1.961, -0.195, -0.195 ],
+						"max" : [ 0, 0.196, 0.196 ]
+					},
+					"center_point" : [ -58.78449, 89.20296, -1.03285 ],
+					"end_point" : [ -59.94987, 87.6312, -1.176645 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_forearmtwist1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_forearmtwist1",
+				"name" : "r_forearmtwist1",
+				"label" : "Right Forearm Twist 1",
+				"parent" : "#r_forearm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -36.59509, 112.4047, -2.796559 ],
+					"end_point" : [ -43.91344, 106.08, 0.4164797 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_forearmtwist2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_forearmtwist2",
+				"name" : "r_forearmtwist2",
+				"label" : "Right Forearm Twist 2",
+				"parent" : "#r_forearm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -44.15668, 105.7864, -0.38937 ],
+					"end_point" : [ -50.80126, 99.30112, 1.699304 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_upperarmtwist1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_upperarmtwist1",
+				"name" : "r_upperarmtwist1",
+				"label" : "Right Upper Arm Twist 1",
+				"parent" : "#r_upperarm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -18.73359, 129.2666, -4.470783 ],
+					"end_point" : [ -24.99832, 123.223, -3.931571 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_upperarmtwist2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_upperarmtwist2",
+				"name" : "r_upperarmtwist2",
+				"label" : "Right Upper Arm Twist 2",
+				"parent" : "#r_upperarm",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -24.71059, 123.5637, -4.256284 ],
+					"end_point" : [ -32.25854, 116.2116, -3.797724 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neck1",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#neck1",
+				"name" : "neck1",
+				"label" : "Neck 1",
+				"parent" : "#spine4",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -7.27, 1.093, -7.245 ],
+						"max" : [ 7.543, 5.595, 1.414 ]
+					},
+					"center_point" : [ 0, 138.4378, -3.0818 ],
+					"end_point" : [ 0, 144.8269, -1.822019 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neck2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#neck2",
+				"name" : "neck2",
+				"label" : "Neck 2",
+				"parent" : "#neck1",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.67, 0, -0.67 ],
+						"max" : [ 0.671, 6.711, 0.671 ]
+					},
+					"center_point" : [ 0, 144.8512, -0.6455941 ],
+					"end_point" : [ 0, 151.5549, -0.3267834 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "head",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#head",
+				"name" : "head",
+				"label" : "Head",
+				"parent" : "#neck2",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -0.327, 0, -0.327 ],
+						"max" : [ 0.328, 3.28, 0.328 ]
+					},
+					"center_point" : [ 0, 151.145, -0.8144608 ],
+					"end_point" : [ 0, 154.425, -0.8479572 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "upperteeth",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#upperteeth",
+				"name" : "upperteeth",
+				"label" : "Upper Teeth",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 149.976, 6.08751 ],
+					"end_point" : [ 0, 150.0626, 7.100144 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lowerjaw",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#lowerjaw",
+				"name" : "lowerjaw",
+				"label" : "Lower Jaw",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 151.9779, 1.487694 ],
+					"end_point" : [ 0, 148.6515, 7.663978 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lowerteeth",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#lowerteeth",
+				"name" : "lowerteeth",
+				"label" : "Lower Teeth",
+				"parent" : "#lowerjaw",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 148.7977, 5.968886 ],
+					"end_point" : [ 0, 148.6555, 7.089786 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lowerfacerig",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#lowerfacerig",
+				"name" : "lowerfacerig",
+				"label" : "Lower Face Rig",
+				"parent" : "#lowerjaw",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 152.5329, 0.879428 ],
+					"end_point" : [ 0, 148.4549, 7.59032 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_lipcorner",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_lipcorner",
+				"name" : "l_lipcorner",
+				"label" : "Left Lip Corner",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 3.009721, 149.4079, 7.715623 ],
+					"end_point" : [ 2.772655, 149.2052, 8.74157 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_liplower",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_liplower",
+				"name" : "l_liplower",
+				"label" : "Left Lip Lower",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 1.356629, 148.8727, 8.456305 ],
+					"end_point" : [ 1.152207, 148.7969, 9.208313 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "liplowermiddle",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#liplowermiddle",
+				"name" : "liplowermiddle",
+				"label" : "Lip Lower Middle",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 148.4694, 8.928446 ],
+					"end_point" : [ 0, 148.3822, 9.796047 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_liplower",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_liplower",
+				"name" : "r_liplower",
+				"label" : "Right Lip Lower",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -1.356689, 148.8786, 8.45663 ],
+					"end_point" : [ -1.152212, 148.7973, 9.208341 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_lipcorner",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_lipcorner",
+				"name" : "r_lipcorner",
+				"label" : "Right Lip Corner",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -3.00964, 149.4083, 7.715676 ],
+					"end_point" : [ -2.772551, 149.2054, 8.742136 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_cheeklower",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_cheeklower",
+				"name" : "l_cheeklower",
+				"label" : "Left Cheek Lower",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.931458, 150.0047, 4.871214 ],
+					"end_point" : [ 5.073523, 149.8455, 5.953815 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_cheeklower",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_cheeklower",
+				"name" : "r_cheeklower",
+				"label" : "Right Cheek Lower",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.931485, 150.0054, 4.870985 ],
+					"end_point" : [ -5.073388, 149.8455, 5.953804 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "chin",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#chin",
+				"name" : "chin",
+				"label" : "Chin",
+				"parent" : "#lowerfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 146.294, 7.453024 ],
+					"end_point" : [ 0, 145.9737, 8.557935 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "upperfacerig",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#upperfacerig",
+				"name" : "upperfacerig",
+				"label" : "Upper Face Rig",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 151.145, -0.8144608 ],
+					"end_point" : [ 0, 154.425, -0.8479572 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_browinner",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_browinner",
+				"name" : "l_browinner",
+				"label" : "Left Brow Inner",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 3.107545, 159.819, 9.276444 ],
+					"end_point" : [ 3.124823, 159.7612, 10.17567 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_browouter",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_browouter",
+				"name" : "l_browouter",
+				"label" : "Left Brow Outer",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 6.496352, 159.7963, 7.943681 ],
+					"end_point" : [ 6.532217, 159.6992, 8.998503 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_browinner",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_browinner",
+				"name" : "r_browinner",
+				"label" : "Right Brow Inner",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -3.107688, 159.8187, 9.276509 ],
+					"end_point" : [ -3.124788, 159.7623, 10.17602 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_browouter",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_browouter",
+				"name" : "r_browouter",
+				"label" : "Right Brow Outer",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -6.49628, 159.7974, 7.943826 ],
+					"end_point" : [ -6.532967, 159.6986, 8.998447 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "centerbrow",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#centerbrow",
+				"name" : "centerbrow",
+				"label" : "Center Brow",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 159.476, 10.23646 ],
+					"end_point" : [ 0, 159.3076, 11.04835 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_eyelidupper",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_eyelidupper",
+				"name" : "l_eyelidupper",
+				"label" : "Left Eyelid Upper",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.804212, 156.6503, 5.725736 ],
+					"end_point" : [ 4.92039, 157.0648, 7.015526 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_eyelidlower",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_eyelidlower",
+				"name" : "l_eyelidlower",
+				"label" : "Left Eyelid Lower",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.80381, 156.6158, 5.725714 ],
+					"end_point" : [ 4.933699, 156.0326, 6.900839 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_eyelidupper",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_eyelidupper",
+				"name" : "r_eyelidupper",
+				"label" : "Right Eyelid Upper",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.804106, 156.6494, 5.725695 ],
+					"end_point" : [ -4.920424, 157.0656, 7.015608 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_eyelidlower",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_eyelidlower",
+				"name" : "r_eyelidlower",
+				"label" : "Right Eyelid Lower",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.803769, 156.615, 5.725784 ],
+					"end_point" : [ -4.933699, 156.0311, 6.900836 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_squint",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_squint",
+				"name" : "l_squint",
+				"label" : "Left Squint",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 3.692097, 154.6238, 7.760644 ],
+					"end_point" : [ 3.645112, 154.6157, 8.933331 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_squint",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_squint",
+				"name" : "r_squint",
+				"label" : "Right Squint",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -3.692176, 154.6242, 7.760658 ],
+					"end_point" : [ -3.644907, 154.6166, 8.933208 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_cheek",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_cheek",
+				"name" : "l_cheek",
+				"label" : "Left Cheek",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 6.446023, 153.1442, 7.066991 ],
+					"end_point" : [ 6.531008, 152.9942, 8.034546 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_cheek",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_cheek",
+				"name" : "r_cheek",
+				"label" : "Right Cheek",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -6.446057, 153.1447, 7.06698 ],
+					"end_point" : [ -6.531617, 152.9932, 8.034439 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_nostril",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_nostril",
+				"name" : "l_nostril",
+				"label" : "Left Nostril",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0.7819424, 151.5301, 10.58822 ],
+					"end_point" : [ 0.6488099, 152.0982, 11.28276 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_nostril",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_nostril",
+				"name" : "r_nostril",
+				"label" : "Right Nostril",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -0.7819645, 151.5298, 10.58817 ],
+					"end_point" : [ -0.6488093, 152.099, 11.28283 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lipuppermiddle",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#lipuppermiddle",
+				"name" : "lipuppermiddle",
+				"label" : "Lip Upper Middle",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 149.7847, 9.424577 ],
+					"end_point" : [ 0, 149.6124, 10.47793 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_lipupper",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_lipupper",
+				"name" : "l_lipupper",
+				"label" : "Left Lip Upper",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 1.349126, 149.6201, 8.78932 ],
+					"end_point" : [ 1.192089, 149.4819, 9.642234 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_lipupper",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_lipupper",
+				"name" : "r_lipupper",
+				"label" : "Right Lip Upper",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -1.349142, 149.6198, 8.789268 ],
+					"end_point" : [ -1.192087, 149.4813, 9.642191 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_infraorbital",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_infraorbital",
+				"name" : "l_infraorbital",
+				"label" : "Left Infraorbital",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 2.838346, 153.7931, 7.255153 ],
+					"end_point" : [ 2.747575, 153.4615, 8.393809 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_infraorbital",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_infraorbital",
+				"name" : "r_infraorbital",
+				"label" : "Right Infraorbital",
+				"parent" : "#upperfacerig",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -2.837896, 153.7936, 7.255291 ],
+					"end_point" : [ -2.747312, 153.4616, 8.393828 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_eye",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_eye",
+				"name" : "l_eye",
+				"label" : "Left Eye",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 4.803833, 156.6329, 5.725807 ],
+					"end_point" : [ 4.803113, 156.6322, 7.032733 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_eye",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_eye",
+				"name" : "r_eye",
+				"label" : "Right Eye",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -4.803925, 156.632, 5.725696 ],
+					"end_point" : [ -4.803178, 156.632, 7.032758 ],
+					"rotation_order" : "ZXY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_ear",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_ear",
+				"name" : "l_ear",
+				"label" : "Left Ear",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 8.221359, 154.7276, -0.3007646 ],
+					"end_point" : [ 10.45792, 154.4844, -2.71842 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_ear",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_ear",
+				"name" : "r_ear",
+				"label" : "Right Ear",
+				"parent" : "#head",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -8.221293, 154.7275, -0.3006175 ],
+					"end_point" : [ -10.458, 154.4847, -2.718417 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "l_pectoral",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#l_pectoral",
+				"name" : "l_pectoral",
+				"label" : "Left Pectoral",
+				"parent" : "#spine3",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -4.574, -5.822, 6.426 ],
+						"max" : [ 6.102, 3.619, 8.92 ]
+					},
+					"center_point" : [ 4.50922, 123.478, -0.3783703 ],
+					"end_point" : [ 7.721224, 125.2304, 6.206356 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "r_pectoral",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#r_pectoral",
+				"name" : "r_pectoral",
+				"label" : "Right Pectoral",
+				"parent" : "#spine3",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -6.431, -5.187, 6.416 ],
+						"max" : [ 5.766, 3.678, 8.844 ]
+					},
+					"center_point" : [ -4.504757, 123.4706, -0.3783304 ],
+					"end_point" : [ -7.721253, 125.2303, 6.206294 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "G9BaseShirt_ToonOutline-1",
+				"url" : "#G9BaseShirt_ToonOutline",
+				"name" : "G9BaseShirt_ToonOutline",
+				"label" : "G9 Base Shirt Toon Outline",
+				"parent" : "#G9BaseShirt",
+				"geometries" : [
+					{
+						"id" : "geometry-1",
+						"url" : "#geometry",
+						"name" : "Shell",
+						"label" : "shape",
+						"polygon_material_groups" : {
+							"count" : 4,
+							"values" : [
+								"Shirt",
+								"Trim_Arms",
+								"Trim_Neck",
+								"Trim_Hip"
+							]
+						},
+						"type" : "polygon_mesh",
+						"extra" : [
+							{
+								"type" : "studio/geometry/shell"
+							}
+						]
+					}
+				],
+				"preview" : {
+					"oriented_box" : {
+						"min" : [ -29.713, 98.365, -14.267 ],
+						"max" : [ 29.739, 159.247, 11.009 ]
+					},
+					"center_point" : [ 0, 0, 0 ],
+					"end_point" : [ 0, 0, 0 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio/node/shell",
+						"polygon_groups" : [ "neck2", "head", "spine1", "r_thigh", "spine2", "spine3", "l_shoulder", "spine4", "r_pectoral", "r_shoulder", "l_pectoral", "pelvis", "l_upperarm", "l_thigh", "r_upperarm", "neck1" ],
+						"polygon_material_groups" : [ "Shirt", "Trim_Hip", "Trim_Arms", "Trim_Neck" ],
+						"material_uvs" : [ [ "Shirt", "Default UVs" ], [ "Trim_Arms", "Default UVs" ], [ "Trim_Neck", "Default UVs" ], [ "Trim_Hip", "Default UVs" ] ]
+					},
+					{
+						"type" : "studio_node_channels",
+						"version" : 4,
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Shell Node",
+									"type" : "node",
+									"node" : "#G9BaseShirt"
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"modifiers" : [
+			{
+				"id" : "FitOverPants2",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/Morphs/Daz%203D/Base/FitOverPants2.dsf#FitOverPants2",
+				"parent" : "#G9TShirtBasics",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"current_value" : 1
+				},
+				"region" : "Actor",
+				"group" : "/Adjustment"
+			},
+			{
+				"id" : "SkinBinding",
+				"url" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/G9BaseShirt.dsf#SkinBinding",
+				"parent" : "#G9TShirtBasics",
+				"extra" : [
+					{
+						"type" : "skin_settings",
+						"auto_normalize_general" : true,
+						"auto_normalize_local" : true,
+						"auto_normalize_scale" : true,
+						"binding_mode" : "General",
+						"general_map_mode" : "DualQuat",
+						"scale_mode" : "BindingMaps"
+					}
+				]
+			},
+			{
+				"id" : "DzMeshSmoothModifier-1",
+				"url" : "#DzMeshSmoothModifier",
+				"parent" : "#G9BaseShirt",
+				"extra" : [
+					{
+						"type" : "studio/modifier/smoothing"
+					},
+					{
+						"type" : "studio_modifier_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Collision Item",
+									"type" : "node",
+									"node" : "name://@selection:"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Offset-1",
+				"url" : "#Offset",
+				"parent" : "#G9BaseShirt_ToonOutline-1",
+				"extra" : [
+					{
+						"type" : "studio/modifier/push"
+					}
+				]
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Shirt",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#G9TShirtBasics",
+				"groups" : [ "Shirt" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 1, 1, 1 ],
+						"image_file" : "/Runtime/Textures/Mada/BaseClothing/Male/TS5/BaseToon_TShirt5Stripes_BaseColor.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/UV%20Sets/Daz%203D/Base/default.dsf#default",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - General"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.8588235, 0.9176471, 0.945098 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow Threshold",
+									"type" : "float",
+									"current_value" : 0.08629441
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Threshold",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Smooth",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Custom LUT Map",
+									"type" : "image",
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Amount",
+									"type" : "float",
+									"current_value" : 0.2081218
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Threshold",
+									"type" : "float",
+									"current_value" : 0.1522843
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Shadow Strength",
+									"type" : "float",
+									"current_value" : 0.2741117
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0.3568628, 0.2509804, 0.7176471 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Profile",
+									"type" : "file",
+									"current_value" : "Fabric-Metallic Leather",
+									"file_type" : "file_open",
+									"file_display_text" : "",
+									"file_filter" : "IES (*.ies)"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 1.010753,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Minimum Displacement",
+									"type" : "float",
+									"current_value" : -0.2061961
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Maximum Displacement",
+									"type" : "float",
+									"current_value" : 0.183987
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SubD Displacement Level",
+									"type" : "int",
+									"current_value" : 6
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Trim_Arms",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#G9TShirtBasics",
+				"groups" : [ "Trim_Arms" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 0.9019608, 0.9019608, 0.9019608 ],
+						"image_file" : "/Runtime/Textures/Mada/BaseClothing/Male/TS5/BaseToon_TShirt5Stripes_BaseColor.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/UV%20Sets/Daz%203D/Base/default.dsf#default",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - General"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.8588235, 0.9176471, 0.945098 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow Threshold",
+									"type" : "float",
+									"current_value" : 0.08629441
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Threshold",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Smooth",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Custom LUT Map",
+									"type" : "image",
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Amount",
+									"type" : "float",
+									"current_value" : 0.2081218
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Threshold",
+									"type" : "float",
+									"current_value" : 0.1522843
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Shadow Strength",
+									"type" : "float",
+									"current_value" : 0.2741117
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0.3568628, 0.2509804, 0.7176471 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Profile",
+									"type" : "file",
+									"current_value" : "Fabric-Metallic Leather",
+									"file_type" : "file_open",
+									"file_display_text" : "",
+									"file_filter" : "IES (*.ies)"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 1.010753,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Minimum Displacement",
+									"type" : "float",
+									"current_value" : -0.2061961
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Maximum Displacement",
+									"type" : "float",
+									"current_value" : 0.183987
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SubD Displacement Level",
+									"type" : "int",
+									"current_value" : 6
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Trim_Neck",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#G9TShirtBasics",
+				"groups" : [ "Trim_Neck" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 0.9019608, 0.9019608, 0.9019608 ],
+						"image_file" : "/Runtime/Textures/Mada/BaseClothing/Male/TS5/BaseToon_TShirt5Stripes_BaseColor.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/UV%20Sets/Daz%203D/Base/default.dsf#default",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - General"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.8588235, 0.9176471, 0.945098 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow Threshold",
+									"type" : "float",
+									"current_value" : 0.08629441
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Threshold",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Smooth",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Custom LUT Map",
+									"type" : "image",
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Amount",
+									"type" : "float",
+									"current_value" : 0.2081218
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Threshold",
+									"type" : "float",
+									"current_value" : 0.1522843
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Shadow Strength",
+									"type" : "float",
+									"current_value" : 0.2741117
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0.3568628, 0.2509804, 0.7176471 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Profile",
+									"type" : "file",
+									"current_value" : "Fabric-Metallic Leather",
+									"file_type" : "file_open",
+									"file_display_text" : "",
+									"file_filter" : "IES (*.ies)"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 1.010753,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Minimum Displacement",
+									"type" : "float",
+									"current_value" : -0.2061961
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Maximum Displacement",
+									"type" : "float",
+									"current_value" : 0.183987
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SubD Displacement Level",
+									"type" : "int",
+									"current_value" : 6
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Trim_Hip",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Base.dsf#FilaToon%20-%20Base",
+				"geometry" : "#G9TShirtBasics",
+				"groups" : [ "Trim_Hip" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+						"current_value" : [ 0.9019608, 0.9019608, 0.9019608 ],
+						"image_file" : "/Runtime/Textures/Mada/BaseClothing/Male/TS5/BaseToon_TShirt5Stripes_BaseColor.jpg"
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"uv_set" : "/data/Daz%203D/Genesis%209%20Starter%20Essentials/G9%20Base%20Shirt/UV%20Sets/Daz%203D/Base/default.dsf#default",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - General"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Ambient",
+									"type" : "float_color",
+									"value" : [ 0.5333333, 0.5333333, 0.5333333 ],
+									"current_value" : [ 0.8588235, 0.9176471, 0.945098 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow Threshold",
+									"type" : "float",
+									"current_value" : 0.08629441
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Threshold",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Smooth",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Custom LUT Map",
+									"type" : "image",
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Shadow LUT Offset V",
+									"type" : "float",
+									"current_value" : 0
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Amount",
+									"type" : "float",
+									"current_value" : 0.2081218
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Threshold",
+									"type" : "float",
+									"current_value" : 0.1522843
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Shadow Strength",
+									"type" : "float",
+									"current_value" : 0.2741117
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Rim Color",
+									"type" : "float_color",
+									"current_value" : [ 0.3568628, 0.2509804, 0.7176471 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "MatCap Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Environment Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color",
+									"current_value" : [ 0, 0, 0 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Profile",
+									"type" : "file",
+									"current_value" : "Fabric-Metallic Leather",
+									"file_type" : "file_open",
+									"file_display_text" : "",
+									"file_filter" : "IES (*.ies)"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float",
+									"current_value" : 1500,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 1.010753,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Minimum Displacement",
+									"type" : "float",
+									"current_value" : -0.2061961
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Maximum Displacement",
+									"type" : "float",
+									"current_value" : 0.183987
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SubD Displacement Level",
+									"type" : "int",
+									"current_value" : 6
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Shirt-1",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Outline.dsf#FilaToon%20-%20Outline",
+				"geometry" : "#geometry-1",
+				"groups" : [ "Shirt" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ],
+						"current_value" : [ 0, 0, 0 ],
+						"image" : null
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - Outline"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "PBR Masked Threshold",
+									"type" : "float",
+									"current_value" : 1
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Trim_Arms-1",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Outline.dsf#FilaToon%20-%20Outline",
+				"geometry" : "#geometry-1",
+				"groups" : [ "Trim_Arms" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ],
+						"current_value" : [ 0, 0, 0 ],
+						"image" : null
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - Outline"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "PBR Masked Threshold",
+									"type" : "float",
+									"current_value" : 1
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Trim_Neck-1",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Outline.dsf#FilaToon%20-%20Outline",
+				"geometry" : "#geometry-1",
+				"groups" : [ "Trim_Neck" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ],
+						"current_value" : [ 0, 0, 0 ],
+						"image" : null
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - Outline"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "PBR Masked Threshold",
+									"type" : "float",
+									"current_value" : 1
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Trim_Hip-1",
+				"url" : "/data/DAZ%203D/Built-in%20Content/FilaToon/FilaToon%20-%20Outline.dsf#FilaToon%20-%20Outline",
+				"geometry" : "#geometry-1",
+				"groups" : [ "Trim_Hip" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ],
+						"current_value" : [ 0, 0, 0 ],
+						"image" : null
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Tags",
+									"type" : "string",
+									"current_value" : "FilaToon - Outline"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float",
+									"current_value" : 0.5,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "PBR Masked Threshold",
+									"type" : "float",
+									"current_value" : 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

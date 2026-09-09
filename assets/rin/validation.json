@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "errors": [],
+  "meshes": 106,
+  "academyMeshes": 30,
+  "baseMeshes": 76,
+  "bones": 36,
+  "checks": [
+    "shared rig on all meshes",
+    "normalized weights and finite vertices",
+    "zero expressions at rest",
+    "finite vertices at animation frame 24",
+    "body and sleeve respond to forearm pose"
+  ]
+}

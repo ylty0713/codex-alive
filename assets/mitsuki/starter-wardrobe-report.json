@@ -1,0 +1,30 @@
+{
+  "source": "Genesis 9 Starter Essentials",
+  "parts": {
+    "G9_Base_Shirt": {
+      "vertices": 8038,
+      "faces": 8010,
+      "separate_object": true
+    },
+    "G9_Base_Shorts": {
+      "vertices": 8256,
+      "faces": 8130,
+      "separate_object": true
+    },
+    "G9_Pixie_Cap": {
+      "vertices": 1085,
+      "faces": 1014,
+      "separate_object": true
+    },
+    "G9_Pixie_Hair": {
+      "strands": 21755,
+      "source_points": 236136,
+      "separate_object": true
+    }
+  },
+  "fitting": "Nearest-triangle barycentric transfer of Mitsuki base displacement; source clothing weights retained. Hair strands follow the fitted root and head bone.",
+  "limitations": [
+    "dForce dynamics and Iray strand shaders are not converted.",
+    "Static first fit; extreme poses and wardrobe collisions not production validated."
+  ]
+}
