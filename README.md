@@ -2,7 +2,7 @@
 
 A Windows 3D desktop companion connected to Codex. / 让 Codex 拥有可说话、可互动的三维桌面形象。
 
-![Desktop companion](previews/companion-full.png)
+![codex-alive 当前版本角色工作室](docs/screenshots/01-character.png)
 
 ## 功能
 
@@ -68,3 +68,23 @@ pnpm run package
 ## 许可证与来源
 
 项目原创代码采用 MIT，见 [LICENSE](LICENSE)。模型、设计图、动作、贴图和第三方依赖不自动适用代码许可证，见 [ASSET-NOTICE.md](ASSET-NOTICE.md)。项目与 OpenAI、Porter Robinson、《Shelter》及各素材作者没有官方关联。
+
+## 界面展示
+
+以下为 v0.3.1 实际运行截图，摄像头与麦克风处于关闭状态。
+
+### 角色与 Codex 互动
+
+![角色全身、Codex 连接与动作控制](docs/screenshots/01-character.png)
+
+### 面部细节
+
+![角色面部近景与表情控制](docs/screenshots/02-expression.png)
+
+### 相机、灯光与显示器
+
+![相机位置、灯光亮度及显示器选择](docs/screenshots/03-camera-lighting.png)
+
+### 感知与视频对话
+
+![视线跟随、人物记忆及凛唤醒设置](docs/screenshots/04-presence.png)
