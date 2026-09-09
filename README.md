@@ -88,3 +88,15 @@ pnpm run package
 ### 感知与视频对话
 
 ![视线跟随、人物记忆及凛唤醒设置](docs/screenshots/04-presence.png)
+
+### 壁纸效果
+
+实际 Windows 桌面效果：角色与字幕显示在桌面背景中，保留桌面图标和任务栏。
+
+**横屏桌面**
+
+![横屏壁纸：三维角色、对话字幕与 Windows 桌面](docs/screenshots/05-wallpaper-landscape.png)
+
+**竖屏桌面**
+
+<img src="docs/screenshots/06-wallpaper-portrait.png" alt="竖屏壁纸：三维角色与对话字幕" width="480">
