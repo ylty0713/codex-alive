@@ -18,6 +18,7 @@ public static class RinDesktopHost {
   [DllImport("user32.dll")] static extern IntPtr SetThreadDpiAwarenessContext(IntPtr context);
   [DllImport("user32.dll")] static extern int MapWindowPoints(IntPtr from,IntPtr to,ref Point point,uint count);
   [DllImport("user32.dll")] static extern bool GetWindowRect(IntPtr h,out Rect r);
+  [DllImport("dwmapi.dll")] static extern int DwmSetWindowAttribute(IntPtr h,int attr,ref int value,int size);
   [StructLayout(LayoutKind.Sequential)] struct Point {public int x,y;}
   [StructLayout(LayoutKind.Sequential)] struct Rect {public int left,top,right,bottom;}
   public static string Attach(long handle,int x,int y,int width,int height) {
@@ -35,7 +36,10 @@ public static class RinDesktopHost {
     if(worker==IntPtr.Zero) throw new Exception("No wallpaper host was found. The preview remains available.");
     IntPtr child=new IntPtr(handle);
     long style=GetWindowLongPtr(child,-16).ToInt64();
-    SetWindowLongPtr(child,-16,new IntPtr((style & ~0x80000000L)|0x40000000L));
+    SetWindowLongPtr(child,-16,new IntPtr((style & ~0x80CF0000L)|0x40000000L));
+    long ex=GetWindowLongPtr(child,-20).ToInt64();
+    SetWindowLongPtr(child,-20,new IntPtr(ex & ~0x00020300L));
+    int square=1;DwmSetWindowAttribute(child,33,ref square,4);
     SetParent(child,worker);
     if(GetParent(child)!=worker) throw new Exception("Could not attach the wallpaper window.");
     Rect r;GetClientRect(worker,out r);
@@ -43,7 +47,8 @@ public static class RinDesktopHost {
     if(width<=0||height<=0){width=r.right-r.left;height=r.bottom-r.top;point.x=0;point.y=0;}
     if(!SetWindowPos(child,IntPtr.Zero,point.x,point.y,width,height,0x0040|0x0010|0x0020))throw new Exception("Could not position wallpaper.");
     Rect actual;GetWindowRect(child,out actual);
-    return "{\"parent\":\""+worker.ToInt64()+"\",\"x\":"+actual.left+",\"y\":"+actual.top+",\"width\":"+(actual.right-actual.left)+",\"height\":"+(actual.bottom-actual.top)+"}";
+    Rect client;GetClientRect(child,out client);Point origin=new Point{x=0,y=0};MapWindowPoints(child,IntPtr.Zero,ref origin,1);
+    return "{\"parent\":\""+worker.ToInt64()+"\",\"x\":"+actual.left+",\"y\":"+actual.top+",\"width\":"+(actual.right-actual.left)+",\"height\":"+(actual.bottom-actual.top)+",\"clientX\":"+origin.x+",\"clientY\":"+origin.y+",\"clientWidth\":"+(client.right-client.left)+",\"clientHeight\":"+(client.bottom-client.top)+"}";
   }
 }
 '@

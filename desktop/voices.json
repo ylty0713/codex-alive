@@ -1,0 +1,110 @@
+[
+  {
+    "name": "zh-CN-XiaoyiNeural",
+    "label": "晓伊 · 柔和女声",
+    "lang": "zh-CN",
+    "gender": "Female"
+  },
+  {
+    "name": "zh-CN-XiaoxiaoNeural",
+    "label": "晓晓 · 明亮女声",
+    "lang": "zh-CN",
+    "gender": "Female"
+  },
+  {
+    "name": "zh-CN-YunxiNeural",
+    "label": "云希 · 青年男声",
+    "lang": "zh-CN",
+    "gender": "Male"
+  },
+  {
+    "name": "zh-CN-YunxiaNeural",
+    "label": "云夏 · 轻快男声",
+    "lang": "zh-CN",
+    "gender": "Male"
+  },
+  {
+    "name": "zh-CN-YunyangNeural",
+    "label": "云扬 · 沉稳男声",
+    "lang": "zh-CN",
+    "gender": "Male"
+  },
+  {
+    "name": "zh-CN-YunjianNeural",
+    "label": "云健 · 有力男声",
+    "lang": "zh-CN",
+    "gender": "Male"
+  },
+  {
+    "name": "zh-TW-HsiaoChenNeural",
+    "label": "曉臻 · 台湾女声",
+    "lang": "zh-TW",
+    "gender": "Female"
+  },
+  {
+    "name": "zh-TW-HsiaoYuNeural",
+    "label": "曉雨 · 台湾女声",
+    "lang": "zh-TW",
+    "gender": "Female"
+  },
+  {
+    "name": "zh-TW-YunJheNeural",
+    "label": "雲哲 · 台湾男声",
+    "lang": "zh-TW",
+    "gender": "Male"
+  },
+  {
+    "name": "zh-HK-HiuGaaiNeural",
+    "label": "曉佳 · 粤语女声",
+    "lang": "zh-HK",
+    "gender": "Female"
+  },
+  {
+    "name": "zh-HK-HiuMaanNeural",
+    "label": "曉曼 · 粤语女声",
+    "lang": "zh-HK",
+    "gender": "Female"
+  },
+  {
+    "name": "zh-HK-WanLungNeural",
+    "label": "雲龍 · 粤语男声",
+    "lang": "zh-HK",
+    "gender": "Male"
+  },
+  {
+    "name": "ja-JP-NanamiNeural",
+    "label": "Nanami · 日语女声",
+    "lang": "ja-JP",
+    "gender": "Female"
+  },
+  {
+    "name": "ja-JP-KeitaNeural",
+    "label": "Keita · 日语男声",
+    "lang": "ja-JP",
+    "gender": "Male"
+  },
+  {
+    "name": "en-US-AvaMultilingualNeural",
+    "label": "Ava · 多语言女声",
+    "lang": "en-US",
+    "gender": "Female"
+  },
+  {
+    "name": "en-US-EmmaMultilingualNeural",
+    "label": "Emma · 多语言女声",
+    "lang": "en-US",
+    "gender": "Female"
+  },
+  {
+    "name": "en-US-AndrewMultilingualNeural",
+    "label": "Andrew · 多语言男声",
+    "lang": "en-US",
+    "gender": "Male"
+  },
+  {
+    "name": "en-US-BrianMultilingualNeural",
+    "label": "Brian · 多语言男声",
+    "lang": "en-US",
+    "gender": "Male"
+  }
+]

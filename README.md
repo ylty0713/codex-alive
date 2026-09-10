@@ -8,6 +8,10 @@ A Windows 3D desktop companion connected to Codex. / 让 Codex 拥有可说话�
 
 - Electron + Three.js 三维角色、骨骼动画、表情和近似口型同步。
 - Windows 桌面壁纸、多显示器选择、相机与灯光设置。
+- v0.4：白底黑白控制中心，角色、场景、感知、声音分区管理。
+- 全息显现与粒子消散：收到反馈时出现，默认闲置 60 秒后隐藏；等待时间、速度、光感、扫描纹理和颜色均可调整，也可关闭后常驻。
+- 呼吸、目光微调与六种回应动作，可设置幅度、频率和呼吸强度。
+- 18 种在线音色，另加本机音色；支持语速、音高和音量调节。
 - 朗读当前 Codex 任务的公开进度与最终回答。
 - 摄像头人脸跟随：偶尔注视或持续注视。
 - 本地中文语音识别和“凛”唤醒，逐轮摄像头画面问答。
@@ -61,7 +65,7 @@ pnpm run check
 pnpm run package
 ```
 
-打包输出 `dist/Companion-v0.3.1/Rin.exe`，可通过 `启动凛.vbs` 启动。当前打包不内置 Python 解释器；发布给其他电脑时仍需安装 Python 和语音依赖。
+打包输出 `dist/Companion-v0.4.0/Rin.exe`，可通过 `启动凛.vbs` 启动。当前打包不内置 Python 解释器；发布给其他电脑时仍需安装 Python 和语音依赖。
 
 `desktop/` 为桌面宿主、Codex 和语音桥接；`modeling/` 为当前角色渲染和感知；`src/` 保留最初的程序化角色；`assets/` 包含模型资源；`scripts/` 包含模型处理与验证工具。部分建模工具需要 Blender/Maya 和各自输入文件。
 
@@ -71,7 +75,7 @@ pnpm run package
 
 ## 界面展示
 
-以下为 v0.3.1 实际运行截图，摄像头与麦克风处于关闭状态。
+以下控制中心为 v0.4 实际运行截图，摄像头与麦克风处于关闭状态。
 
 ### 角色与 Codex 互动
 
@@ -91,7 +95,7 @@ pnpm run package
 
 ### 壁纸效果
 
-实际 Windows 桌面效果：角色与字幕显示在桌面背景中，保留桌面图标和任务栏。
+用户此前提供的 v0.3 Windows 桌面实拍：角色与字幕显示在桌面背景中，保留桌面图标和任务栏。v0.4 已移除窗口边框，并验证两个显示器的内容区域与屏幕边界完全一致。
 
 **横屏桌面**
 
@@ -100,3 +104,11 @@ pnpm run package
 **竖屏桌面**
 
 <img src="docs/screenshots/06-wallpaper-portrait.png" alt="竖屏壁纸：三维角色与对话字幕" width="480">
+
+### 全息显现
+
+![v0.4 从下向上显现的全息效果](docs/screenshots/07-hologram.png)
+
+### 音色与语音设置
+
+![v0.4 音色、语速、音高和音量设置](docs/screenshots/08-voices.png)

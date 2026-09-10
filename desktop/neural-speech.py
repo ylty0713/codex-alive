@@ -5,8 +5,11 @@ import edge_tts
 async def main():
     request=json.loads(Path(sys.argv[1]).read_text(encoding='utf-8'))
     voice=request.get('voice','zh-CN-XiaoyiNeural')
-    if voice not in ['zh-CN-XiaoxiaoNeural','zh-CN-XiaoyiNeural']:raise ValueError('Unsupported voice')
-    communicate=edge_tts.Communicate(request['text'].replace('凛','林'),voice,rate='-6%',pitch='+0Hz',boundary='WordBoundary',connect_timeout=10,receive_timeout=30)
+    catalog=json.loads((Path(__file__).parent/'voices.json').read_text(encoding='utf-8'))
+    if voice not in [v['name'] for v in catalog]:raise ValueError('Unsupported voice')
+    rate=max(-50,min(50,int(request.get('rate',-6))))
+    pitch=max(-30,min(30,int(request.get('pitch',0))))
+    communicate=edge_tts.Communicate(request['text'].replace('凛','林'),voice,rate=f'{rate:+d}%',pitch=f'{pitch:+d}Hz',boundary='WordBoundary',connect_timeout=10,receive_timeout=30)
     timing=[]
     with open(sys.argv[2],'wb') as audio:
         async for chunk in communicate.stream():

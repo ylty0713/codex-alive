@@ -12,7 +12,7 @@ try {
   } else {
     $rinRequest=Get-Content -LiteralPath $InputFile -Raw -Encoding UTF8 | ConvertFrom-Json
     if($rinRequest.voice) { $rinSynth.SelectVoice([string]$rinRequest.voice) }
-    $rinSynth.Rate=[int]$rinRequest.rate
+    $rinSynth.Rate=[Math]::Max(-5,[Math]::Min(5,[int]([double]$rinRequest.rate/10)))
     $rinSynth.SetOutputToWaveFile($OutputFile)
     $rinSynth.Speak([string]$rinRequest.text)
   }

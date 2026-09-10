@@ -57,13 +57,13 @@ async function setWallpaper(enabled){
     if(wallpaper&&!wallpaper.isDestroyed())return {ok:true,enabled:true};
     if(process.platform!=='win32')return {ok:false,error:'动态壁纸模式目前仅支持 Windows。'};
     const display=screen.getAllDisplays().find(d=>d.id===sceneSettings.displayId)||screen.getPrimaryDisplay();
-    wallpaper=new BrowserWindow({...display.bounds,show:false,frame:false,focusable:false,skipTaskbar:true,resizable:false,backgroundColor:'#c4dada',webPreferences:{preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,sandbox:true,nodeIntegration:false,backgroundThrottling:false}});
+    wallpaper=new BrowserWindow({...display.bounds,show:false,frame:false,thickFrame:false,roundedCorners:false,hasShadow:false,useContentSize:true,focusable:false,skipTaskbar:true,resizable:false,backgroundColor:'#f2f2f2',webPreferences:{preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,sandbox:true,nodeIntegration:false,backgroundThrottling:false}});
     secure(wallpaper);const w=wallpaper;
     w.on('closed',()=>{if(wallpaper===w)wallpaper=null;notifyWallpaper();});
     await w.loadFile(path.join(root,'modeling','companion.html'),{query:{mode:'wallpaper'}});
     w.setIgnoreMouseEvents(true);
-    await positionWallpaper(w);
-    w.showInactive();notifyWallpaper();
+    w.showInactive();await positionWallpaper(w);
+    notifyWallpaper();
     return {ok:true,enabled:true};
   }catch(e){wallpaper?.destroy();wallpaper=null;notifyWallpaper();return {ok:false,error:'无法进入桌面壁纸模式：'+e.message};}
   finally{wallpaperChanging=false;}
@@ -78,7 +78,7 @@ ipcMain.handle('synthesize',async(e,data)=>{
   try{
     dir=path.join(app.getPath('temp'),'rin-speech-'+randomUUID());await fs.mkdir(dir,{recursive:true});
     const request=path.join(dir,'request.json'),audio=path.join(dir,'speech.wav');
-    await fs.writeFile(request,JSON.stringify({text:data.text,voice:typeof data.voice==='string'?data.voice.slice(0,200):'',rate:Math.max(-3,Math.min(3,Number(data.rate)||0))}),'utf8');
+    await fs.writeFile(request,JSON.stringify({text:data.text,voice:typeof data.voice==='string'?data.voice.slice(0,200):'',rate:Math.max(-50,Math.min(50,Number(data.rate)||0)),pitch:Math.max(-30,Math.min(30,Number(data.pitch)||0))}),'utf8');
     if(neuralSpeech.voices.some(v=>v.name===data.voice))await neuralSpeech.synthesize(request,audio,speechJobs);
     else await runPowerShell('speech.ps1',['-Mode','speak','-InputFile',request,'-OutputFile',audio],90000);
     let timing=[];try{timing=JSON.parse(await fs.readFile(audio+'.json','utf8'))}catch{}
@@ -95,7 +95,7 @@ ipcMain.handle('save-model',async(e,data)=>{
 });
 ipcMain.on('companion-command',(e,data)=>{
   if(!isStudio(e)||!data||typeof data!=='object')return;
-  const valid=['action','preferences','mouth','pose','caption','stop','expression','gaze','viseme'];
+  const valid=['action','preferences','mouth','pose','caption','stop','expression','gaze','viseme','activity','gesture','speech'];
   if(!valid.includes(data.type)||JSON.stringify(data).length>5000)return;
   if(wallpaper&&!wallpaper.isDestroyed())wallpaper.webContents.send('companion-command',data);
 });
@@ -106,7 +106,7 @@ app.whenReady().then(async()=>{
   if(!screen.getAllDisplays().some(d=>d.id===sceneSettings.displayId))sceneSettings.displayId=screen.getPrimaryDisplay().id;
   const changed=()=>{settingsQueue=settingsQueue.then(async()=>{if(!screen.getAllDisplays().some(d=>d.id===sceneSettings.displayId))sceneSettings.displayId=screen.getPrimaryDisplay().id;if(wallpaper&&!wallpaper.isDestroyed())await positionWallpaper(wallpaper);broadcastSettings()}).catch(()=>{});};
   screen.on('display-added',changed);screen.on('display-removed',changed);screen.on('display-metrics-changed',changed);
-  studio=new BrowserWindow({width:1360,height:900,minWidth:980,minHeight:700,show:false,title:'凛 · 桌面伙伴',backgroundColor:'#f5f3ee',autoHideMenuBar:true,webPreferences:{preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,sandbox:true,nodeIntegration:false,backgroundThrottling:false}});
+  studio=new BrowserWindow({width:1480,height:960,minWidth:1000,minHeight:720,show:false,title:'凛 · 桌面伙伴',backgroundColor:'#ffffff',autoHideMenuBar:true,webPreferences:{preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,sandbox:true,nodeIntegration:false,backgroundThrottling:false}});
   secure(studio);
   studio.on('close',e=>{if(!app.isQuitting&&wallpaper){e.preventDefault();studio.hide();}});
   bridge=new CodexBridge({root,userData:app.getPath('userData'),config:{...require('./companion-config.json'),...(require('node:fs').existsSync(path.join(__dirname,'companion-config.local.json'))?require('./companion-config.local.json'):{}),...(process.env.RIN_WATCH_FILE?{watchFile:process.env.RIN_WATCH_FILE}:{})},onEvent:data=>{studio?.webContents.send('codex-event',data);if(wallpaper&&!wallpaper.isDestroyed())wallpaper.webContents.send('codex-event',data)}});bridge.start(); await studio.loadFile(path.join(root,'modeling','companion.html'));studio.show(); if(process.argv.includes('--wallpaper'))await setWallpaper(true);

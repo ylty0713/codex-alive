@@ -17,7 +17,7 @@ contextBridge.exposeInMainWorld('desktop',{
   codexStop:()=>ipcRenderer.invoke('codex-stop'),
   onCodex:fn=>{const listener=(_e,data)=>fn(data);ipcRenderer.on('codex-event',listener);return()=>ipcRenderer.removeListener('codex-event',listener)},
   voices:()=>ipcRenderer.invoke('voices'),
-  synthesize:(text,voice,rate)=>ipcRenderer.invoke('synthesize',{text,voice,rate}),
+  synthesize:(text,voice,rate,pitch)=>ipcRenderer.invoke('synthesize',{text,voice,rate,pitch}),
   wallpaper:enabled=>ipcRenderer.invoke('wallpaper',!!enabled),
   saveModel:bytes=>ipcRenderer.invoke('save-model',bytes),
   publish:command=>ipcRenderer.send('companion-command',command),
