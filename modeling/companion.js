@@ -1,3 +1,4 @@
+import {fixCharacterMaterials} from './character-materials.js';
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
@@ -32,7 +33,7 @@ function stop(){narrationQueue.length=0;stopPlayback()}
 $('stop').onclick=stop;$('speak').onclick=()=>{stop();const text=$('text').value.trim();if(!text)return;if(!window.speechSynthesis){$('speech-note').textContent='当前环境没有可用的系统语音。';return}const token=speechToken,utter=new SpeechSynthesisUtterance(text);utter.lang='zh-CN';utter.voice=speechSynthesis.getVoices().find(v=>v.voiceURI===$('voice').value)||null;utter.rate=.95;utter.onstart=()=>{if(token!==speechToken)return;speaking=true;motion('talk');$('caption').textContent=text;$('caption').hidden=false};utter.onend=()=>{if(token===speechToken)stop()};utter.onerror=e=>{if(token!==speechToken)return;stop();$('speech-note').textContent=`语音未能播放（${e.error}），可继续使用动作和口型滑杆。`};speechSynthesis.speak(utter)};
 window.addEventListener('pagehide',stop);
 async function load(){
- const g=await loader.loadAsync(new URL('../assets/companion/character-runtime.glb',import.meta.url).href,e=>{if(e.total)$('status').textContent=`正在载入角色 ${Math.round(e.loaded/e.total*100)}%`});model=g.scene;stage.add(model);model.updateMatrixWorld(true);
+ const g=await loader.loadAsync(new URL('../assets/companion/character-runtime.glb',import.meta.url).href,e=>{if(e.total)$('status').textContent=`正在载入角色 ${Math.round(e.loaded/e.total*100)}%`});model=g.scene;fixCharacterMaterials(model);stage.add(model);model.updateMatrixWorld(true);
  model.traverse(o=>{if(o.isBone)bones.push(o);if(o.isMesh){o.frustumCulled=false;if(o.morphTargetDictionary)morphs.push(o)}});
  const box=new THREE.Box3().setFromObject(model),height=box.max.y-box.min.y,scale=1.72/height;model.scale.multiplyScalar(scale);model.position.add(new THREE.Vector3(-(box.min.x+box.max.x)/2,-box.min.y,-(box.min.z+box.max.z)/2).multiplyScalar(scale));model.updateMatrixWorld(true);
  director.attach(bones);hologram.attach(model);rest=bones.map(b=>[b,b.position.clone(),b.quaternion.clone(),b.scale.clone()]);head=bones.find(b=>b.name==='CC_Base_Head');headBase=head?.quaternion.clone();mixer=new THREE.AnimationMixer(model);helper=new THREE.SkeletonHelper(model);helper.visible=false;scene.add(helper);

@@ -67,7 +67,7 @@ pnpm run check
 pnpm run package
 ```
 
-打包输出 `dist/Companion-v0.4.3/Rin.exe`，可通过 `启动凛.vbs` 启动。当前打包不内置 Python 解释器；发布给其他电脑时仍需安装 Python 和语音依赖。
+打包输出 `dist/Companion-v0.4.4/Rin.exe`，可通过 `启动凛.vbs` 启动。当前打包不内置 Python 解释器；发布给其他电脑时仍需安装 Python 和语音依赖。
 
 `desktop/` 为桌面宿主、Codex 和语音桥接；`modeling/` 为当前角色渲染和感知；`src/` 保留最初的程序化角色；`assets/` 包含模型资源；`scripts/` 包含模型处理与验证工具。部分建模工具需要 Blender/Maya 和各自输入文件。
 

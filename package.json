@@ -1,6 +1,6 @@
 {
   "name": "codex-alive",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "private": true,
   "type": "module",
   "description": "A 3D desktop companion connected to Codex",

@@ -3,7 +3,7 @@ import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url),root=path.resolve(import.meta.dirname,'..');
-const output=path.join(root,'dist','Companion-v0.4.3');
+const output=path.join(root,'dist','Companion-v0.4.4');
 const electronExe=require('electron'),runtime=path.dirname(electronExe);
 await fs.mkdir(output,{recursive:true});
 for(const entry of await fs.readdir(runtime,{withFileTypes:true})){
@@ -15,7 +15,7 @@ if(process.platform==='win32')execFileSync('powershell.exe',['-NoProfile','-Exec
 const app=path.join(output,'resources','app');await fs.mkdir(app,{recursive:true});
 for(const name of ['desktop','src','index.html','README.md'])await fs.cp(path.join(root,name),path.join(app,name),{recursive:true,force:true});
 await fs.mkdir(path.join(app,'modeling'),{recursive:true});
-for(const name of ['companion.html','companion.js','scene-settings.js','presence.js','presence-logic.js','mic-worklet.js','lip-sync.js','hologram.js','motion-director.js','studio-ui.js','studio.css'])await fs.copyFile(path.join(root,'modeling',name),path.join(app,'modeling',name));
+for(const name of ['companion.html','companion.js','character-materials.js','scene-settings.js','presence.js','presence-logic.js','mic-worklet.js','lip-sync.js','hologram.js','motion-director.js','studio-ui.js','studio.css'])await fs.copyFile(path.join(root,'modeling',name),path.join(app,'modeling',name));
 await fs.cp(path.join(root,'assets','stt'),path.join(app,'assets','stt'),{recursive:true});
 for(const name of ['@vladmandic/face-api','pinyin-pro'])await fs.cp(path.join(root,'node_modules',name),path.join(app,'node_modules',name),{recursive:true,dereference:true});
 await fs.mkdir(path.join(app,'assets','companion'),{recursive:true});
