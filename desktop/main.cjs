@@ -29,7 +29,7 @@ app.setName('Rin Desktop Companion');
 if(process.env.RIN_PROFILE_DIR){require('node:fs').mkdirSync(process.env.RIN_PROFILE_DIR,{recursive:true});app.setPath('userData',process.env.RIN_PROFILE_DIR);}
 const hasInstanceLock=app.requestSingleInstanceLock();
 if(!hasInstanceLock)app.quit();
-app.on('second-instance',()=>{studio?.restore();showStudio();});
+app.on('second-instance',(_event,argv)=>{if(argv.includes('--codex-startup'))return;studio?.restore();showStudio();});
 function runPowerShell(script,args=[],timeout=30000){
   return new Promise((resolve,reject)=>{
     const child=spawn('powershell.exe',['-NoProfile','-NonInteractive','-ExecutionPolicy','Bypass','-File',path.join(__dirname,script),...args],{windowsHide:true,stdio:['ignore','pipe','pipe']});
@@ -106,14 +106,11 @@ app.whenReady().then(async()=>{
   if(!screen.getAllDisplays().some(d=>d.id===sceneSettings.displayId))sceneSettings.displayId=screen.getPrimaryDisplay().id;
   const changed=()=>{settingsQueue=settingsQueue.then(async()=>{if(!screen.getAllDisplays().some(d=>d.id===sceneSettings.displayId))sceneSettings.displayId=screen.getPrimaryDisplay().id;if(wallpaper&&!wallpaper.isDestroyed())await positionWallpaper(wallpaper);broadcastSettings()}).catch(()=>{});};
   screen.on('display-added',changed);screen.on('display-removed',changed);screen.on('display-metrics-changed',changed);
-  studio=new BrowserWindow({width:1480,height:960,minWidth:1000,minHeight:720,show:false,title:'凛 · 桌面伙伴',backgroundColor:'#ffffff',autoHideMenuBar:true,webPreferences:{preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,sandbox:true,nodeIntegration:false,backgroundThrottling:false}});
+  studio=new BrowserWindow({width:1480,height:960,minWidth:1000,minHeight:720,show:false,title:'凛 · 桌面伙伴',icon:path.join(__dirname,'branding','app.ico'),backgroundColor:'#ffffff',autoHideMenuBar:true,webPreferences:{preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,sandbox:true,nodeIntegration:false,backgroundThrottling:false}});
   secure(studio);
   studio.on('close',e=>{if(!app.isQuitting&&wallpaper){e.preventDefault();studio.hide();}});
-  bridge=new CodexBridge({root,userData:app.getPath('userData'),config:{...require('./companion-config.json'),...(require('node:fs').existsSync(path.join(__dirname,'companion-config.local.json'))?require('./companion-config.local.json'):{}),...(process.env.RIN_WATCH_FILE?{watchFile:process.env.RIN_WATCH_FILE}:{})},onEvent:data=>{studio?.webContents.send('codex-event',data);if(wallpaper&&!wallpaper.isDestroyed())wallpaper.webContents.send('codex-event',data)}});bridge.start(); await studio.loadFile(path.join(root,'modeling','companion.html'));studio.show(); if(process.argv.includes('--wallpaper'))await setWallpaper(true);
-  // A small native tray icon keeps the wallpaper controls reachable.
-  const icon=Buffer.alloc(32*32*4);
-  for(let y=0;y<32;y++)for(let x=0;x<32;x++){let i=(y*32+x)*4,inside=(x-16)**2+(y-16)**2<196;icon[i]=111;icon[i+1]=100;icon[i+2]=168;icon[i+3]=inside?255:0;}
-  tray=new Tray(nativeImage.createFromBitmap(icon,{width:32,height:32}));tray.setToolTip('凛 · 桌面伙伴');
+  bridge=new CodexBridge({root,userData:app.getPath('userData'),config:{...require('./companion-config.json'),...(require('node:fs').existsSync(path.join(__dirname,'companion-config.local.json'))?require('./companion-config.local.json'):{}),...(process.env.RIN_WATCH_FILE?{watchFile:process.env.RIN_WATCH_FILE}:{})},onEvent:data=>{studio?.webContents.send('codex-event',data);if(wallpaper&&!wallpaper.isDestroyed())wallpaper.webContents.send('codex-event',data)}});bridge.start(); await studio.loadFile(path.join(root,'modeling','companion.html'));if(!process.argv.includes('--codex-startup'))studio.show(); if(process.argv.includes('--wallpaper')){const result=await setWallpaper(true);if(!result.ok)showStudio();}
+  tray=new Tray(nativeImage.createFromPath(path.join(__dirname,'branding','app.ico')));tray.setToolTip('Codex Alive · 凛');
   tray.setContextMenu(Menu.buildFromTemplate([{label:'打开控制面板',click:showStudio},{label:'退出壁纸模式',click:()=>setWallpaper(false)},{type:'separator'},{label:'退出凛',click:()=>app.quit()}]));tray.on('click',showStudio);
   globalShortcut.register('CommandOrControl+Alt+R',showStudio);
   globalShortcut.register('CommandOrControl+Alt+Q',()=>{setWallpaper(false);showStudio();});

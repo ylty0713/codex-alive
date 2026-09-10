@@ -1,8 +1,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import {execFileSync} from 'node:child_process';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url),root=path.resolve(import.meta.dirname,'..');
-const output=path.join(root,'dist','Companion-v0.4.0');
+const output=path.join(root,'dist','Companion-v0.4.1');
 const electronExe=require('electron'),runtime=path.dirname(electronExe);
 await fs.mkdir(output,{recursive:true});
 for(const entry of await fs.readdir(runtime,{withFileTypes:true})){
@@ -10,6 +11,7 @@ for(const entry of await fs.readdir(runtime,{withFileTypes:true})){
   await fs.cp(path.join(runtime,entry.name),path.join(output,entry.name),{recursive:true,force:true});
 }
 await fs.copyFile(electronExe,path.join(output,'Rin.exe'));
+if(process.platform==='win32')execFileSync('powershell.exe',['-NoProfile','-ExecutionPolicy','Bypass','-File',path.join(root,'scripts','set-icon.ps1'),'-Executable',path.join(output,'Rin.exe'),'-Icon',path.join(root,'desktop','branding','app.ico')],{windowsHide:true,stdio:'inherit'});
 const app=path.join(output,'resources','app');await fs.mkdir(app,{recursive:true});
 for(const name of ['desktop','src','index.html','README.md'])await fs.cp(path.join(root,name),path.join(app,name),{recursive:true,force:true});
 await fs.mkdir(path.join(app,'modeling'),{recursive:true});
