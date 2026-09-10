@@ -3,7 +3,7 @@ import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url),root=path.resolve(import.meta.dirname,'..');
-const output=path.join(root,'dist','Companion-v0.4.4');
+const output=path.join(root,'dist','Companion-v0.4.5');
 const electronExe=require('electron'),runtime=path.dirname(electronExe);
 await fs.mkdir(output,{recursive:true});
 for(const entry of await fs.readdir(runtime,{withFileTypes:true})){
