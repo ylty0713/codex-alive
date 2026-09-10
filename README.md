@@ -77,7 +77,7 @@ pnpm run package
 
 ## 界面展示
 
-以下控制中心为 v0.4 实际运行截图，摄像头与麦克风处于关闭状态。
+以下控制中心为 v0.4.1 打包版本的实际运行截图（包含新版 Logo），摄像头与麦克风处于关闭状态。
 
 ### 角色与 Codex 互动
 
@@ -109,11 +109,11 @@ pnpm run package
 
 ### 全息显现
 
-![v0.4 从下向上显现的全息效果](docs/screenshots/07-hologram.png)
+![v0.4.1 从下向上显现的全息效果](docs/screenshots/07-hologram.png)
 
 ### 音色与语音设置
 
-![v0.4 音色、语速、音高和音量设置](docs/screenshots/08-voices.png)
+![v0.4.1 音色、语速、音高和音量设置](docs/screenshots/08-voices.png)
 
 ## 随 Codex 自动启动（Windows）
 
