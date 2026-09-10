@@ -4,6 +4,7 @@ const os=require('node:os');
 const {spawn}=require('node:child_process');
 const {StringDecoder}=require('node:string_decoder');
 const {companionPrompt}=require('./companion-prompt.cjs');
+const {currentLog}=require('./session-log.cjs');
 function visibleEvent(row){
  const p=row.payload||{};
  if(row.type==='event_msg'&&['task_started','turn_started','user_message'].includes(p.type))return {state:'thinking'};
@@ -19,9 +20,31 @@ class CodexBridge{
  constructor({root,userData,onEvent,config}){Object.assign(this,{root,userData,onEvent,config});this.session=null;this.child=null;this.last={state:'idle'};this.offset=0;this.decoder=new StringDecoder('utf8');this.pending='';}
  emit(data){this.last={...data,time:Date.now()};this.onEvent(this.last)}
  executable(){if(this.config.executable&&fs.existsSync(this.config.executable))return this.config.executable;const dir=path.join(process.env.LOCALAPPDATA||path.join(os.homedir(),'AppData/Local'),'OpenAI/Codex/bin');try{for(const name of fs.readdirSync(dir).reverse()){const p=path.join(dir,name,'codex.exe');if(fs.existsSync(p))return p}}catch{}return 'codex';}
- start(){const file=this.config.watchFile;try{this.offset=fs.statSync(file).size;this.watching=true}catch{this.watching=false}this.timer=setInterval(()=>this.poll(),800);this.timer.unref();return this.status()}
- status(){return {connected:this.watching,watchThread:this.config.watchThread,busy:!!this.child,last:this.last};}
- poll(){if(!this.watching)return;try{const file=this.config.watchFile,size=fs.statSync(file).size;if(size<this.offset){this.offset=0;this.pending='';this.decoder=new StringDecoder('utf8')}if(size===this.offset)return;const n=Math.min(size-this.offset,1024*1024),buf=Buffer.alloc(n),fd=fs.openSync(file,'r');try{fs.readSync(fd,buf,0,n,this.offset)}finally{fs.closeSync(fd)}this.offset+=n;this.pending+=this.decoder.write(buf);const lines=this.pending.split('\n');this.pending=lines.pop();for(const line of lines){try{const event=visibleEvent(JSON.parse(line));if(event)this.emit({...event,source:'desktop'})}catch{}}}catch{this.watching=false;this.emit({state:'error',message:'当前 Codex 任务连接已中断，请重新选择任务。'})}}
+ start(){this.startedAt=Date.now();this.seen=new Set();this.file=currentLog(this.config);this.lastDiscovery=Date.now();try{this.offset=fs.statSync(this.file).size;this.watching=true}catch{this.watching=false}this.timer=setInterval(()=>this.poll(),800);this.timer.unref();return this.status()}
+ status(){return {connected:this.watching,watchThread:this.config.watchThread,watchFile:this.file,busy:!!this.child,last:this.last};}
+ poll(){
+  if(Date.now()-this.lastDiscovery>=5000||!this.watching){
+   this.lastDiscovery=Date.now();const next=currentLog(this.config);
+   if(next&&next!==this.file){this.file=next;this.offset=0;this.pending='';this.decoder=new StringDecoder('utf8');this.recovering=true;}
+  }
+  try{
+   const size=fs.statSync(this.file).size;this.watching=true;
+   if(size<this.offset){this.offset=0;this.pending='';this.decoder=new StringDecoder('utf8');this.recovering=true;}
+   if(size===this.offset)return;
+   const n=Math.min(size-this.offset,1024*1024),buf=Buffer.alloc(n),fd=fs.openSync(this.file,'r');let bytes;
+   try{bytes=fs.readSync(fd,buf,0,n,this.offset)}finally{fs.closeSync(fd)}this.offset+=bytes;
+   this.pending+=this.decoder.write(buf.subarray(0,bytes));const lines=this.pending.split('\n');this.pending=lines.pop();
+   for(const line of lines){try{
+    const row=JSON.parse(line);
+    if(this.recovering&&(!row.timestamp||Date.parse(row.timestamp)<this.startedAt))continue;
+    const event=visibleEvent(row);if(!event)continue;
+    const key=JSON.stringify([row.timestamp,event]);if(this.seen.has(key))continue;
+    this.seen.add(key);if(this.seen.size>4000)this.seen.delete(this.seen.values().next().value);
+    this.emit({...event,source:'desktop'});
+   }catch{}}
+   if(this.offset===size&&!this.pending)this.recovering=false;
+  }catch{const wasConnected=this.watching;this.watching=false;if(wasConnected)this.emit({state:'error',message:'任务日志暂不可用，正在自动重连。'});}
+ }
  send(text,imagePath,onCleanup){if(typeof text!=='string'||!text.trim()||text.length>4000)return {ok:false,error:'请输入 1–4000 字。'};if(this.child)return {ok:false,error:'Codex 正在回答，请先停止或等待完成。'};
  const args=['exec','--json','--color','never','--sandbox','read-only','-c','approval_policy="never"','-c','model_reasoning_effort="low"','-c','mcp_servers.node_repl.enabled=false','--skip-git-repo-check','-C',this.root];if(this.session)args.push('resume',this.session,'-');else args.push('-');
  if(imagePath)args.splice(args.length-1,0,'--image',imagePath);
