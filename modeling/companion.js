@@ -28,7 +28,7 @@ function motion(name){if(!mixer)return;publish({type:"action",action:name});if(h
 document.querySelectorAll('[data-motion]').forEach(b=>b.onclick=()=>motion(b.dataset.motion));$('skeleton').onchange=()=>{if(helper)helper.visible=$('skeleton').checked};$('blink').onclick=()=>blinkStart=time;$('smile').onclick=()=>smiling=!smiling;$('neutral').onclick=()=>{smiling=false;$('mouth').value=0;$('head').value=0};
 function voices(){if(window.desktop)return;const list=window.speechSynthesis?.getVoices()||[];$('voice').replaceChildren();for(const v of list){const o=new Option(`${v.name} (${v.lang})`,v.voiceURI);$('voice').add(o)}const preferred=list.find(v=>v.lang.startsWith('zh'));if(preferred)$('voice').value=preferred.voiceURI;if(!list.length)$('voice').add(new Option('设备默认声音',''))}
 voices();if(window.speechSynthesis)window.speechSynthesis.addEventListener('voiceschanged',voices);
-function stopPlayback(){hologram.hold('speech',false);publish({type:'speech',active:false});speechToken++;audioSource?.stop();audioSource=null;audioLevel=0;audioComplete?.();audioComplete=null;publish({type:"stop"});window.speechSynthesis?.cancel();speaking=false;$('caption').hidden=true;$('mouth').value=0;morph('jawOpen',0);motion('idle')}
+function stopPlayback(){director.plannedUntil=0;director.gesture=null;smiling=false;hologram.hold('speech',false);publish({type:'speech',active:false});speechToken++;audioSource?.stop();audioSource=null;audioLevel=0;audioComplete?.();audioComplete=null;publish({type:"stop"});window.speechSynthesis?.cancel();speaking=false;$('caption').hidden=true;$('mouth').value=0;morph('jawOpen',0);motion('idle')}
 function stop(){narrationQueue.length=0;stopPlayback()}
 $('stop').onclick=stop;$('speak').onclick=()=>{stop();const text=$('text').value.trim();if(!text)return;if(!window.speechSynthesis){$('speech-note').textContent='当前环境没有可用的系统语音。';return}const token=speechToken,utter=new SpeechSynthesisUtterance(text);utter.lang='zh-CN';utter.voice=speechSynthesis.getVoices().find(v=>v.voiceURI===$('voice').value)||null;utter.rate=.95;utter.onstart=()=>{if(token!==speechToken)return;speaking=true;motion('talk');$('caption').textContent=text;$('caption').hidden=false};utter.onend=()=>{if(token===speechToken)stop()};utter.onerror=e=>{if(token!==speechToken)return;stop();$('speech-note').textContent=`语音未能播放（${e.error}），可继续使用动作和口型滑杆。`};speechSynthesis.speak(utter)};
 window.addEventListener('pagehide',stop);
@@ -51,17 +51,26 @@ const presenceReady=!isWallpaper?setupPresence({gaze:value=>{gazeTarget=value;pu
 Promise.all([sceneReady,presenceReady]).then(()=>{if(!isWallpaper)setupStudioUI({settings:window.companionSettings,activity,gesture,hologram})}).catch(console.error);
 const narrationQueue=[],seenMessages=new Set(),speechHistory=[];
 window.companionSpeech={history:speechHistory,getState:()=>({speaking,narrating,queued:narrationQueue.length,mouth:audioLevel})};
-async function enqueueNarration(text,id){
+async function enqueueNarration(text,id,body){
  if(id&&seenMessages.has(id))return;if(id)seenMessages.add(id);
  const plain=text.replace(/```[\s\S]*?```/g,' 代码请查看控制面板。 ').replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replace(/[#*_`>]/g,'');
  const sentences=plain.match(/[^。！？\n]+[。！？\n]?/g)||[plain];let part='';
- for(const s of sentences){if(part.length+s.length>1800){if(part)narrationQueue.push({text:part,id});part=''}for(let i=0;i<s.length;i+=1800){const chunk=s.slice(i,i+1800);if(part.length+chunk.length>1800){narrationQueue.push({text:part,id});part=''}part+=chunk}}if(part.trim())narrationQueue.push({text:part,id});
+ for(const s of sentences){if(part.length+s.length>1800){if(part)narrationQueue.push({text:part,id,body});part=''}for(let i=0;i<s.length;i+=1800){const chunk=s.slice(i,i+1800);if(part.length+chunk.length>1800){narrationQueue.push({text:part,id,body});part=''}part+=chunk}}if(part.trim())narrationQueue.push({text:part,id,body});
  if(narrating)return;narrating=true;
- try{while(narrationQueue.length){const item=narrationQueue.shift();try{await nativeSpeak(item.text);speechHistory.push({id:item.id,completedAt:Date.now()})}catch(e){hologram.hold('speech',false);publish({type:'speech',active:false});$('speech-note').textContent=e.message;speechHistory.push({id:item.id,error:e.message})}}}finally{narrating=false}
+ try{while(narrationQueue.length){const item=narrationQueue.shift();try{await nativeSpeak(item.text,item.body);speechHistory.push({id:item.id,completedAt:Date.now()})}catch(e){hologram.hold('speech',false);publish({type:'speech',active:false});$('speech-note').textContent=e.message;speechHistory.push({id:item.id,error:e.message})}}}finally{narrating=false}
 }
-function publish(data){if(!isWallpaper)window.desktop?.publish(data)}
+function applyBody(body={},duration=4){
+  const gesture=['none','nod','tilt','settle','wave','explain'].includes(body?.gesture)?body.gesture:'none';
+  const intensity=Number.isFinite(body?.intensity)?Math.max(0,Math.min(.7,body.intensity)):.35;
+  smiling=body?.expression==='softSmile';director.plannedUntil=time+Math.max(1,Math.min(180,duration));director.gesture=null;
+  director.lookTarget={x:body?.gaze==='away'?.18:0,y:0};director.nextLook=director.plannedUntil;
+  if(gesture!=='none')director.trigger(gesture,time,intensity);
+  window.companionExperience.lastBody={gesture,intensity,expression:smiling?'softSmile':'neutral',startedAt:Date.now()};
+  publish({type:'body',body,duration});
+ }
+ function publish(data){if(!isWallpaper)window.desktop?.publish(data)}
 function caption(text){$('caption').textContent=text;$('caption').hidden=!text;publish({type:'caption',text:text.slice(0,4500)})}
-async function nativeSpeak(text){
+async function nativeSpeak(text,body){
  stopPlayback();activity();hologram.hold('speech',true);publish({type:'speech',active:true});caption(text);const serial=speechToken;
  const clean=text.replace(/```[\s\S]*?```/g,' 代码请查看控制面板。 ').replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replace(/[#*_`>]/g,'').slice(0,2000);
  if(!clean.trim())return;
@@ -71,7 +80,7 @@ async function nativeSpeak(text){
  if(!result.ok){hologram.hold('speech',false);publish({type:'speech',active:false});throw Error(result.error)}
  const bytes=Uint8Array.from(atob(result.audio),c=>c.charCodeAt(0));const buffer=await audioContext.decodeAudioData(bytes.buffer);if(serial!==speechToken)return;
  timeline=makeTimeline(result.timing);audioStarted=audioContext.currentTime;
- audioSource=audioContext.createBufferSource();audioSource.buffer=buffer;analyser=audioContext.createAnalyser();analyser.fftSize=512;samples=new Uint8Array(analyser.fftSize);voiceGain=audioContext.createGain();voiceGain.gain.value=experience.speech?.volume??.85;audioSource.connect(analyser);analyser.connect(voiceGain);voiceGain.connect(audioContext.destination);speaking=true;motion('talk');gesture('explain');
+ audioSource=audioContext.createBufferSource();audioSource.buffer=buffer;analyser=audioContext.createAnalyser();analyser.fftSize=512;samples=new Uint8Array(analyser.fftSize);voiceGain=audioContext.createGain();voiceGain.gain.value=experience.speech?.volume??.85;audioSource.connect(analyser);analyser.connect(voiceGain);voiceGain.connect(audioContext.destination);speaking=true;motion('idle');applyBody(body,buffer.duration);
  return new Promise(resolve=>{audioComplete=resolve;audioSource.onended=()=>{if(serial!==speechToken)return;audioSource=null;speaking=false;hologram.hold('speech',false);publish({type:'speech',active:false});audioLevel=0;audioComplete=null;publish({type:'mouth',value:0});motion('idle');$('speech-note').textContent='朗读结束。';resolve()};audioSource.start();$('speech-note').textContent=result.engine==='neural'?'正在使用自然音色朗读':'正在使用本地音色朗读';});
 }
 function audioTick(now){if(audioSource&&analyser){analyser.getByteTimeDomainData(samples);let energy=0;for(const n of samples)energy+=((n-128)/128)**2;desiredLips=lipTarget(timeline,audioContext.currentTime-audioStarted,Math.sqrt(energy/samples.length));audioLevel=desiredLips.jawOpen;if(now-lastAudioPublish>50){publish({type:'viseme',value:desiredLips});lastAudioPublish=now}}else if(!isWallpaper)desiredLips={...lipState,jawOpen:0,mouthFunnel:0,mouthPucker:0,mouthStretchLeft:0,mouthStretchRight:0,mouthClose:0};requestAnimationFrame(audioTick)}requestAnimationFrame(audioTick);
@@ -90,12 +99,12 @@ if(window.desktop){
  window.desktop.onCodex(data=>{
   if(data.state==='thinking'){hologram.hold('codex',true)}else if(['answer','progress','error','idle'].includes(data.state)){hologram.hold('codex',false)}
   if(data.state==='thinking'){if(!isWallpaper)$('codex-status').textContent='Codex 正在处理…';if(!speaking&&!narrating){$('head').value=.12;motion('idle');}}
-  if(data.state==='answer'||data.state==='progress'){$('head').value=0;smiling=data.state==='answer';if(!isWallpaper){$('codex-status').textContent=data.state==='progress'?'Codex 进度汇报':'Codex 已回答';if($('autoread').checked)enqueueNarration(data.text,data.id);else{caption(data.text);motion('talk');setTimeout(()=>{if(!speaking)motion('idle')},4000)}}}
+  if(data.state==='answer'||data.state==='progress'){$('head').value=0;smiling=false;if(!isWallpaper){$('codex-status').textContent=data.state==='progress'?'Codex 进度汇报':'Codex 已回答';if($('autoread').checked)enqueueNarration(data.text,data.id,data.body);else{caption(data.text);applyBody(data.body,4)}}}
   if(data.state==='error'){$('head').value=0;motion('idle');if(!isWallpaper){$('codex-status').textContent=data.message;$('ask').disabled=false}}
   if(data.state==='idle'&&!speaking&&!narrating){$('head').value=0;motion('idle')}
   if(!isWallpaper)$('ask').disabled=data.state==='thinking'&&data.source==='panel';
  });
- window.desktop.subscribe(data=>{if(!isWallpaper)return;if(data.type==='activity'){data.show===false?hologram.preview(false):hologram.touch()}if(data.type==='gesture')director.trigger(data.kind,time);if(data.type==='speech')hologram.hold('speech',data.active);if(data.type==='action')motion(data.action);if(data.type==='gaze')gazeTarget=data;if(data.type==='viseme'){desiredLips=data.value;remoteMouth=0}if(data.type==='mouth'){remoteMouth=Number(data.value)||0;if(!remoteMouth)for(const key in desiredLips)desiredLips[key]=0}if(data.type==='caption')caption(data.text);if(data.type==='stop'){remoteMouth=0;for(const key in desiredLips)desiredLips[key]=0;caption('');motion('idle')}});
+ window.desktop.subscribe(data=>{if(!isWallpaper)return;if(data.type==='activity'){data.show===false?hologram.preview(false):hologram.touch()}if(data.type==='body')applyBody(data.body,data.duration);if(data.type==='gesture')director.trigger(data.kind,time);if(data.type==='speech')hologram.hold('speech',data.active);if(data.type==='action')motion(data.action);if(data.type==='gaze')gazeTarget=data;if(data.type==='viseme'){desiredLips=data.value;remoteMouth=0}if(data.type==='mouth'){remoteMouth=Number(data.value)||0;if(!remoteMouth)for(const key in desiredLips)desiredLips[key]=0}if(data.type==='caption')caption(data.text);if(data.type==='stop'){director.plannedUntil=0;director.gesture=null;smiling=false;remoteMouth=0;for(const key in desiredLips)desiredLips[key]=0;caption('');motion('idle')}});
 }else{$('codex-status').textContent='请启动桌面版以连接 Codex 和设置壁纸';$('wallpaper').disabled=true;}
 function resize(){renderer.setSize(viewport.clientWidth,viewport.clientHeight);camera.aspect=viewport.clientWidth/viewport.clientHeight;camera.updateProjectionMatrix()}new ResizeObserver(resize).observe(viewport);resize();
 let lastRender=0;

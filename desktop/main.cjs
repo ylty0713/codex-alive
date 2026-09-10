@@ -95,7 +95,7 @@ ipcMain.handle('save-model',async(e,data)=>{
 });
 ipcMain.on('companion-command',(e,data)=>{
   if(!isStudio(e)||!data||typeof data!=='object')return;
-  const valid=['action','preferences','mouth','pose','caption','stop','expression','gaze','viseme','activity','gesture','speech'];
+  const valid=['body','action','preferences','mouth','pose','caption','stop','expression','gaze','viseme','activity','gesture','speech'];
   if(!valid.includes(data.type)||JSON.stringify(data).length>5000)return;
   if(wallpaper&&!wallpaper.isDestroyed())wallpaper.webContents.send('companion-command',data);
 });

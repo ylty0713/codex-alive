@@ -1,7 +1,7 @@
 Set rinFS = CreateObject("Scripting.FileSystemObject")
 Set rinShell = CreateObject("WScript.Shell")
 rinRoot = rinFS.GetParentFolderName(WScript.ScriptFullName)
-rinExe = rinRoot & "\dist\Companion-v0.4.5\Rin.exe"
+rinExe = rinRoot & "\dist\Companion-v0.4.6\Rin.exe"
 If rinFS.FileExists(rinExe) Then
   rinShell.Run Chr(34) & rinExe & Chr(34) & " --wallpaper", 1, False
 Else

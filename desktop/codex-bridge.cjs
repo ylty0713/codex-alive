@@ -5,6 +5,7 @@ const {spawn}=require('node:child_process');
 const {StringDecoder}=require('node:string_decoder');
 const {companionPrompt}=require('./companion-prompt.cjs');
 const {currentLog}=require('./session-log.cjs');
+const {takeIntent,parseReply}=require('./body-intent.cjs');
 function visibleEvent(row){
  const p=row.payload||{};
  if(row.type==='event_msg'&&['task_started','turn_started','user_message'].includes(p.type))return {state:'thinking'};
@@ -18,7 +19,7 @@ function visibleEvent(row){
 }
 class CodexBridge{
  constructor({root,userData,onEvent,config}){Object.assign(this,{root,userData,onEvent,config});this.session=null;this.child=null;this.last={state:'idle'};this.offset=0;this.decoder=new StringDecoder('utf8');this.pending='';}
- emit(data){this.last={...data,time:Date.now()};this.onEvent(this.last)}
+ emit(data){if(data.source==='desktop'&&['progress','answer'].includes(data.state)){this.bodySeen??=new Set();data.body=takeIntent(this.config.watchThread,data.eventTime||Date.now(),this.bodySeen)}this.last={...data,time:Date.now()};this.onEvent(this.last)}
  executable(){if(this.config.executable&&fs.existsSync(this.config.executable))return this.config.executable;const dir=path.join(process.env.LOCALAPPDATA||path.join(os.homedir(),'AppData/Local'),'OpenAI/Codex/bin');try{for(const name of fs.readdirSync(dir).reverse()){const p=path.join(dir,name,'codex.exe');if(fs.existsSync(p))return p}}catch{}return 'codex';}
  start(){this.startedAt=Date.now();this.seen=new Set();this.file=currentLog(this.config);this.lastDiscovery=Date.now();try{this.offset=fs.statSync(this.file).size;this.watching=true}catch{this.watching=false}this.timer=setInterval(()=>this.poll(),800);this.timer.unref();return this.status()}
  status(){return {connected:this.watching,watchThread:this.config.watchThread,watchFile:this.file,busy:!!this.child,last:this.last};}
@@ -40,7 +41,7 @@ class CodexBridge{
     const event=visibleEvent(row);if(!event)continue;
     const key=JSON.stringify([row.timestamp,event]);if(this.seen.has(key))continue;
     this.seen.add(key);if(this.seen.size>4000)this.seen.delete(this.seen.values().next().value);
-    this.emit({...event,source:'desktop'});
+    this.emit({...event,source:'desktop',eventTime:Date.parse(row.timestamp)||Date.now()});
    }catch{}}
    if(this.offset===size&&!this.pending)this.recovering=false;
   }catch{const wasConnected=this.watching;this.watching=false;if(wasConnected)this.emit({state:'error',message:'任务日志暂不可用，正在自动重连。'});}
@@ -55,7 +56,7 @@ class CodexBridge{
  child.stdout.on('data',d=>{pending+=d;const lines=pending.split('\n');pending=lines.pop();for(const line of lines){let e;try{e=JSON.parse(line)}catch{continue}if(e.type==='thread.started')this.session=e.thread_id;if(e.type==='item.completed'&&e.item?.type==='agent_message')answer=e.item.text||answer;if(e.type==='error'||e.type==='turn.failed')failure=e.message||e.error?.message||'Codex 请求失败';}});
  const timer=setTimeout(()=>{if(this.child===child){this.stop();this.emit({state:'error',source:'panel',message:'Codex 响应超时，请重试。'})}},180000);
  child.on('error',e=>{clearTimeout(timer);if(this.child!==child)return;this.child=null;this.emit({state:'error',source:'panel',message:'无法启动 Codex：'+e.message})});
- child.on('close',code=>{clearTimeout(timer);if(this.child!==child)return;this.child=null;if(code===0&&answer)this.emit({state:'answer',text:answer.slice(0,12000),source:'panel'});else this.emit({state:'error',message:(failure||stderr||'Codex 没有返回回答').slice(0,1000),source:'panel'})});
+ child.on('close',code=>{clearTimeout(timer);if(this.child!==child)return;this.child=null;if(code===0&&answer)this.emit({state:'answer',...parseReply(answer),source:'panel'});else this.emit({state:'error',message:(failure||stderr||'Codex 没有返回回答').slice(0,1000),source:'panel'})});
  child.stdin.on('error',()=>{});child.stdin.end(companionPrompt(text,!!imagePath));
  return {ok:true};
  }
